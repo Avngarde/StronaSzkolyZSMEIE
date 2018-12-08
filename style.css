@@ -9,13 +9,13 @@ body{
 	color: orange;
 	padding-left: 5px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 13px;
 }
 #headerphotos{
-	background-color: gray;
+	display:block;
 	width: auto;
-	height: 170px;	
-	color: white;
+	height: 250px;	
+	overflow: hidden;
 }
 .themeline{
 	background-color: orange;
@@ -25,9 +25,8 @@ body{
 #menu{
 	width:auto;
 	height: 34px;
-	background-color: aqua;
-	margin-top: 40px;
-	margin-bottom:40px;
+	background-color:#dcdcdc;
+	margin-bottom:20px;
 }
 #menubuttonlayout{
 	height: 34px;
@@ -35,23 +34,28 @@ body{
 	margin: 0 auto;
 }
 .menubuttons{
-	height: 30px;
+	height: 24px;
 	width: 148px;
-	background-color: red;
+	background-color: white;
 	border:1px solid black;
 	float:left;
-	padding:1px;
+	padding-top: 8px;
 	margin-left:5px;
 	margin-right: 5px;
+	text-align:center;
+	display:table-cell;
+	font-weight: bold;
 }
 #menuendingbutton{
-	height: 30px;
+	height: 24px;
 	width: 148px;
-	background-color: red;
+	background-color: white;
 	border:1px solid black;
 	float:left;
-	padding:1px;
+	padding-top: 8px;
 	margin-left:5px;
+	text-align:center;
+	font-weight:bold;
 }
 #menuendingbutton:hover{
 	background-color: #80808073;
@@ -76,7 +80,7 @@ body{
 #contentcontainer{
 	
 	width: 61%;
-	min-height: 790px;
+	min-height: 785px;
 	background-color:yellow;
 	margin: 0 auto;
 	float:left;

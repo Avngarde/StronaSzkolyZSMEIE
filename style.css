@@ -24,30 +24,34 @@ body{
 }
 #menu{
 	width:auto;
-	height: 32px;
+	height: 34px;
 	background-color: aqua;
+	margin-top: 40px;
+	margin-bottom:40px;
 }
 #menubuttonlayout{
-	height: 32px;
-	width: 912px;
+	height: 34px;
+	width: 968px;
 	margin: 0 auto;
 }
 .menubuttons{
 	height: 30px;
 	width: 148px;
 	background-color: red;
-	border-left: 1px solid black;
+	border:1px solid black;
 	float:left;
 	padding:1px;
+	margin-left:5px;
+	margin-right: 5px;
 }
 #menuendingbutton{
 	height: 30px;
 	width: 148px;
 	background-color: red;
-	border-left: 1px solid black;
-	border-right:1px solid black;
+	border:1px solid black;
 	float:left;
 	padding:1px;
+	margin-left:5px;
 }
 #menuendingbutton:hover{
 	background-color: #80808073;
@@ -57,34 +61,43 @@ body{
 }
 #container{
 	width: 100%;
-	height:1000px;
+	min-height:800px;
 	margin: 0 auto;
-	
 }
 #menuleft{
-	width: 19%;
+	width: 18%;
 	height: 500px;
 	background-color:blue;
 	float:left;
-	display: inline-block;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	padding-top: 5px;
 }
 #contentcontainer{
 	
-	width: 62%;
-	min-height: 800px;
+	width: 61%;
+	min-height: 790px;
 	background-color:yellow;
 	margin: 0 auto;
 	float:left;
-	display: inline-block;
-
-}
-#content{
-	margin: 5px;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	padding-top: 10px;
 }
 #menuright{
-	width: 19%;
+	width: 18%;
 	height: 500px;
 	background-color:blue;
 	float:left;
-	display: inline-block;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	padding-top: 5px;
+}
+#footer
+{
+	width:auto;
+	height: 100px;
+	background-color:gray;
+	
+	
 }

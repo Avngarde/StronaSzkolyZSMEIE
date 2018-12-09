@@ -30,3 +30,6 @@ Użyte przez nas technologie backendowe to:
   * Python - Język programowania w którym został napisany w Django, to w nim napisaliśmy wszystkie skrypty dla strony naszej szkoły.
 
   * PostgreSQL - Wykorzystaną przez nas technologią baz danych jest PostgreSQL.
+  
+## Prawa autorskie
+ * Tutaj umieszczajcie prawa autorskie, kto stworzył daną czcionkę,obrazek i tak dalej

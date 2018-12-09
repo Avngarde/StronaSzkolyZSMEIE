@@ -18,8 +18,8 @@ Wykorzystaliśmy standardowo:
  * HTML
  * CSS
  * JS
-A także:
- * (Jak użyjecie jakieś technologi jak google fonts to tu ją dajcie)
+ *  A także:
+    * (Jak użyjecie jakieś technologi jak google fonts to tu ją dajcie)
 
 ### Backend
 

@@ -5,8 +5,8 @@ Jest to nasz projekt strony internetowej dla Zespołu Szkół Mechanicznych Elek
 ## Twórcy
  * [Kamil Paczkowski](https://github.com/ShamanDev)
  * [Miłosz Pawłowski](https://github.com/belbekyt)
- * [Mateusz Targoński]([Kamil Paczkowski](https://github.com/Zeusiek)
- * [Jan Napieralski]([Kamil Paczkowski](https://github.com/REVANPL)
+ * [Mateusz Targoński](https://github.com/Zeusiek)
+ * [Jan Napieralski](https://github.com/REVANPL)
  
 
 ## Użyte technologie

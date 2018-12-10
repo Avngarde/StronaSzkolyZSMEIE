@@ -19,7 +19,8 @@ Wykorzystaliśmy standardowo:
  * CSS
  * JS
  *  A także:
-    * (Jak użyjecie jakieś technologi jak google fonts i tego typu to je tu dajecie)
+    * Google Fonts 
+     * Ropa Sans 
 
 ### Backend
 

@@ -20,7 +20,7 @@ Wykorzystaliśmy standardowo:
  * JS
  *  A także:
     * Google Fonts 
-     * Ropa Sans 
+      * Ropa Sans 
 
 ### Backend
 

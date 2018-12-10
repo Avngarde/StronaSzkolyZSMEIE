@@ -1,20 +1,20 @@
 body{
 	margin: 0;
-	font-family: Arial;
+	font-family: 'Ropa Sans', sans-serif;
 }
 #headerinfo{
 	background-color: black;
 	width:auto;
-	height:20px;
+	height:40%;
 	color: orange;
-	padding-left: 5px;
+	padding-left: 5%;
 	text-align: center;
-	font-size: 13px;
+	font-size: 100%;
 }
 #headerphotos{
 	display:block;
 	width: auto;
-	height: 250px;	
+	height: 300px;
 	overflow: hidden;
 }
 .themeline{
@@ -25,47 +25,43 @@ body{
 #menu{
 	width:auto;
 	height: 34px;
-	background-color:#dcdcdc;
 	margin-bottom:20px;
 }
 #menubuttonlayout{
 	height: 34px;
 	width: 968px;
-	margin: 0 auto;
+	margin: auto;
+
 }
 .menubuttons{
 	height: 24px;
 	width: 148px;
 	background-color: white;
-	border:1px solid black;
+	border:2px solid black;
 	float:left;
 	padding-top: 8px;
 	margin-left:5px;
-	margin-right: 5px;
+	margin-top:10px;
 	text-align:center;
 	display:table-cell;
 	font-weight: bold;
+	border-radius:100px;
+	z-index: 1;
 }
-#menuendingbutton{
-	height: 24px;
-	width: 148px;
-	background-color: white;
-	border:1px solid black;
-	float:left;
-	padding-top: 8px;
-	margin-left:5px;
-	text-align:center;
-	font-weight:bold;
+
+.menubuttons:hover {
+background: #000000;
+color: #FFFFFF;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
 }
-#menuendingbutton:hover{
-	background-color: #80808073;
-}
-.menubuttons:hover{
-	background-color: #80808073;
-}
+
 #container{
 	width: 100%;
-	min-height:800px;
+	height:800px;
 	margin: 0 auto;
 }
 #menuleft{
@@ -78,7 +74,7 @@ body{
 	padding-top: 5px;
 }
 #contentcontainer{
-	
+
 	width: 61%;
 	min-height: 785px;
 	background-color:yellow;

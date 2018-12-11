@@ -1,0 +1,86 @@
+#loginpanel{
+	background-color:black;
+	right: 0 ;
+	text-align: center;
+	color: white;
+	float:right;
+}
+/* MENU */
+.menubuttons{
+	height: 24px;
+	width: 173px;
+	background-color: white;
+	border:2px solid black;
+	float:left;
+	padding-top: 8px;
+	margin-left:5px;
+	margin-top:10px;
+	text-align:center;
+	display: inline-block;
+	font-weight: bold;
+	border-radius:100px;
+	z-index: 1;
+	position: relative;
+}
+.menuoption {
+	display: none;
+	height: 24px;
+	width: 165px;
+	color: black;
+	border:2px solid black;
+	padding-top: 8px;
+	margin-top:3px;
+	text-align:center;
+	border-radius:100px;
+	z-index: 1;
+	background-color: white;
+}
+.optionholder{
+	background-color:#eaeaea90;
+	width: 167px;
+	border:2px solid black;
+	margin-left: -1px;
+	margin-top: 7px;
+	display: none;
+	border-radius:20px;
+	z-index: 1;
+	padding:2px;
+	padding-right: 4px;
+	padding-bottom: 3px;
+}
+.optionholder>a{
+	text-decoration:none;
+}
+.menuoption:hover{
+	background-color: black;
+	color: white;
+}
+.menubuttons:hover .menuoption {
+	display: block;
+	text-decoration:none;
+}
+.menubuttons:hover .optionholder{
+	display: block;
+}
+.menubuttons:hover {
+	background: #000000;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+/* MENU END */
+#alertbox{
+	width: 92%;
+	border: 3px red dashed;
+	background-color: white;
+	margin: 0 auto;
+	text-align:center;
+	font-weight: bold;
+	font-family: Ropa Sans;
+	color: black;
+	font-size: 20px;
+	padding:3%;
+}

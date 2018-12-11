@@ -5,22 +5,34 @@ body{
 #headerinfo{
 	background-color: black;
 	width:auto;
-	height:40%;
+	height:50%;
 	color: orange;
 	padding-left: 5%;
 	text-align: center;
 	font-size: 100%;
+}
+#loginpanel{
+	background-color:black;
+	right: 0 ;
+	text-align: center;
+	color: white;
+	float:right;
+}
+#socialmedia{
+	position:absolute;
+	border: 1px black solid;
+	height: 2%;
+	width: 4%;
 }
 #headerphotos{
 	display:block;
 	width: auto;
 	height: 300px;
 	overflow: hidden;
-}
-.themeline{
-	background-color: orange;
-	width:auto;
-	height:5px;
+    background-image: url('slider/1.jpg');
+	background-position: absolute;
+	text-align:center;
+	margin: 0 auto;
 }
 #menu{
 	width:auto;
@@ -31,8 +43,8 @@ body{
 	height: 34px;
 	width: 968px;
 	margin: auto;
-
 }
+/* MENU */
 .menubuttons{
 	height: 24px;
 	width: 148px;
@@ -43,12 +55,49 @@ body{
 	margin-left:5px;
 	margin-top:10px;
 	text-align:center;
-	display:table-cell;
+	display: inline-block;
 	font-weight: bold;
 	border-radius:100px;
 	z-index: 1;
+	position: relative;
 }
-
+.menuoption {
+	display: none;
+	height: 24px;
+	width: 140px;
+	color: black;
+	border:2px solid black;
+	padding-top: 8px;
+	margin-top:3px;
+	text-align:center;
+	font-weight: bold;
+	border-radius:100px;
+	z-index: 1;
+	background-color: white;
+}
+.optionholder{
+	background-color:#eaeaea90;
+	width: 142px;
+	border:2px solid black;
+	margin-left: -1px;
+	margin-top: 7px;
+	display: none;
+	border-radius:20px;
+	z-index: 1;
+	padding:2px;
+	padding-right: 4px;
+	padding-bottom: 3px;
+}
+.menuoption:hover{
+	background-color: black;
+	color: white;
+}
+.menubuttons:hover .menuoption {
+	display: block;
+}
+.menubuttons:hover .optionholder{
+	display: block;
+}
 .menubuttons:hover {
 background: #000000;
 color: #FFFFFF;
@@ -58,44 +107,48 @@ letter-spacing: 1px;
 box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
-
+/* MENU END */
 #container{
 	width: 100%;
 	height:800px;
 	margin: 0 auto;
 }
-#menuleft{
-	width: 18%;
-	height: 500px;
-	background-color:blue;
-	float:left;
-	padding-left:0.5%;
-	padding-right:0.5%;
-	padding-top: 5px;
-}
-#contentcontainer{
 
-	width: 61%;
-	min-height: 785px;
-	background-color:yellow;
+#contentcontainer{
+	width: 73%;
+	min-height: 100%;
+	background-color:#d8d8d8;
 	margin: 0 auto;
 	float:left;
 	padding-left:0.5%;
 	padding-right:0.5%;
-	padding-top: 10px;
+	padding-top: 0.5%;
 }
 #menuright{
-	width: 18%;
-	height: 500px;
-	background-color:blue;
+	width: 25%;
+	min-height: 100%;
+	background-color:#eaeaea;
 	float:left;
 	padding-left:0.5%;
 	padding-right:0.5%;
-	padding-top: 5px;
+	padding-top: 0.5%;
+}
+#alertbox{
+	width: 92%;
+	border: 3px red dashed;
+	background-color: white;
+	margin: 0 auto;
+	text-align:center;
+	font-weight: bold;
+	font-family: Ropa Sans;
+	color: black;
+	font-size: 20px;
+	padding:3%;
 }
 #footer
 {
 	width:auto;
 	height: 100px;
-	background-color:gray;
+	background-color:#9a9a9a;
+	clear: both;
 }

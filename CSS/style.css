@@ -5,8 +5,8 @@ body{
 #headerinfo{
 	background-color: black;
 	width:auto;
+	height:20px;
 	color: orange;
-	padding-left: 5%;
 	text-align: center;
 	font-size: 100%;
 }
@@ -15,18 +15,26 @@ body{
 	font-size: 30px;
 	font-family: Audiowide;
 	margin-top: 1.5%;
-	background-color:#eaeaea75;
+	background-color:#eaeaea95;
 	padding:10px;
+	margin-bottom: 1.5%;
 }
 #headerphotos{
 	display:block;
 	width: auto;
 	height: 300px;
 	overflow: hidden;
-    background-image: url('../slider/1.jpg');
-	background-position: absolute;
+    background-image: url('../slider/3a.jpg');
 	text-align:center;
 	margin: 0 auto;
+}
+#socialmedia{
+	width: 60px;
+	height:26px;
+	background-color:white;
+	position: absolute;
+	margin-top: -30px;
+	padding-top:2px;
 }
 #menu{
 	width:auto;
@@ -44,7 +52,7 @@ body{
 	margin: 0 auto;
 }
 #contentcontainer{
-	width: 73%;
+	width: 71%;
 	min-height: 100%;
 	background-color:#d8d8d8;
 	margin: 0 auto;
@@ -53,8 +61,33 @@ body{
 	padding-right:0.5%;
 	padding-top: 0.5%;
 }
+.articles
+{
+	width: 95%;
+	background-color: #e6f9ff;
+	height: 118px;
+	padding-left: 1%;
+	float: left;
+	margin-bottom: 1%;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	margin-left: 1%;
+}
+.text_in_articles
+{
+	text-align: left;
+	padding-left: 10%;
+}
+.link
+{
+	text-align: right;
+	margin-top: 0.1%;
+	padding-right: 2%;
+}
+/* MENU RIGHT */
 #menuright{
-	width: 25%;
+	width: 27%;
 	min-height: 100%;
 	background-color:#eaeaea;
 	float:left;
@@ -62,10 +95,52 @@ body{
 	padding-right:0.5%;
 	padding-top: 0.5%;
 }
+#themepages{
+	width:40%;
+	float:left;
+	padding:1%;
+	background-color: white;
+	border: 2px black solid;
+	margin-top: 2%;
+	border-radius:5px;
+	text-align: center;
+}
+#sponsors{
+	width:50%;
+	float:right;
+	padding:1%;
+	background-color: white;
+	border: 2px black solid;
+	margin-top: 2%;
+	border-radius:5px;
+	text-align: center;
+	font-weight: bold;
+}
+#logos{
+	margin: 0 auto;
+	height: 90%;
+	width:99%;
+}
+#logos> table{
+	border: solid 2px black;
+	border-collapse:collapse;
+	cellpadding: 2%;
+	border-radius:5px;
+	width: auto;
+}
+td{
+	border: solid 2px black;
+	border-collapse:collapse;
+	border-radius:5px;
+	padding: 2%;
+}
+/* MENU RIGHT END */
 #footer
 {
 	width:auto;
-	height: 100px;
+	height: 70px;
 	background-color:#9a9a9a;
 	clear: both;
+	padding:10px;
+	color: white;
 }

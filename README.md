@@ -21,6 +21,7 @@ Wykorzystaliśmy standardowo:
  *  A także:
     * Google Fonts 
       * Ropa Sans 
+      * Audiowide
 
 ### Backend
 

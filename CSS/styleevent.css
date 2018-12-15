@@ -9,12 +9,12 @@
 /* MENU */
 .menubuttons{
 	height: 24px;
-	width: 173px;
+	width: 13%;
 	background-color: white;
 	border:2px solid black;
 	float:left;
 	padding-top: 8px;
-	margin-left:5px;
+	margin-left:0.5%;
 	margin-top:10px;
 	text-align:center;
 	display: inline-block;
@@ -27,7 +27,7 @@
 .menuoption {
 	display: none;
 	height: 24px;
-	width: 165px;
+	width: 97%;
 	color: black;
 	border:2px solid black;
 	padding-top: 8px;
@@ -40,15 +40,15 @@
 }
 .optionholder{
 	background-color:#eaeaea90;
-	width: 170px;
+	width: 98%;
 	border:2px solid black;
-	margin-left: -1px;
+	margin-left: -2px;
 	margin-top: 7px;
 	display: none;
 	border-radius:5px;
 	z-index: 1;
-	padding:2px;
-	padding-right: 1px;
+	padding:1%;
+	padding-right: 1%;
 	padding-bottom: 3px;
 }
 .optionholder>a{

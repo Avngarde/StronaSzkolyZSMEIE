@@ -4,6 +4,7 @@
 	text-align: center;
 	color: white;
 	float:right;
+	font-size: 0.9em;
 }
 /* MENU */
 .menubuttons{
@@ -21,6 +22,7 @@
 	border-radius:5px;
 	z-index: 1;
 	position: relative;
+	font-size: 1em;
 }
 .menuoption {
 	display: none;
@@ -34,7 +36,7 @@
 	border-radius:5px;
 	z-index: 1;
 	background-color: white;
-	font-size:15px;
+	font-size: 0.9em;
 }
 .optionholder{
 	background-color:#eaeaea90;
@@ -82,6 +84,33 @@
 	font-weight: bold;
 	font-family: Ropa Sans;
 	color: black;
-	font-size: 20px;
+	font-size: 1em;
 	padding:3%;
 }
+/* ARTYKUŁY */
+.articles
+{
+	width: 95%;
+	background-color: #e6f9ff;
+	height: 118px;
+	padding-left: 1%;
+	float: left;
+	margin-bottom: 1%;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	margin-left: 1%;
+	font-size: 1em;
+}
+.text_in_articles
+{
+	text-align: left;
+	padding-left: 10%;
+}
+.link
+{
+	text-align: right;
+	margin-top: 0.1%;
+	padding-right: 2%;
+}
+/* ARTYKUŁY END */

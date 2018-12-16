@@ -3,6 +3,9 @@ body{
 	font-family: 'Ropa Sans', sans-serif;
 	background-color: #d8d8d8;
 }
+a{
+	text-decoration: none;
+}
 #banner{
 	display:block;
 	width: 100%;

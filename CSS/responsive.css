@@ -1,10 +1,11 @@
-@media (min-width: 961px) and (max-width: 1124px){
+@media (min-width: 961px) and (max-width: 1124px){ /* Ipady, Samsungi Galaxy, tablety*/
 	.menuoption {
 	height: 19px;
 	padding-top: 8px;
 	margin-top:5px;
 	font-size: 0.67em;
 }
+
 	#themepages{
 	width:46%;
 	float:left;
@@ -17,38 +18,48 @@
 	font-size: 0.7em;
 }
 	#sponsors{
+	text-align: bottom;
 	font-size: 0.7em;
+	height:2%;
 }
 	#footer
 {
+	color:pink;
 	font-size: 0.9em;
 }
+
 }
-
-
-
 
 
 @media (min-width:800px) and (max-width: 961px){
 	#mainlogoholder{
-	font-size: 1.4em;}
+	font-size: 1.4em;
+}
+
 	.menuoption {
 	height: 18px;
 	width: 95%;
 	padding-top: 8px;
 	margin-top:5px;
-	font-size: 0.67em;}
+	font-size: 0.67em;
+}
+
 	#themepages{
-	font-size: 0.7em;}
+	font-size: 0.7em;
+	height:40%;
+}
+
 	#sponsors{
-	font-size: 0.7em;}
+	font-size: 0.7em;
+}
+
 	#footer{
-	font-size: 0.9em;}
+	font-size: 0.9em;
+}
+
 	.menubuttons{
 	font-size: 0.67em;}
 }
-
-
 
 
 @media (min-width:701px) and (max-width: 800px){
@@ -87,7 +98,7 @@
 
 
 
-@media (min-width:400px) and (max-width: 700px){
+@media (min-width:400px) and (max-width: 700px){ /* IPhone 6 plus(jedno media dla jednego telefonu, bez komentarza Apple...) */
 	#mainlogoholder{
 	font-size: 1.4em;
 }
@@ -98,6 +109,12 @@
 	float: none;
 	width: 100%;
 }
+#contentcontainer{
+	height:150%;
+}
+	#menuright{
+		height:150%;
+	}
 	#menu{
 	height: 315px;
 }
@@ -119,11 +136,7 @@
 	width:96%;
 	float:none;
 }
-	#sponsors{
-	font-size: 0.7em;
-	width: 96%;
-	float:none;
-}
+
 	#footer{
 	font-size: 0.9em;
 }
@@ -131,15 +144,15 @@
 	margin-bottom:3px;
 }
 }
-@media (min-width:0px) and (max-width: 400px){
+@media (min-width:0px) and (max-width: 400px){ /*Telefony komórkowe od malego IPhone 5 po wszelakie Androidy */
 	#mainlogoholder{
 	font-size: 1em;
-}	
+}
+
 	#banner{
 		height:250px;
-			
-	
 	}
+
 	.menubuttons{
 	font-size: 0.7em;
 	height: 25px;
@@ -164,8 +177,9 @@
 	margin-bottom:1px;
 }
 	#themepages{
-	font-size: 0.7em;
-	width:96%;
+	font-size: 0.6em;
+	margin-right:0.3%;
+	width:99%;
 	float:none;
 }
 	#sponsors{
@@ -179,4 +193,9 @@
 .optionholder{
 	margin-bottom:3px;
 }
+#STRONY_TEMATYCZNE
+{
+	font-size: 1em;
+	width: 96%;
+	float:none;
 }

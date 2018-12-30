@@ -98,8 +98,6 @@ input[type=submit]
 .optionholder>a{
 	text-decoration:none;
 }
-
-
 .menubuttons:hover .menuoption {
 	display: block;
 	text-decoration:none;

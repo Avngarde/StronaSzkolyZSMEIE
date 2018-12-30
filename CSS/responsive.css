@@ -4,11 +4,18 @@
 	padding-top: 8px;
 	margin-top:5px;
 	font-size: 0.67em;
+	width: 96%;
+}
+	.menuoptionlong {
+	height: 23px;
+	padding-top: 3px;
+	margin-top:3px;
+	font-size: 0.67em;
+	width: 96%;
 }
 
 	#themepages{
 	width:46%;
-	float:left;
 	padding:1%;
 	background-color: white;
 	border: 1px black solid;
@@ -22,12 +29,15 @@
 	font-size: 0.7em;
 	height:2%;
 }
-	#footer
-{
+	#footer{
 	color:pink;
 	font-size: 0.9em;
 }
-
+.optionholder{
+	padding:4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
 }
 
 
@@ -41,24 +51,25 @@
 	width: 95%;
 	padding-top: 8px;
 	margin-top:5px;
-	font-size: 0.67em;
+	font-size: 0.7em;
 }
-
+	.menuoptionlong{
+	height: 22px;
+	width: 95%;
+	padding-top: 4px;
+	margin-top:5px;
+	font-size: 0.7em;
+}
 	#themepages{
 	font-size: 0.7em;
-	height:40%;
-}
 
-	#sponsors{
-	font-size: 0.7em;
 }
-
 	#footer{
 	font-size: 0.9em;
 }
 
 	.menubuttons{
-	font-size: 0.67em;}
+	font-size: 0.8em;}
 }
 
 
@@ -68,11 +79,10 @@
 }
 	.menubuttons{
 	font-size: 0.7em;
-	height: 15px;
-	padding-top: 2px;
+	height:20px;
 }
 	#menu{
-	height: 40px;
+	height: 50px;
 }
 
 	.menuoption {
@@ -80,7 +90,15 @@
 	width: 92%;
 	padding-top: 8px;
 	margin-top:4px;
-	font-size: 0.7em;
+	font-size: 0.75em;
+	margin-left: 1px;
+}
+	.menuoptionlong {
+	height: 22px;
+	width: 92%;
+	padding-top: 3px;
+	margin-top:4px;
+	font-size: 0.75em;
 	margin-left: 1px;
 }
 	#themepages{
@@ -96,8 +114,6 @@
 }
 
 
-
-
 @media (min-width:400px) and (max-width: 700px){ /* IPhone 6 plus(jedno media dla jednego telefonu, bez komentarza Apple...) */
 	#mainlogoholder{
 	font-size: 1.4em;
@@ -109,11 +125,11 @@
 	float: none;
 	width: 100%;
 }
-#contentcontainer{
+	#contentcontainer{
 	height:150%;
 }
 	#menuright{
-		height:150%;
+	height:150%;
 	}
 	#menu{
 	height: 315px;
@@ -131,6 +147,18 @@
 	margin-left: 1px;
 	margin-bottom:1px;
 }
+	.menuoptionlong{
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+}
+	.menuoptionlong>br{
+	display:none;
+}
 	#themepages{
 	font-size: 0.7em;
 	width:96%;
@@ -140,11 +168,14 @@
 	#footer{
 	font-size: 0.9em;
 }
-.optionholder{
+	.optionholder{
 	margin-bottom:3px;
 }
+	#menuright{
+	height:165%;	
+	}
 }
-@media (min-width:0px) and (max-width: 400px){ /*Telefony komórkowe od malego IPhone 5 po wszelakie Androidy */
+@media (min-width:0px) and (max-width: 400px){ /*Telefony komórkowe od małego IPhone 5 po wszelakie Androidy */
 	#mainlogoholder{
 	font-size: 1em;
 }
@@ -175,27 +206,36 @@
 	font-size: 0.7em;
 	margin-left: 1px;
 	margin-bottom:1px;
+}	
+	.menuoptionlong{
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
 }
 	#themepages{
-	font-size: 0.6em;
-	margin-right:0.3%;
-	width:99%;
-	float:none;
-}
-	#sponsors{
-	font-size: 0.7em;
-	width: 96%;
+	font-size: 0.55em;
+	width:98%;
 	float:none;
 }
 	#footer{
-	font-size: 0.9em;
+	font-size: 0.8em;
 }
-.optionholder{
+	.optionholder{
 	margin-bottom:3px;
 }
-#STRONY_TEMATYCZNE
-{
+	#STRONY_TEMATYCZNE{
 	font-size: 1em;
-	width: 96%;
+	width: 95%;
 	float:none;
+}
+	#menuright{
+	height:135%;
+}
+	.menuoptionlong>br{
+	display:none;
+}
 }

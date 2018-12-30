@@ -103,19 +103,6 @@ footer{
   width: 100%;
 }
 
-#sponsors{
-	width:46%;
-	float:right;
-	padding:1%;
-	background-color: white;
-	border: 1px black solid;
-	margin-top: 2%;
-	border-radius:5px;
-	text-align: center;
-	font-weight: bold;
-	font-size: 0.9em;
-	height: 764px;
-}
 #logos{
 	padding-top: 6%;
 	margin: 0 auto;

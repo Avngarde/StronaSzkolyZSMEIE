@@ -11,6 +11,9 @@ a{
 footer{
 	bottom: 0;
 }
+.terminy{
+	text-align:center;
+}
 #banner{
 	display:block;
 	width: 100%;
@@ -153,3 +156,4 @@ footer{
 	padding-top: 1%;
 	border-radius: 6px;
 }
+

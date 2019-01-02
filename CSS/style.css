@@ -156,4 +156,26 @@ footer{
 	padding-top: 1%;
 	border-radius: 6px;
 }
+/*SZABLON DŻONEGO*/
+
+/*UWAGA!!!! WARTOŚĆ "HEIGHT" JEST TYLKO DOMYŚLNĄ WARTOŚCIĄ, ABY
+	UNIKNĄĆ MILIARDA ID DO RÓŻNYCH PODSTRON KAŻDA
+	PODSTRONA MUSI MIEĆ SWOJE JS DO ZMIENIANIA TEJ WARTOŚCI*/
+
+#podstrona
+{
+	width: 95%;
+	background-color: #e6f9ff;
+	height: 2450px;
+	padding-left: 1%;
+	float: left;
+	margin-bottom: 1%;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	margin-left: 1%;
+	font-size: 1em;
+	border-radius: 0 0 3px 3px;
+	margin-top: 1%;
+}
 

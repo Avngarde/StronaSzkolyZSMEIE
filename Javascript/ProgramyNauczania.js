@@ -1,1 +1,1 @@
-document.getElementById('podstrona').style.height = "200px";
+document.getElementById('podstrona').style.height = "930px";

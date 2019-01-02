@@ -179,3 +179,13 @@ footer{
 	margin-top: 1%;
 }
 
+/*CSS do ogarniania rekrutacji*/
+
+#rekrutacja{
+	float: left;
+}
+#rekrutacja2{
+	margin-right: 20px;
+}
+
+/*Koniec CSS do ogarniania rekrutacji*/

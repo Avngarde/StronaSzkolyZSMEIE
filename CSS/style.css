@@ -19,7 +19,7 @@ footer{
 	width: 100%;
 	height: 300px;
 	overflow: hidden;
-  background-image: url('../slider/3a.jpg');
+	background-image: url('../slider/3a.jpg');
 	text-align:center;
 	margin: 0 auto;
 }
@@ -59,7 +59,7 @@ footer{
 }
 #contentcontainer{
 	width: 69%;
-	height: 120%;
+	min-height: 120%;
 	background-color:#d8d8d8;
 	margin: 0 auto;
 	float:left;
@@ -88,23 +88,7 @@ footer{
 	text-align: center;
 	margin-right:1%;
 }
-#themepages a, a:visited {
-  text-decoration: none;
-  position: relative;
-}
-#themepages a:after, a:visited:after {
-  content: '';
-  height: 3px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0%;
-  background: red;
-  transition: 0.2s;
-}
-#themepages a:hover:after, a:visited:hover:after {
-  width: 100%;
-}
+
 
 #logos{
 	padding-top: 6%;
@@ -162,30 +146,6 @@ footer{
 	UNIKNĄĆ MILIARDA ID DO RÓŻNYCH PODSTRON KAŻDA
 	PODSTRONA MUSI MIEĆ SWOJE JS DO ZMIENIANIA TEJ WARTOŚCI*/
 
-#podstrona
-{
-	width: 95%;
-	background-color: #e6f9ff;
-	height: 2450px;
-	padding-left: 1%;
-	float: left;
-	margin-bottom: 1%;
-	border-width: thin;
-	border-style: solid;
-	border-color: black;
-	margin-left: 1%;
-	font-size: 1em;
-	border-radius: 0 0 3px 3px;
-	margin-top: 1%;
-}
 
-/*CSS do ogarniania rekrutacji*/
 
-#rekrutacja{
-	float: left;
-}
-#rekrutacja2{
-	margin-right: 20px;
-}
 
-/*Koniec CSS do ogarniania rekrutacji*/

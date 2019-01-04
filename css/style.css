@@ -14,10 +14,6 @@ footer{
 .terminy{
 	text-align:center;
 }
-.rekrutacja{
-	float: left;
-}
-
 #banner{
 	display:block;
 	width: 100%;
@@ -149,3 +145,7 @@ footer{
 /*UWAGA!!!! WARTOŚĆ "HEIGHT" JEST TYLKO DOMYŚLNĄ WARTOŚCIĄ, ABY
 	UNIKNĄĆ MILIARDA ID DO RÓŻNYCH PODSTRON KAŻDA
 	PODSTRONA MUSI MIEĆ SWOJE JS DO ZMIENIANIA TEJ WARTOŚCI*/
+
+
+
+

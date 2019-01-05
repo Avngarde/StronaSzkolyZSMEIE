@@ -156,24 +156,7 @@ input[type=submit]
 	padding-right: 2%;
 
 }
-.rozwiniecie
-{
-	min-width: 944px;
-	width: 100%;
-	background-color: #e6f9ff;
-	height: 118px;
-	float: left;
-	margin-bottom: 1%;
-	border-width: thin;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-bottom-style: solid;
-	border-color: black;
-	font-size: 1em;
-	border-bottom-left-radius: 3px;
-	border-bottom-right-radius: 3px;
-	border-radius: 0 0 3px 3px;
-}
+
 /* ARTYKUŁY END */
 #themepages a, a:visited {
   text-decoration: none;

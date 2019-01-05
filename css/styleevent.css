@@ -186,7 +186,7 @@ input[type=submit]
   bottom: 0;
   left: 0;
   width: 0%;
-  background: red;
+  background: #0099FF;
   transition: 0.2s;
 }
 #themepages a:hover:after, a:visited:hover:after {

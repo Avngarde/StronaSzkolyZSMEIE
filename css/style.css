@@ -142,12 +142,23 @@ footer{
 	padding-top: 1%;
 	border-radius: 6px;
 }
-/*SZABLON DŻONEGO*/
+/*PODSTRONA O PATRONIE*/
 
-/*UWAGA!!!! WARTOŚĆ "HEIGHT" JEST TYLKO DOMYŚLNĄ WARTOŚCIĄ, ABY
-	UNIKNĄĆ MILIARDA ID DO RÓŻNYCH PODSTRON KAŻDA
-	PODSTRONA MUSI MIEĆ SWOJE JS DO ZMIENIANIA TEJ WARTOŚCI*/
-
-
-
-
+#nota_biograficzna
+{
+	background-color: white;
+	border-color: black;
+	border-width: thin;
+	border-style: solid;
+	height: 4000px;
+	width: 98.5%;
+}
+.p1_text
+{
+	padding-left: 1%;
+}
+.p2_text
+{
+	padding-left: 25%;
+	margin-bottom: 0.5%;
+}

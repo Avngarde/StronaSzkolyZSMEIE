@@ -143,15 +143,15 @@ footer{
 	border-radius: 6px;
 }
 /*PODSTRONA O PATRONIE*/
-
 #nota_biograficzna
 {
 	background-color: white;
 	border-color: black;
 	border-width: thin;
 	border-style: solid;
-	height: 4000px;
+	height: 3570px;
 	width: 98.5%;
+	margin-bottom: 10px;
 }
 .p1_text
 {

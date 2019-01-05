@@ -87,6 +87,7 @@ footer{
 	border-radius:5px;
 	text-align: center;
 	margin-right:1%;
+	height: 92%;
 }
 
 
@@ -102,6 +103,7 @@ footer{
 	margin-bottom: 2.5%;
 	margin-top:3%;
 	padding:2%;
+	height: 99.5px;
 }
 /* MENU RIGHT END */
 #footer
@@ -128,7 +130,7 @@ footer{
 #STRONY_TEMATYCZNE
 {
 	padding-top: 0.1%;
-	height: 3%;
+	height: 7%;
 	width: 190px;
 	background-color: #99ccff;
 	margin: 0 auto;

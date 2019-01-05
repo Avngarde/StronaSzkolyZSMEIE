@@ -77,6 +77,7 @@ footer{
 	padding-right:0.5%;
 	padding-top: 0.5%;
 }
+
 #themepages{
 	width:46%;
 	float:right;
@@ -87,9 +88,7 @@ footer{
 	border-radius:5px;
 	text-align: center;
 	margin-right:1%;
-	height: 92%;
 }
-
 
 #logos{
 	padding-top: 6%;
@@ -103,7 +102,6 @@ footer{
 	margin-bottom: 2.5%;
 	margin-top:3%;
 	padding:2%;
-	height: 99.5px;
 }
 /* MENU RIGHT END */
 #footer
@@ -130,11 +128,9 @@ footer{
 #STRONY_TEMATYCZNE
 {
 	padding-top: 0.1%;
-	height: 7%;
-	width: 190px;
+	width: 99%;
 	background-color: #99ccff;
 	margin: 0 auto;
-	width: 99%;
 	text-align: center;
 	border-style: solid;
 	border-color: black;
@@ -162,3 +158,4 @@ footer{
 	padding-left: 25%;
 	margin-bottom: 0.5%;
 }
+

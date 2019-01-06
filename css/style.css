@@ -8,9 +8,6 @@ a{
 	color:black;
 	text-decoration: none;
 }
-footer{
-	bottom: 0;
-}
 .terminy{
 	text-align:center;
 }
@@ -104,8 +101,7 @@ footer{
 	padding:2%;
 }
 /* MENU RIGHT END */
-#footer
-{
+#footer{
 	width:auto;
 	height: 70px;
 	background-color:#9a9a9a;
@@ -114,19 +110,16 @@ footer{
 	color: white;
 	font-size: 1em;
 }
-.title_themepages
-{
+.title_themepages{
 	text-align: center;
 }
-.text_themepages
-{
+.text_themepages{
 	text-align: left;
 	style: square;
 	padding-left: 10%;
 }
 
-#STRONY_TEMATYCZNE
-{
+#STRONY_TEMATYCZNE{
 	padding-top: 0.1%;
 	width: 99%;
 	background-color: #99ccff;
@@ -139,8 +132,7 @@ footer{
 	border-radius: 6px;
 }
 /*PODSTRONA O PATRONIE*/
-#nota_biograficzna
-{
+#nota_biograficzna{
 	background-color: white;
 	border-color: black;
 	border-width: thin;
@@ -149,12 +141,10 @@ footer{
 	width: 98.5%;
 	margin-bottom: 10px;
 }
-.p1_text
-{
+.p1_text{
 	padding-left: 1%;
 }
-.p2_text
-{
+.p2_text{
 	padding-left: 25%;
 	margin-bottom: 0.5%;
 }

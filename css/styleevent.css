@@ -127,37 +127,7 @@ input[type=submit]
 	font-size: 1em;
 	padding:3%;
 }
-/* ARTYKUŁY */
-.articles
-{
-	width: 95%;
-	background-color: #e6f9ff;
-	height: 118px;
-	padding-left: 1%;
-	float: left;
-	margin-bottom: 1%;
-	border-width: thin;
-	border-style: solid;
-	border-color: black;
-	margin-left: 1%;
-	font-size: 1em;
-	border-radius: 3px;
-	border-radius: 0 0 3px 3px;
-}
-.text_in_articles
-{
-	text-align: left;
-	padding-left: 20%;
-}
-.link
-{
-	text-align: right;
-	margin-top: 0.1%;
-	padding-right: 2%;
 
-}
-
-/* ARTYKUŁY END */
 #themepages a, a:visited {
   text-decoration: none;
   position: relative;

@@ -8,7 +8,7 @@
 		<link rel="stylesheet"	href="css/style.css">
 		<link rel="stylesheet" 	href="css/styleevent.css">
 		<link rel="stylesheet" 	href="css/fix.css">
-		<link rel="stylesheet"  	href="css/artykuly.css">
+		<link rel="stylesheet"  href="css/artykuly.css">
 		<link rel="stylesheet" 	href="css/responsive.css" media="all and (max-width: 1124px)">
 		<link rel="stylesheet" 	href="https://fonts.googleapis.com/css?family=Audiowide|Ropa+Sans&amp;subset=latin-ext" >
 		<link rel="shortcut icon"	href="icons/zsmeie.png">
@@ -135,7 +135,7 @@
 <!--SEKCJA GŁÓWNA-->
 	<section id="contentcontainer">
 
-		<article id="article1" name="1" style="margin-top: 1%;">
+		<article class="articles" style="margin-top: 1%;">
 
 			<div class="pasek_articles">
 				<div class="text_pasek">1 wrzesień 2018r.</div>
@@ -144,17 +144,48 @@
 			<p><img src="images/strona3.png" width="90" height="88" style="float: left; height: auto; max-width: 100%; min-height: 88px; margin-top: 0.1%;"></p>
 			<p class="text_in_articles" style="padding-top: 2%;"><strong style="color: #3399ff;">Plan lekcji</strong></p>
 			<p class="text_in_articles">Plan zajęć na rok szkolny <big>2018 / 2019</big></p>
-			<div id="wiecej" onclick="artykuły1()">Więcej...</div>
+			<div class="wiecej" onclick="expand()"><a href="#indeks">Więcej...</a></div>
 
-			<p id="text_article">Aktualny plan szkolny 2018/2019 dla wszystkich klas znajduje się w zakładce "Dla uczniów",
+			<p class="rozwiniecie">Aktualny plan szkolny 2018/2019 dla wszystkich klas znajduje się w zakładce "Dla uczniów",
 				wraz z wykazem sal lekcyjnych oraz godzinami przebywania nauczycieli w naszej
 				szkole. Osobisty plan zajęć dla każdego ucznia znajduje się w aplikacji dziennika elektronicznego
 				"Uonet+". Można się do niego dostać klikając na jego logo w zakładce "Sponsorzy i współpraca", lub klikając
 				w zakładkę "Dla uczniów" w menu górnym i wybierając opcje "E-dziennik".</p>
 
 
-			<div id="mniej" onclick="artykuły2()">Mniej...</div>
+			<div class="mniej" onclick="fold()"><a href="#indeks">Mniej...</a></div>
 		</article>
+
+		<article class="articles">
+
+			<div class="pasek_articles">
+				<div class="text_pasek">6 styczeń 2019r.</div>
+			</div>
+
+			<p><img src="images/artykuly2.png" width="90" height="88" style="float: left; height: auto; max-width: 100%; min-height: 88px; margin-top: 0.1%;"></p>
+			<p class="text_in_articles" style="padding-top: 2%;"><strong style="color: #3399ff;">Basen w czasie ferii</strong></p>
+			<p class="text_in_articles">Basen w czasie ferii zimowych będzie czynny od dnia 14 do 18 stycznia 2019 r.</p>
+			<div class="wiecej" onclick="expand()"><a href="#indeks">Więcej...</a></div>
+
+			<p class="rozwiniecie">W czasie ferii zimowych (od dnia 14 do 18 stycznia 2019 r.) będzie czynny basen pływacki według następującego harmonogramu:
+				<table>
+					<tr><th>Dni tygodnia</th><th>godziny otwarcia</th></tr>
+					<tr><td>Poniedziałek</td><td rowspan="5"><center>9:00 .. 17:00<br>	Ostatnie wejście o 16:00</center></td></tr>
+					<tr><td>Wtorek</td></tr>
+					<tr><td>Środa</td></tr>
+					<tr><td>Czwartek</td></tr>
+					<tr><td>Piątek</td></tr>
+				</table>
+
+				<br>
+				Cena biletu 10 zł - normalny, 5 zł - ulgowy<br>
+				<br>
+				<center><strong style="color: red;">Uwaga !</strong> Na basenie obowiązuje strój pływacki (kąpielówki, czepek, klapki).</center>
+			</p>
+
+			<div class="mniej" onclick="fold()"><a href="#indeks">Mniej...</a></div>
+
+			</article>
 
 	</section>
 
@@ -254,7 +285,7 @@ e-mail : zsmeie@zsmeie.torun.pl<br>
 87-100 Toruń, ul. Świętego Józefa 26
 </footer>
 
-<script src="javascript/artykuly.js"></script>
+<script src="javascript/artykuly1.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-#article1
+.articles
 {
 	width: 95%;
 	background-color: #e6f9ff;
@@ -33,25 +33,25 @@
 	text-align: left;
 	padding-left: 15%;
 }
-#wiecej
+.wiecej
 {
 	text-align: right;
 	margin-top: 0.1%;
 	padding-right: 2%;
 
 }
-#wiecej:hover
+.wiecej:hover
 {
 	color: red;
 }
-#mniej
+.mniej
 {
 	text-align: right;
 	margin-top: 7%;
 	padding-right: 2%;
 
 }
-#mniej:hover
+.mniej:hover
 {
 	color: red;
 }

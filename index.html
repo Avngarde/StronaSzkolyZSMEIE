@@ -61,9 +61,6 @@
 				<a href="https://zsmeie.github.io/su/">
 					<div class="menuoption">SAMORZĄD</div>
 				</a>
-				<a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html">
-					<div class="menuoption">RELIGIA</div>
-				</a>
 
 			</div>
 		</article>
@@ -96,18 +93,16 @@
 			</div>
 		</article>
 
-		<article class="menubuttons">GALERIA
-			<div class="optionholder">
-				<div class="menuoption">ZDJĘCIA</div>
-			</div>
-		</article>
-
-
-
-		<article class="menubuttons">WSPÓŁPRACA
+		<article class="menubuttons">DLA RODZICÓW
 			<div class="optionholder">
 				<div class="menuoption">SPONSORZY</div>
 				<div class="menuoption">MIĘDZYNARODOWA</div>
+			</div>
+		</article>
+
+		<article class="menubuttons">GALERIA
+			<div class="optionholder">
+				<div class="menuoption">ZDJĘCIA</div>
 			</div>
 		</article>
 
@@ -144,7 +139,7 @@
 			<p><img src="images/strona3.png" width="90" height="88" style="float: left; height: auto; max-width: 100%; min-height: 88px; margin-top: 0.1%;"></p>
 			<p class="text_in_articles" style="padding-top: 2%;"><strong style="color: #3399ff;">Plan lekcji</strong></p>
 			<p class="text_in_articles">Plan zajęć na rok szkolny <big>2018 / 2019</big></p>
-			<div class="wiecej" onclick="expand()"><a href="#indeks">Więcej...</a></div>
+			<div class="wiecej" onclick="expand('0')"><a href="#indeks">Więcej...</a></div>
 
 			<p class="rozwiniecie">Aktualny plan szkolny 2018/2019 dla wszystkich klas znajduje się w zakładce "Dla uczniów",
 				wraz z wykazem sal lekcyjnych oraz godzinami przebywania nauczycieli w naszej
@@ -153,7 +148,7 @@
 				w zakładkę "Dla uczniów" w menu górnym i wybierając opcje "E-dziennik".</p>
 
 
-			<div class="mniej" onclick="fold()"><a href="#indeks">Mniej...</a></div>
+			<div class="mniej" onclick="fold('0')"><a href="#indeks">Mniej...</a></div>
 		</article>
 
 		<article class="articles">
@@ -165,26 +160,38 @@
 			<p><img src="images/artykuly2.png" width="90" height="88" style="float: left; height: auto; max-width: 100%; min-height: 88px; margin-top: 0.1%;"></p>
 			<p class="text_in_articles" style="padding-top: 2%;"><strong style="color: #3399ff;">Basen w czasie ferii</strong></p>
 			<p class="text_in_articles">Basen w czasie ferii zimowych będzie czynny od dnia 14 do 18 stycznia 2019 r.</p>
-			<div class="wiecej" onclick="expand()"><a href="#indeks">Więcej...</a></div>
+			<div class="wiecej" onclick="expand('1')"><a href="#indeks">Więcej...</a></div>
 
-			<p class="rozwiniecie">W czasie ferii zimowych (od dnia 14 do 18 stycznia 2019 r.) będzie czynny basen pływacki według następującego harmonogramu:
-				<table>
-					<tr><th>Dni tygodnia</th><th>godziny otwarcia</th></tr>
-					<tr><td>Poniedziałek</td><td rowspan="5"><center>9:00 .. 17:00<br>	Ostatnie wejście o 16:00</center></td></tr>
-					<tr><td>Wtorek</td></tr>
-					<tr><td>Środa</td></tr>
-					<tr><td>Czwartek</td></tr>
-					<tr><td>Piątek</td></tr>
-				</table>
-
-				<br>
+			<p class="rozwiniecie">W czasie ferii zimowych (od dnia 14 do 18 stycznia 2019 r.) będzie czynny basen
+				pływacki według następującego harmonogramu:<br>
+				Poniedziałek-Piątek: 9:00..17:00<br>
+				Ostatnie wejście o 16:00
+			<br><br>
 				Cena biletu 10 zł - normalny, 5 zł - ulgowy<br>
 				<br>
-				<center><strong style="color: red;">Uwaga !</strong> Na basenie obowiązuje strój pływacki (kąpielówki, czepek, klapki).</center>
+				<strong style="color: red; padding-left: 15%;">Uwaga !</strong> Na basenie obowiązuje strój pływacki (kąpielówki, czepek, klapki).
 			</p>
 
-			<div class="mniej" onclick="fold()"><a href="#indeks">Mniej...</a></div>
+			<div class="mniej" onclick="fold('1')"><a href="#indeks">Mniej...</a></div>
+			</article>
 
+			<article class="articles">
+
+				<div class="pasek_articles">
+					<div class="text_pasek">7 styczeń 2019r.</div>
+				</div>
+
+				<p><img src="images/artykuly3.png" width="90" height="88" style="float: left; height: auto; max-width: 100%; min-height: 88px; margin-top: 0.1%;"></p>
+				<p class="text_in_articles" style="padding-top: 2%;"><strong style="color: #3399ff;">Zajęcia sportowe w czasie ferii</strong></p>
+				<p class="text_in_articles">Zajęcia sportowo-rekreacyjne czasie ferii zimowych od dnia 14 do 25 stycznia 2019 r.</p>
+				<div class="wiecej" onclick="expand('2')"><a href="#indeks">Więcej...</a></div>
+
+				<p class="rozwiniecie">W czasie ferii zimowych (od dnia 14 do 25 stycznia 2019 r.) będą organizowane zajęcia sportowo-rekreacyjne według następującego harmonogramu:<br>
+					14, 15 i 16 stycznia o godzinie 11:00 zajęcia rekreacyjne na basenie<br>
+					22 i 25 stycznia o godzinie 11:30 siatkówka na sali gimnastycznej<br>
+				</p>
+
+				<div class="mniej" onclick="fold('2')"><a href="#indeks">Mniej...</a></div>
 			</article>
 
 	</section>
@@ -195,7 +202,7 @@
 <!-- MENU : PRAWE -->
 <section id="menuright">
 
-	<article id="themepages">
+	<article id="themepages" style="min-height: 908px;">
 
 		<div id="STRONY_TEMATYCZNE">
 			<p><h4>SPONSORZY I WSPÓŁPRACA</h4></p>
@@ -209,37 +216,37 @@
 						</a>
 		<a href="https://www.kopel.pl/" style="text-decoration:none; color:black;" target="_blank">
 							<div class="imglogolayout">
-								<center><img src="sponsors/kopel.png" alt="Logo firmy Kopel" style="width:80%; padding-left: 10%;"><br>
+								<center><img src="sponsors/kopel.png" alt="Logo firmy Kopel" style="width:90%; padding-left: 10%; padding-top: 6%;"><br>
 								SPONSOR/ WSPÓŁPRACA</center>
 							</div>
 						</a>
 		<a href="http://aniro.pl/" style="text-decoration:none; color:black;" target="_blank">
 							<div class="imglogolayout">
-								<center><img src="sponsors/aniro.png" alt="Logo firmy  Aniro" style="width:71%"><br>
+								<center><img src="sponsors/aniro.png" alt="Logo firmy  Aniro" style="width:81%; padding-top: 6%;"><br>
 								WSPÓŁPRACA</center>
 							</div>
 						</a>
 		<a href="http://www.twerd.pl/" style="text-decoration:none; color:black;" target="_blank">
 							<div class="imglogolayout" >
-								<center><img src="sponsors/twerd.png" alt="Logo firmy TWERD" style="width:34%"><br>
+								<center><img src="sponsors/twerd.png" alt="Logo firmy TWERD" style="width:38%"><br>
 										WSPÓŁPRACA</center>
 							</div>
 						</a>
 		<a href="https://www.energa.pl/" style="text-decoration:none; color:black;" target="_blank">
 						<div class="imglogolayout">
-								<center><img src="sponsors/energa.png" alt="Logo firmy Energa" style="width:82%; padding-left: 0.1%;"><br>
+								<center><img src="sponsors/energa.png" alt="Logo firmy Energa" style="width:97%; padding-left: 0.1%; padding-top: 7%;"><br>
 										WSPÓŁPRACA</center>
 						</div>
 					</a>
 	 <a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
 						<div class="imglogolayout">
-								<center><img src="sponsors/psse.jpg" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:90%"><br>
+								<center><img src="sponsors/psse.jpg" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:98%"><br>
 										WSPÓŁPRACA</center>
 						</div>
 					</a>
   <a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
 						<div class="imglogolayout">
-								<center><img src="sponsors/bosch.png" alt="Logo firmy Bosch" style="width:73%"><br>
+								<center><img src="sponsors/bosch.png" alt="Logo firmy Bosch" style="width:93%; padding-top: 7%;"><br>
 										WSPÓŁPRACA</center>
 						</div>
 					</a>
@@ -289,3 +296,4 @@ e-mail : zsmeie@zsmeie.torun.pl<br>
 </body>
 
 </html>
+

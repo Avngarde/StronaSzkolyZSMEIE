@@ -116,7 +116,7 @@ input[type=submit]
 }
 /* MENU END */
 #alertbox{
-	width: 92%;
+  width: 92%;
 	border: 3px red dashed;
 	background-color: white;
 	margin: 0 auto;
@@ -145,3 +145,15 @@ input[type=submit]
 #themepages a:hover:after, a:visited:hover:after {
   width: 100%;
 }
+/* DOKUMENTY */
+#linki a {
+  text-decoration: none;
+  position: relative;
+  }
+#linki a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  }
+#linki  a:hover:after, a:visited:hover:after {
+  width: 100%;
+  }

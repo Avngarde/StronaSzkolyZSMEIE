@@ -1,7 +1,7 @@
 var previous;
 var i;
 var a;
-var rozwiniecie_brak = true;
+var rozwiniecie = false;
 
 
 var mniej = document.getElementsByClassName('mniej');
@@ -16,7 +16,7 @@ for(i=0; i<5; i+=1)
 
 function expand(a)
 {
-  if(rozwiniecie_brak == true)
+  if(rozwiniecie == false)
   {
     if(a=='0')
     {
@@ -25,7 +25,7 @@ function expand(a)
       mniej[0].style.visibility = "visible";
       text[0].style.visibility = "visible";
       previous = 0;
-      rozwiniecie_brak = false;
+      rozwiniecie = true;
     }
     if(a=='1')
     {
@@ -34,7 +34,7 @@ function expand(a)
      mniej[1].style.visibility = "visible";
      text[1].style.visibility = "visible";
      previous = 1;
-     rozwiniecie_brak = false;
+     rozwiniecie = true;
     }
     if(a=='2')
     {
@@ -43,10 +43,10 @@ function expand(a)
       mniej[2].style.visibility = "visible";
       text[2].style.visibility = "visible";
       previous = 2;
-      rozwiniecie_brak = false;
+      rozwiniecie = true;
     }
   }
-  else if(rozwiniecie_brak == false)
+  else if(rozwiniecie == true)
   {
     alert("kjasdh");
   }
@@ -77,4 +77,3 @@ function fold(a)
     text[2].style.visibility = "hidden";
   }
 }
-

@@ -1,6 +1,7 @@
-var y = 0;
+var previous;
 var i;
 var a;
+var rozwiniecie_brak = true;
 
 
 var mniej = document.getElementsByClassName('mniej');
@@ -15,27 +16,41 @@ for(i=0; i<5; i+=1)
 
 function expand(a)
 {
-  if(a=='0')
+  if(rozwiniecie_brak == true)
   {
-    document.getElementsByClassName('articles')[0].style.height = "320px";
-    document.getElementsByClassName('wiecej')[0].style.visibility = "hidden";
-    mniej[0].style.visibility = "visible";
-    text[0].style.visibility = "visible";
+    if(a=='0')
+    {
+      document.getElementsByClassName('articles')[0].style.height = "320px";
+      document.getElementsByClassName('wiecej')[0].style.visibility = "hidden";
+      mniej[0].style.visibility = "visible";
+      text[0].style.visibility = "visible";
+      previous = 0;
+      rozwiniecie_brak = false;
+    }
+    if(a=='1')
+    {
+     document.getElementsByClassName('articles')[1].style.height = "320px";
+     document.getElementsByClassName('wiecej')[1].style.visibility = "hidden";
+     mniej[1].style.visibility = "visible";
+     text[1].style.visibility = "visible";
+     previous = 1;
+     rozwiniecie_brak = false;
+    }
+    if(a=='2')
+    {
+      document.getElementsByClassName('articles')[2].style.height = "320px";
+      document.getElementsByClassName('wiecej')[2].style.visibility = "hidden";
+      mniej[2].style.visibility = "visible";
+      text[2].style.visibility = "visible";
+      previous = 2;
+      rozwiniecie_brak = false;
+    }
   }
-  if(a=='1')
+  else if(rozwiniecie_brak == false)
   {
-    document.getElementsByClassName('articles')[1].style.height = "320px";
-    document.getElementsByClassName('wiecej')[1].style.visibility = "hidden";
-    mniej[1].style.visibility = "visible";
-    text[1].style.visibility = "visible";
+    alert("kjasdh");
   }
-  if(a=='2')
-  {
-    document.getElementsByClassName('articles')[2].style.height = "320px";
-    document.getElementsByClassName('wiecej')[2].style.visibility = "hidden";
-    mniej[2].style.visibility = "visible";
-    text[2].style.visibility = "visible";
-  }
+    
 }
 
 function fold(a)
@@ -62,3 +77,4 @@ function fold(a)
     text[2].style.visibility = "hidden";
   }
 }
+

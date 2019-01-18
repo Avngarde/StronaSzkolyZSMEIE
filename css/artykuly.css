@@ -11,7 +11,7 @@
 	border-width: thin;
 	border-style: solid;
 	border-color: black;
-  margin-bottom: 1%;
+  	margin-bottom: 1%;
 }
 .pasek_articles
 {
@@ -40,20 +40,11 @@
 	padding-right: 2%;
 
 }
-.wiecej:hover
-{
-	color: red;
-}
 .mniej
 {
 	text-align: right;
-	margin-top: 7%;
 	padding-right: 2%;
 
-}
-.mniej:hover
-{
-	color: red;
 }
 table, td, th
 {

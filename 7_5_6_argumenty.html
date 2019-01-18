@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript - Argumenty</title>
+</head>
+<body>
+<script type="text/javascript">
+function suma_dow()
+{
+var i; 
+wynik=0;
+var param= arguments.length;
+for (i=0; i < param; i++)
+{
+	wynik += arguments[i];
+}
+return wynik;
+}
+suma_dow(3,5,7,8);
+	document.write("Suma argumentów: " + wynik);
+</script>
+</body>
+</html>

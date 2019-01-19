@@ -4,7 +4,7 @@
 
 ##
 
-<span align="center"Jest to nasz projekt strony internetowej dla Zespołu Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu</span>
+<span align="center">Jest to nasz projekt strony internetowej dla Zespołu Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu</span>
 
 ## Twórcy
  * [Kamil Paczkowski](https://github.com/ShamanDev)

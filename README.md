@@ -1,4 +1,4 @@
-# ![zsmeie](https://user-images.githubusercontent.com/37217644/51431580-4814b980-1c2b-11e9-9f8c-ade9259f47c0.png)
+# ![zsmeie](https://user-images.githubusercontent.com/37217644/51431580-4814b980-1c2b-11e9-9f8c-ade9259f47c0.png| 250x250)
 
 Jest to nasz projekt strony internetowej dla Zespołu Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu
 

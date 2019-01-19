@@ -4,7 +4,8 @@
 
 ##
 
-<span align="center">Jest to nasz projekt strony internetowej dla Zespołu Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu</span>
+Jest to projekt nowej strony internetowej dla Zespołu Szkół Mechanicznych Elektrycznych i Elektronicznych im. prof. Sylwestra Kaliskiego
+w Toruniu, wykonany przez czwórkę uczniów klasy 1P.
 
 ## Twórcy
  * [Kamil Paczkowski](https://github.com/ShamanDev)

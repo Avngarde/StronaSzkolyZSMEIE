@@ -22,9 +22,6 @@ mniej1.addEventListener("click", function() {fold(1)});
 mniej2.addEventListener("click", function() {fold(2)});
 
 
-
-
-
 function expand(indeks1)
 {
     if(rozwiniecie == false)

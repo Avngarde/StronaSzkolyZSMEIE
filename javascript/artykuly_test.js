@@ -11,7 +11,7 @@ var mniej0 = $('.mniej').eq(0);
 var mniej1 = $('.mniej').eq(1);
 var mniej2 = $('.mniej').eq(2);
 
-$('.mniej, .rozwiniecie').css('visibility', 'hidden');
+$('.mniej, .rozwiniecie').hide();
 
 wiecej0.addEventListener("click", function() {expand(0)});
 wiecej1.addEventListener("click", function() {expand(1)});
@@ -21,29 +21,28 @@ mniej0.addEventListener("click", function() {fold(0)});
 mniej1.addEventListener("click", function() {fold(1)});
 mniej2.addEventListener("click", function() {fold(2)});
 
-
 function expand(indeks1)
 {
     if(rozwiniecie == false)
     {
         $('.articles').eq(indeks1).css('height', '320px');
-        $('.wiecej').eq(indeks1).css('visibility', 'hidden');
-        $('.mniej').eq(indeks1).css('visibility', 'visible');
-        $('.rozwiniecie').eq(indeks1).css('visibility', 'visible');
+        $('.wiecej').eq(indeks1).hide();
+        $('.mniej').eq(indeks1).show();
+        $('.rozwiniecie').eq(indeks1).show();
         rozwiniecie = true;
         previous = indeks1;
     }
     else if(rozwiniecie == true)
     {
         $('.articles').eq(previous).css('height', '130px');
-        $('.wiecej').eq(previous).css('visibility', 'visible');
-        $('.mniej').eq(previous).css('visibility', 'hidden');
-        $('.rozwiniecie').eq(previous).css('visibility', 'hidden');
+        $('.wiecej').eq(previous).show();
+        $('.mniej').eq(previous).hide();
+        $('.rozwiniecie').eq(previous).hide();
 
         $('.articles').eq(indeks1).css('height', '320px');
-        $('.wiecej').eq(indeks1).css('visibility', 'hidden');
-        $('.mniej').eq(indeks1).css('visibility', 'visible');
-        $('.rozwiniecie').eq(indeks1).css('visibility', 'visible');
+        $('.wiecej').eq(indeks1).hide();
+        $('.mniej').eq(indeks1).show();
+        $('.rozwiniecie').eq(indeks1).show();
         previous = indeks1;
     }
 }
@@ -51,8 +50,8 @@ function expand(indeks1)
 function fold(indeks2)
 {
     $('.articles').eq(indeks2).css('height', '130px');
-    $('.wiecej').eq(indeks2).css('visibility', 'visible');
-    $('.mniej').eq(indeks2).css('visibility', 'hidden');
-    $('.rozwiniecie').eq(indeks2).css('visibility', 'hidden');
+    $('.wiecej').eq(indeks2).show();
+    $('.mniej').eq(indeks2).hide();
+    $('.rozwiniecie').eq(indeks2).hide();
     rozwiniecie = false;
 }

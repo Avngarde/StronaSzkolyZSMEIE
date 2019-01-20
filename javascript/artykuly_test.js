@@ -1,7 +1,7 @@
-var previous;
-var a;
-var b;
+var indeks1;
+var indeks2;
 var rozwiniecie = false;
+var previous;
 
 var wiecej0 = $('.wiecej').eq(0);
 var wiecej1 = $('.wiecej').eq(1);
@@ -25,18 +25,37 @@ mniej2.addEventListener("click", function() {fold(2)});
 
 
 
-function expand(a)
+function expand(indeks1)
 {
-    $('.articles').eq(a).css('height', '320px');
-    $('.wiecej').eq(a).css('visibility', 'hidden');
-    $('.mniej').eq(a).css('visibility', 'visible');
-    $('.rozwiniecie').eq(a).css('visibility', 'visible');
+    if(rozwiniecie == false)
+    {
+        $('.articles').eq(indeks1).css('height', '320px');
+        $('.wiecej').eq(indeks1).css('visibility', 'hidden');
+        $('.mniej').eq(indeks1).css('visibility', 'visible');
+        $('.rozwiniecie').eq(indeks1).css('visibility', 'visible');
+        rozwiniecie = true;
+        previous = indeks1;
+    }
+    else if(rozwiniecie == true)
+    {
+        $('.articles').eq(previous).css('height', '130px');
+        $('.wiecej').eq(previous).css('visibility', 'visible');
+        $('.mniej').eq(previous).css('visibility', 'hidden');
+        $('.rozwiniecie').eq(previous).css('visibility', 'hidden');
+
+        $('.articles').eq(indeks1).css('height', '320px');
+        $('.wiecej').eq(indeks1).css('visibility', 'hidden');
+        $('.mniej').eq(indeks1).css('visibility', 'visible');
+        $('.rozwiniecie').eq(indeks1).css('visibility', 'visible');
+        previous = indeks1;
+    }
 }
 
-function fold(b)
+function fold(indeks2)
 {
-    $('.articles').eq(b).css('height', '130px');
-    $('.wiecej').eq(b).css('visibility', 'visible');
-    $('.mniej').eq(b).css('visibility', 'hidden');
-    $('.rozwiniecie').eq(b).css('visibility', 'hidden');
+    $('.articles').eq(indeks2).css('height', '130px');
+    $('.wiecej').eq(indeks2).css('visibility', 'visible');
+    $('.mniej').eq(indeks2).css('visibility', 'hidden');
+    $('.rozwiniecie').eq(indeks2).css('visibility', 'hidden');
+    rozwiniecie = false;
 }

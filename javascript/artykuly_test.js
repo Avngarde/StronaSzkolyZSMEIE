@@ -1,37 +1,42 @@
 var previous;
-var i;
 var a;
+var b;
 var rozwiniecie = false;
 
+var wiecej0 = $('.wiecej').eq(0);
+var wiecej1 = $('.wiecej').eq(1);
+var wiecej2 = $('wiecej').eq(2);
 
-var mniej = document.getElementsByClassName('mniej');
-var text = document.getElementsByClassName('rozwiniecie');
+var mniej0 = $('.mniej').eq(0);
+var mniej1 = $('.mniej').eq(1);
+var mniej2 = $('.mniej').eq(2);
 
-for(i=0; i<5; i+=1)
-{
-  mniej[i].style.visibility = "hidden";
-  text[i].style.visibility = "hidden";
-}
+$('.mniej, .rozwiniecie').css('visibility', 'hidden');
+
+wiecej0.addEventListener("click", function() {expand(0)});
+wiecej1.addEventListener("click", function() {expand(1)});
+wiecej2.addEventListener("click", function() {expand(2)});
+
+mniej0.addEventListener("click", function() {fold(0)});
+mniej1.addEventListener("click", function() {fold(1)});
+mniej2.addEventListener("click", function() {fold(2)});
+
+
+
+
 
 function expand(a)
 {
-    if(a=='0')
-    {
-      document.getElementsByClassName('articles')[0].style.height = "320px";
-      document.getElementsByClassName('wiecej')[0].style.visibility = "hidden";
-      mniej[0].style.visibility = "visible";
-      text[0].style.visibility = "visible";
-    }
+    $('.articles').eq(a).css('height', '320px');
+    $('.wiecej').eq(a).css('visibility', 'hidden');
+    $('.mniej').eq(a).css('visibility', 'visible');
+    $('.rozwiniecie').eq(a).css('visibility', 'visible');
 }
 
 function fold(b)
 {
-    if(b=='0')
-    {
-        document.getElementsByClassName('articles')[0].style.height = "130px";
-        document.getElementsByClassName('wiecej')[0].style.visibility = "visible";
-        mniej[0].style.visibility = "hidden";
-        text[0].style.visibility = "hidden";        
-    }
-    
+    $('.articles').eq(b).css('height', '130px');
+    $('.wiecej').eq(b).css('visibility', 'visible');
+    $('.mniej').eq(b).css('visibility', 'hidden');
+    $('.rozwiniecie').eq(b).css('visibility', 'hidden');
 }

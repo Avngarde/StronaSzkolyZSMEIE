@@ -11,7 +11,8 @@
 	border-width: thin;
 	border-style: solid;
 	border-color: black;
-  	margin-bottom: 1%;
+	margin-bottom: 1%;
+	position: relative;
 }
 .pasek_articles
 {
@@ -33,21 +34,22 @@
 	text-align: left;
 	padding-left: 15%;
 }
-.wiecej
+.button
 {
 	text-align: right;
 	margin-top: 0.1%;
 	padding-right: 2%;
+	position: relative;
 
 }
-.mniej
+.rozwiniecie
 {
-	text-align: right;
-	padding-right: 2%;
-
+	margin-top: 5%;
+	opacity: 0;
 }
 table, td, th
 {
 	border: 1px solid black;
 	width: 30%;
 }
+

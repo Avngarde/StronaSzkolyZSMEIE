@@ -67,7 +67,7 @@ a{
 /* MENU RIGHT */
 #menuright{
 	width: 29%;
-	height: 120%;
+	min-height: 100%;
 	background-color:#eaeaea;
 	float:left;
 	padding-left:0.5%;
@@ -75,7 +75,7 @@ a{
 	padding-top: 0.5%;
 }
 
-#themepages{
+.themepages{
 	width:46%;
 	float:right;
 	padding:1%;

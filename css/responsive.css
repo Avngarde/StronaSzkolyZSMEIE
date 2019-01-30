@@ -14,7 +14,7 @@
 	width: 96%;
 }
 
-	#themepages{
+	.themepages{
 	width:46%;
 	padding:1%;
 	background-color: white;
@@ -59,7 +59,7 @@
 	margin-top:5px;
 	font-size: 0.7em;
 }
-	#themepages{
+	.themepages{
 	font-size: 0.7em;
 
 }
@@ -100,7 +100,7 @@
 	font-size: 0.75em;
 	margin-left: 1px;
 }
-	#themepages{
+	.themepages{
 	font-size: 0.7em;
 }
 	#sponsors{
@@ -110,6 +110,9 @@
 {
 	font-size: 0.9em;
 }
+	#menuright{
+		height:100%;
+	}
 }
 
 
@@ -158,7 +161,7 @@
 	.menuoptionlong>br{
 	display:none;
 }
-	#themepages{
+	.themepages{
 	font-size: 0.7em;
 	width:96%;
 	float:none;
@@ -215,7 +218,7 @@
 	margin-left: 1px;
 	margin-bottom:1px;
 }
-	#themepages{
+	.themepages{
 	font-size: 0.55em;
 	width:98%;
 	float:none;

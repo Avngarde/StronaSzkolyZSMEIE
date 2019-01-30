@@ -56,6 +56,7 @@ input[type=submit]
 	z-index: 1;
 	position: relative;
 	font-size: 1em;
+	cursor: grab;
 }
 .menuoption {
 	display: none;
@@ -128,11 +129,11 @@ input[type=submit]
 	padding:3%;
 }
 
-#themepages a, a:visited {
+.themepages a, a:visited {
   text-decoration: none;
   position: relative;
 }
-#themepages a:after, a:visited:after {
+.themepages a:after, a:visited:after {
   content: '';
   height: 3px;
   position: absolute;
@@ -142,7 +143,7 @@ input[type=submit]
   background: #0099FF;
   transition: 0.2s;
 }
-#themepages a:hover:after, a:visited:hover:after {
+.themepages a:hover:after, a:visited:hover:after {
   width: 100%;
 }
 /* DOKUMENTY */

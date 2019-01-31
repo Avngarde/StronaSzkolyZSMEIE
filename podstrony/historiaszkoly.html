@@ -37,15 +37,14 @@
 
 		<article class="menubuttons">SZKOŁA
 			<div class="optionholder">
-
         <a href="patron.html">
 				  <div class="menuoption">PATRON ZSMEiE</div>
 				</a>
 				<a href="pracownicy.html">
 				  <div class="menuoption">PRACOWNICY</div>
-			  </a>
+				</a>
 				<a href="dokumenty.html">
-				  <div class="menuoption">DOKUMENTY</div>
+			  	<div class="menuoption">DOKUMENTY</div>
 				</a>
 				<a href="historiaszkoly.html">
 				  <div class="menuoption">HISTORIA SZKOŁY</div>
@@ -59,6 +58,9 @@
 				</a>
 				<a href="https://zsmeie.github.io/su/">
 					<div class="menuoption">SAMORZĄD</div>
+				</a>
+				<a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html">
+					<div class="menuoption">RELIGIA</div>
 				</a>
 
 			</div>
@@ -79,8 +81,8 @@
 				<a href="terminy.html">
 				  <div class="menuoption">TERMINY</div>
         </a>
-	      <a href="programynauczania.html">
-				  <div class="menuoptionlong">PROGRAMY <br>NAUCZANIA</div>
+				<a href="programynauczania.html">
+					<div class="menuoptionlong">PROGRAMY <br>NAUCZANIA</div>
 				</a>
 				<a href="egzaminy.html">
 				  <div class="menuoption">EGZAMINY</div>
@@ -92,16 +94,18 @@
 			</div>
 		</article>
 
-		<article class="menubuttons">DLA RODZICÓW
-			<div class="optionholder">
-				<div class="menuoption">SPONSORZY</div>
-				<div class="menuoption">MIĘDZYNARODOWA</div>
-			</div>
-		</article>
-
 		<article class="menubuttons">GALERIA
 			<div class="optionholder">
 				<div class="menuoption">ZDJĘCIA</div>
+			</div>
+		</article>
+
+
+
+		<article class="menubuttons">WSPÓŁPRACA
+			<div class="optionholder">
+				<div class="menuoption">SPONSORZY</div>
+				<div class="menuoption">MIĘDZYNARODOWA</div>
 			</div>
 		</article>
 
@@ -132,8 +136,6 @@
 		<article id="podstrona">
 
 			<p class="text_podstrona"><h3>Krótka historia szkoły</h3>
-				<img src="../images/sienkiewicza.png" alt="baraki ZSMEiE" style="float: right; padding-right: 1%;" width="30%">
-				<img src="../images/baraki.png" alt="baraki ZSMEiE" style="float: right; padding-right: 1%;" width="27%">
        <p>Początki szkoły sięgają 1945 roku, kiedy to powołano Liceum i<br>
 			    Gimnazjum Elektryczne-pierwsza szkoła techniczna w wyzwolonym<br>
 			    Toruniu. W roku 1952 szkołę połączono z Technikum Mechanicznym,<br>
@@ -147,8 +149,6 @@
           Zespół Szkół Mechanicznych, Elektrycznych i Elektronicznych.<br>
           Również w 1993 roku rozpoczął się udział naszej szkoły w<br>
           programie MOVE (jeden z programów PHARE). ZSMEiE współpracuje<br>
-				<img src="../images/basen.png" alt="baraki ZSMEiE" style="float: right; padding-right: 1%;" width="30%">
-				<img src="../images/szkola.png" alt="baraki ZSMEiE" style="float: right; padding-right: 1%;" width="27%">
           ze szkołą techniczną BBS II w Getyndze, SBBS w Heiligenstadt,<br>
           z młodzieżą polonijną z Petersburga oraz ze szkołą w Solecznikach.<br>
           Rok 2001 obfitował w ważne wydarzenie - otóż zespół naszych<br>
@@ -160,8 +160,6 @@
           z okazji 70–lecia jej istnienia.</p>
  	   <h3>Dyrektorzy szkoły na przestrzeni lat:</h3>
 		   <ul>
-				<img src="../images/zdj01.png" alt="baraki ZSMEiE" style="float: right; padding-right: 1%;" width="30%">
-				<img src="../images/zdj05.png" alt="baraki ZSMEiE" style="float: right; padding-right: 1%;" width="30%">
 	       <li>inż. Eugeniusz Nieciejowski 1946-1949</li>
          <li>Kazimierz Suwała 1949-1950</li>
          <li>Witold Lewandowski 1950-1955</li>
@@ -179,6 +177,36 @@
       mechatroniki i automatyki, którą ufundowała<a href="https://pl.wikipedia.org/wiki/Pomorska_Specjalna_Strefa_Ekonomiczna" target="_blank"><b> Pomorska Specjalna<br>
       Strefa Ekonomiczna.</b></a></p></p>
 
+	  <div id="slidercontainer">
+
+		<div class="slide">
+			  <img src="../images/sienkiewicza.png" alt="baraki ZSMEiE" height="250" width="300">
+		</div>
+
+		<div class="slide">
+			  <img src="../images/baraki.png" alt="baraki ZSMEiE" height="250" width="300">
+		</div>
+
+		<div class="slide">
+			  <img src="../images/basen.png" alt="baraki ZSMEiE" height="250" width="300">
+		</div>
+
+		<div class="slide">
+			  <img src="../images/szkola.png" alt="baraki ZSMEiE" height="250" width="300">
+		</div>
+
+		<div class="prev" style="right: 77%;" onclick="plusSlides(1)">
+			<a style="padding-left: 25%; padding-top: 80%;">&#10095;</a>
+		</div>
+
+		<div class="prev">
+			<a style="padding-left: 25%; padding-top: 80%;" onclick="minusSlides(1)">&#10094;</a>
+		</div>
+		
+		
+		
+
+		</div>
 
 		</article>
 
@@ -188,98 +216,100 @@
 	</section>
 
 <!-- MENU : PRAWE -->
-	<section id="menuright">
+<section id="menuright">
 
-	 <article class="themepages">
+	<article id="themepages">
 
-		 <div id="STRONY_TEMATYCZNE">
-			 <p><h4>SPONSORZY I WSPÓŁPRACA</h4></p>
-		 </div>
+		<div id="STRONY_TEMATYCZNE">
+			<p><h4>SPONSORZY I WSPÓŁPRACA</h4></p>
+		</div>
 
-		 <a href="https://uonetplus.vulcan.net.pl/torun/LoginEndpoint.aspx" style="text-decoration:none; color:black;" target="_blank">
-							 <div class="imglogolayout">
-								 <center><img src="../sponsors/vulcan_login.jpg" alt="Zaloguj się do e-dziennkika firmy Vulcan" style="width:72%"><br>
-								 E-DZIENNIK</center>
-							 </div>
-						 </a>
-		 <a href="https://www.kopel.pl/" style="text-decoration:none; color:black;" target="_blank">
-							 <div class="imglogolayout">
-								 <center><img src="../sponsors/kopel.png" alt="Logo firmy Kopel" style="width:80%; padding-left: 10%;"><br>
-								 SPONSOR/ WSPÓŁPRACA</center>
-							 </div>
-						 </a>
-		 <a href="http://aniro.pl/" style="text-decoration:none; color:black;" target="_blank">
-							 <div class="imglogolayout">
-								 <center><img src="../sponsors/aniro.png" alt="Logo firmy  Aniro" style="width:71%"><br>
-								 WSPÓŁPRACA</center>
-							 </div>
-						 </a>
-		 <a href="http://www.twerd.pl/" style="text-decoration:none; color:black;" target="_blank">
-							 <div class="imglogolayout" >
-								 <center><img src="../sponsors/twerd.png" alt="Logo firmy TWERD" style="width:34%"><br>
-										 WSPÓŁPRACA</center>
-							 </div>
-						 </a>
-		 <a href="https://www.energa.pl/" style="text-decoration:none; color:black;" target="_blank">
-						 <div class="imglogolayout">
-								 <center><img src="../sponsors/energa.png" alt="Logo firmy Energa" style="width:82%; padding-left: 0.1%;"><br>
-										 WSPÓŁPRACA</center>
-						 </div>
-					 </a>
-		<a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
-						 <div class="imglogolayout">
-								 <center><img src="../sponsors/psse.jpg" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:90%"><br>
-										 WSPÓŁPRACA</center>
-						 </div>
-					 </a>
-	 <a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
-						 <div class="imglogolayout">
-								 <center><img src="../sponsors/bosch.png" alt="Logo firmy Bosch" style="width:73%"><br>
-										 WSPÓŁPRACA</center>
-						 </div>
-					 </a>
-		 </article>
+		<a href="https://uonetplus.vulcan.net.pl/torun/LoginEndpoint.aspx" style="text-decoration:none; color:black;" target="_blank">
+							<div class="imglogolayout">
+								<center><img src="../sponsors/vulcan_login.jpg" alt="Zaloguj się do e-dziennkika firmy Vulcan" style="width:72%"><br>
+								E-DZIENNIK</center>
+							</div>
+						</a>
+		<a href="https://www.kopel.pl/" style="text-decoration:none; color:black;" target="_blank">
+							<div class="imglogolayout">
+								<center><img src="../sponsors/kopel.png" alt="Logo firmy Kopel" style="width:80%; padding-left: 10%;"><br>
+								SPONSOR/ WSPÓŁPRACA</center>
+							</div>
+						</a>
+		<a href="http://aniro.pl/" style="text-decoration:none; color:black;" target="_blank">
+							<div class="imglogolayout">
+								<center><img src="../sponsors/aniro.png" alt="Logo firmy  Aniro" style="width:71%"><br>
+								WSPÓŁPRACA</center>
+							</div>
+						</a>
+		<a href="http://www.twerd.pl/" style="text-decoration:none; color:black;" target="_blank">
+							<div class="imglogolayout" >
+								<center><img src="../sponsors/twerd.png" alt="Logo firmy TWERD" style="width:34%"><br>
+										WSPÓŁPRACA</center>
+							</div>
+						</a>
+		<a href="https://www.energa.pl/" style="text-decoration:none; color:black;" target="_blank">
+						<div class="imglogolayout">
+								<center><img src="../sponsors/energa.png" alt="Logo firmy Energa" style="width:82%; padding-left: 0.1%;"><br>
+										WSPÓŁPRACA</center>
+						</div>
+					</a>
+	 <a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
+						<div class="imglogolayout">
+								<center><img src="../sponsors/psse.jpg" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:90%"><br>
+										WSPÓŁPRACA</center>
+						</div>
+					</a>
+  <a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
+						<div class="imglogolayout">
+								<center><img src="../sponsors/bosch.png" alt="Logo firmy Bosch" style="width:73%"><br>
+										WSPÓŁPRACA</center>
+						</div>
+					</a>
+		</article>
 
-		 <article class="themepages">
+		<article id="themepages">
 
-		 <div id="STRONY_TEMATYCZNE">
-			 <p><h4>STRONY TEMATYCZNE</h4></p>
-		 </div>
+		<div id="STRONY_TEMATYCZNE">
+			<p><h4>STRONY TEMATYCZNE</h4></p>
+		</div>
 
-		 <p class="title_themepages"><strong>Strony przedmiotowe</strong></p>
-			 <ul class="text_themepages">
-					<a href="http://www.zsmeie.torun.pl/glowna/temat/mvs/index.php">Elektrotechnika</a><br><br>
-					<a href="http://www.zsmeie.torun.pl/glowna/temat/site/index.html">Pracownia elektroniki</a><br><br>
-					<a href="http://www.zsmeie.torun.pl/glowna/temat/biola/index.php">Biologia w ZSMEiE</a><br><br>
-					<a href="">Technik informatyk</a><br><br>
-					<a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html">Strona katechetyczna</a><br><br>
-					<a href="http://www.zsmeie.torun.pl/glowna/temat/matma/index.php">Matematyka</a><br><br>
-					<a href="http://www.zsmeie.torun.pl/glowna/temat/english/index.php">Język angielski</a><br><br>
-			 </ul>
+		<p class="title_themepages"><strong>Strony przedmiotowe</strong></p>
+			<ul class="text_themepages">
+				 <a href="http://www.zsmeie.torun.pl/glowna/temat/mvs/index.php">Elektrotechnika</a><br><br>
+				 <a href="http://www.zsmeie.torun.pl/glowna/temat/site/index.html">Pracownia elektroniki</a><br><br>
+				 <a href="http://www.zsmeie.torun.pl/glowna/temat/biola/index.php">Biologia w ZSMEiE</a><br><br>
+				 <a href="">Technik informatyk</a><br><br>
+				 <a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html">Strona katechetyczna</a><br><br>
+				 <a href="http://www.zsmeie.torun.pl/glowna/temat/matma/index.php">Matematyka</a><br><br>
+				 <a href="http://www.zsmeie.torun.pl/glowna/temat/english/index.php">Język angielski</a><br><br>
+			</ul>
 
-		 <p class="title_themepages"><strong>Strony tematyczne</strong></p>
-			 <ul class="text_themepages">
-				 <a href="http://www.zsmeie.torun.pl/glowna/wspzg/regens/index.php">Współpraca ze szkołą techniczną Staatliche Fachoberschule und Berufsoberschule z Regensburga</a><br/><br/><br/>
-				 <a href="http://www.zsmeie.torun.pl/glowna/wspzg/syke/index.html">Współpraca ze szkołą techniczną BBS z Syke</a><br/><br/><br/>
-				 <a href="http://www.zsmeie.torun.pl/glowna/wspzg/bosch/index.html">Praktyki w zakładach BOSCH w Eisenach</a><br/><br/><br/>
-				 <a href="http://www.zsmeie.torun.pl/glowna/wspzg/leonardo/index.htm">Leonardo Da Vinci</a><br/><br/><br/>
-				 <a href="http://www.zsmeie.torun.pl/glowna/temat/biblio/index.php">Biblioteka ZSMEiE</a><br/><br/><br/>
-				 <a href="http://www.sport.zsmeie.torun.pl/index0.php">Sport w ZSMEiE</a> </li><br/><br/><br/>
-				 <a href="http://www.zsmeie.torun.pl/glowna/temat/internat/index.php">Internat ZSMEiE</a><br/><br/><br/>
-				 <a href="http://www.zsmeie.torun.pl/glowna/egzam.php">Egzaminy, matura ...</a><br/><br/>
-			 </ul>
-		 </article>
-	</section>
-	</div><!-- Koniec div'a container -->
+		<p class="title_themepages"><strong>Strony tematyczne</strong></p>
+			<ul class="text_themepages">
+				<a href="http://www.zsmeie.torun.pl/glowna/wspzg/regens/index.php">Współpraca ze szkołą techniczną Staatliche Fachoberschule und Berufsoberschule z Regensburga</a><br/><br/><br/>
+				<a href="http://www.zsmeie.torun.pl/glowna/wspzg/syke/index.html">Współpraca ze szkołą techniczną BBS z Syke</a><br/><br/><br/>
+				<a href="http://www.zsmeie.torun.pl/glowna/wspzg/bosch/index.html">Praktyki w zakładach BOSCH w Eisenach</a><br/><br/><br/>
+				<a href="http://www.zsmeie.torun.pl/glowna/wspzg/leonardo/index.htm">Leonardo Da Vinci</a><br/><br/><br/>
+				<a href="http://www.zsmeie.torun.pl/glowna/temat/biblio/index.php">Biblioteka ZSMEiE</a><br/><br/><br/>
+				<a href="http://www.sport.zsmeie.torun.pl/index0.php">Sport w ZSMEiE</a> </li><br/><br/><br/>
+				<a href="http://www.zsmeie.torun.pl/glowna/temat/internat/index.php">Internat ZSMEiE</a><br/><br/><br/>
+				<a href="http://www.zsmeie.torun.pl/glowna/egzam.php">Egzaminy, matura ...</a><br/><br/>
+			</ul>
+		</article>
+</section>
+</div><!-- Koniec div'a container -->
 
-	<!-- Footer -->
-	<footer id="footer">
-	Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu<br>
-	Telefon: (+48 56) 6544791<br>
-	e-mail : zsmeie@zsmeie.torun.pl<br>
-	87-100 Toruń, ul. Świętego Józefa 26
-	</footer>
-	
+<!-- Footer -->
+<footer id="footer">
+Zespół Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu<br>
+Telefon: (+48 56) 6544791<br>
+e-mail : zsmeie@zsmeie.torun.pl<br>
+87-100 Toruń, ul. Świętego Józefa 26
+</footer>
 </body>
 
-</html>
+<!--SKRYPTY-->
+<script src="../javascript/jquery.js"></script>
+<script src="../javascript/slider.js"></script>
+

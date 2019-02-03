@@ -131,7 +131,7 @@ a{
 	padding-top: 1%;
 	border-radius: 6px;
 }
-/*PODSTRONA O PATRONIE*/
+/* PODSTRONA O PATRONIE */
 .p1_text{
 	padding-left: 1%;
 	padding-right: 2%;
@@ -143,4 +143,25 @@ a{
 /* REKRUTACJA */
 .rekrutacja{
 	float: left;
+}
+/* HISTORIA SZKOŁY */
+#historia{
+	margin-left:2%;
+	margin-right:2%;
+}
+#dyrektorzy{
+	float:left;
+	margin-left:2%;
+}
+#przebudowy{
+	float:right;
+	margin-left:2%;
+  margin-right:22%;
+}
+/* PRACOWNICY */
+.nauczyciele{
+	border: 1px solid black;
+	float: left;
+	width: 98%;
+	margin-right:2%;
 }

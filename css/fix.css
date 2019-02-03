@@ -52,6 +52,7 @@
 }
 
 /*Koniec CSS do ogarniania rekrutacji*/
+/*slider*/
 .slidercontainer
 {
 	max-width: 29%;
@@ -72,8 +73,8 @@
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	width: 10.5%;
-	height: 19%;
-	top: 40%;
+	height: 9%;
+	top: 68%;
 	padding-left: 5%;
 	padding-top:2.5%;
 }
@@ -82,5 +83,4 @@
 	background-color: rgba(0,0,0,0.8);
 	color: white;
 }
-
-
+/*koniec slidera*/

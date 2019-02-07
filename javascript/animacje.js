@@ -57,6 +57,9 @@ function expand(indeks1)
              $('.rozwiniecie').eq(indeks1).show();
              $('.rozwiniecie').eq(indeks1).fadeTo("slow", 1);
              $('.button > a').eq(indeks1).html(mniej);
+             rozwiniecie0 = false;
+             rozwiniecie1 = false;
+             rozwiniecie2 = false;
              if(indeks1 == 0)
              {
                 rozwiniecie0 = true;
@@ -91,6 +94,9 @@ function expand(indeks1)
                    $('.rozwiniecie').eq(indeks1).show();
                    $('.rozwiniecie').eq(indeks1).fadeTo("slow", 1);
                    $('.button > a').eq(indeks1).html(mniej);
+                   rozwiniecie0 = false;
+                   rozwiniecie1 = false;
+                   rozwiniecie2 = false;
                    if(indeks1 == 0)
                    {
                       rozwiniecie0 = true;
@@ -138,3 +144,4 @@ function fold(indeks2)
    pozostaly_rozwiniety = false;
   
 }
+

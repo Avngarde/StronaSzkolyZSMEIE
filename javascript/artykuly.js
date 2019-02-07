@@ -1,57 +1,146 @@
 var indeks1;
 var indeks2;
-var rozwiniecie = false;
+var pozostaly_rozwiniety = false
+var rozwiniecie0 = false;
+var rozwiniecie1 = false;
+var rozwiniecie2 = false;
 var previous;
+var mniej = "Mniej...";
+var wiecej = "Więcej...";
 
-var wiecej0 = $('.wiecej').eq(0);
-var wiecej1 = $('.wiecej').eq(1);
-var wiecej2 = $('wiecej').eq(2);
+$('.rozwiniecie').hide();
 
-var mniej0 = $('.mniej').eq(0);
-var mniej1 = $('.mniej').eq(1);
-var mniej2 = $('.mniej').eq(2);
+document.getElementsByClassName("button")[0].addEventListener("click", function()
+{
+   if(rozwiniecie0 == false)
+   {
+      expand(0); 
+   }
+   else if(rozwiniecie0 == true)
+   {
+      fold(0);
+   }       
+});
 
-$('.mniej, .rozwiniecie').hide();
+document.getElementsByClassName("button")[1].addEventListener("click", function()
+{
+   if(rozwiniecie1 == false)
+   {
+      expand(1); 
+   }
+   else if(rozwiniecie1 == true)
+   {
+      fold(1);
+   }       
+});
 
-wiecej0.addEventListener("click", function() {expand(0)});
-wiecej1.addEventListener("click", function() {expand(1)});
-wiecej2.addEventListener("click", function() {expand(2)});
+document.getElementsByClassName("button")[2].addEventListener("click", function()
+{
+   if(rozwiniecie2 == false)
+   {
+      expand(2); 
+   }
+   else if(rozwiniecie2 == true)
+   {
+      fold(2);
+   }       
+});
 
-mniej0.addEventListener("click", function() {fold(0)});
-mniej1.addEventListener("click", function() {fold(1)});
-mniej2.addEventListener("click", function() {fold(2)});
 
 function expand(indeks1)
 {
-    if(rozwiniecie == false)
-    {
-        $('.articles').eq(indeks1).css('height', '320px');
-        $('.wiecej').eq(indeks1).hide();
-        $('.mniej').eq(indeks1).show();
-        $('.rozwiniecie').eq(indeks1).show();
-        rozwiniecie = true;
-        previous = indeks1;
-    }
-    else if(rozwiniecie == true)
-    {
-        $('.articles').eq(previous).css('height', '130px');
-        $('.wiecej').eq(previous).show();
-        $('.mniej').eq(previous).hide();
-        $('.rozwiniecie').eq(previous).hide();
+   if(pozostaly_rozwiniety == false)
+   {
+      $('.articles').eq(indeks1).animate({height: '320px'});
+      $('.button').eq(indeks1).animate({top: '190px'}, function() 
+          {
+             $('.rozwiniecie').eq(indeks1).show();
+             $('.rozwiniecie').eq(indeks1).fadeTo("slow", 1);
+             $('.button > a').eq(indeks1).html(mniej);
+             rozwiniecie0 = false;
+             rozwiniecie1 = false;
+             rozwiniecie2 = false;
+             if(indeks1 == 0)
+             {
+                rozwiniecie0 = true;
+             }
+             else if(indeks1 == 1)
+             {
+                rozwiniecie1 = true;
+             }
+             else if(indeks1 == 2)
+             {
+                rozwiniecie2 = true;
+             }
+             previous = indeks1;
+             pozostaly_rozwiniety = true;
+          });
+   }
+   else if(pozostaly_rozwiniety == true)
+   {
+      $('.rozwiniecie').eq(previous).fadeTo("slow", 0, function()
+      {
+         $('.button').eq(previous).css('position', 'relative');
+         $('.articles').eq(previous).animate({height: '130px'});
+         $('.button').eq(previous).animate({top: '0%'}, function()
+         {
+            $('.button > a').eq(previous).delay(4000);
+            $('.button > a').eq(previous).html(wiecej);
 
-        $('.articles').eq(indeks1).css('height', '320px');
-        $('.wiecej').eq(indeks1).hide();
-        $('.mniej').eq(indeks1).show();
-        $('.rozwiniecie').eq(indeks1).show();
-        previous = indeks1;
-    }
+
+            $('.articles').eq(indeks1).animate({height: '320px'});
+            $('.button').eq(indeks1).animate({top: '190px'}, function() 
+                {
+                   $('.rozwiniecie').eq(indeks1).show();
+                   $('.rozwiniecie').eq(indeks1).fadeTo("slow", 1);
+                   $('.button > a').eq(indeks1).html(mniej);
+                   rozwiniecie0 = false;
+                   rozwiniecie1 = false;
+                   rozwiniecie2 = false;
+                   if(indeks1 == 0)
+                   {
+                      rozwiniecie0 = true;
+                   }
+                   else if(indeks1 == 1)
+                   {
+                      rozwiniecie1 = true;
+                   }
+                   else if(indeks1 == 2)
+                   {
+                      rozwiniecie2 = true;
+                   }
+                   previous = indeks1;
+                   pozostaly_rozwiniety = true;
+                });
+         });    
+      });      
+   }             
 }
 
 function fold(indeks2)
 {
-    $('.articles').eq(indeks2).css('height', '130px');
-    $('.wiecej').eq(indeks2).show();
-    $('.mniej').eq(indeks2).hide();
-    $('.rozwiniecie').eq(indeks2).hide();
-    rozwiniecie = false;
+   $('.rozwiniecie').eq(indeks2).fadeTo("slow", 0, function()
+   {
+      $('.button').eq(indeks2).css('position', 'relative');
+      $('.articles').eq(indeks2).animate({height: '130px'});
+      $('.button').eq(indeks2).animate({top: '0%'}, function()
+      {
+         $('.button > a').eq(indeks2).delay(4000);
+         $('.button > a').eq(indeks2).html(wiecej);
+         if(indeks2 == 0)
+             {
+                rozwiniecie0 = false;
+             }
+             else if(indeks2 == 1)
+             {
+                rozwiniecie1 = false;
+             }
+             else if(indeks2 == 2)
+             {
+                rozwiniecie2 = false;
+             }
+      });    
+   });
+   pozostaly_rozwiniety = false;
+  
 }

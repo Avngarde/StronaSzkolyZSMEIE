@@ -37,15 +37,16 @@
 .button
 {
 	text-align: right;
-	margin-top: 0.1%;
+	margin-top: 2.7%;
 	padding-right: 2%;
 	position: relative;
 
 }
 .rozwiniecie
 {
-	margin-top: 5%;
+	margin-top: 5px;
 	opacity: 0;
+	font-size: 1em;
 }
 table, td, th
 {

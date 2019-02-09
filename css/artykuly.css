@@ -39,7 +39,8 @@
 	text-align: right;
 	margin-top: 2.7%;
 	padding-right: 2%;
-	position: relative; 
+	position:relative;
+	bottom:0;
 }
 .rozwiniecie
 {

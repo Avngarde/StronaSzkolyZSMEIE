@@ -174,8 +174,17 @@
 	margin-bottom:3px;
 }
 	#menuright{
-	height:165%;	
-	}
+	min-height:165%;	
+}
+	.rozwiniecie{
+	font-size: 0.8em;
+}
+	.text_in_articles{
+	font-size:0.8em;
+}	
+	.button{
+	font-size:0.8em;
+}
 }
 @media (min-width:0px) and (max-width: 400px){ /*Telefony komórkowe od małego IPhone 5 po wszelakie Androidy */
 	#mainlogoholder{
@@ -235,9 +244,18 @@
 	float:none;
 }
 	#menuright{
-	height:135%;
+	height:100%;
 }
 	.menuoptionlong>br{
 	display:none;
+}
+	.rozwiniecie{
+	font-size: 0.7em;
+}
+	.text_in_articles{
+	font-size:0.7em;
+}	
+	.button{
+	font-size:0.7em;
 }
 }

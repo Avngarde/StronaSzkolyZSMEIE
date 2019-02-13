@@ -1,0 +1,57 @@
+.articles
+{
+	width: 95%;
+	background-color: #e6f9ff;
+	height: 130px;
+	padding-left: 1%;
+	float: left;
+	margin-left: 1%;
+	font-size: 1em;
+	border-radius: 10px;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	margin-bottom: 1%;
+	position: relative;
+}
+.pasek_articles
+{
+	background-color: #0066cc;
+	float: right;
+	width: 101.1%;
+	height: 30px;
+	margin-right: 0%;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+.text_pasek
+{
+	padding-left: 1%;
+	padding-top: 0.8%;
+}
+.text_in_articles
+{
+	text-align: left;
+	padding-left: 15%;
+}
+.button
+{
+	text-align: right;
+	margin-top: 2.7%;
+	padding-right: 2%;
+	position:relative;
+	bottom:0;
+}
+.rozwiniecie
+{
+	margin-top: 5px;
+	opacity: 0;
+	font-size: 1em;
+	padding: 2px;
+}
+table, td, th
+{
+	border: 1px solid black;
+	width: 30%;
+}
+

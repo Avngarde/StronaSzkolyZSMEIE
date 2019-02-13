@@ -1,0 +1,46 @@
+# Strona ZESPOŁU SZKÓŁ MECHANICZNYCH ELEKTRYCZNYCH I ELEKTONICZNYCH
+
+Jest to projekt strony internetowej dla Zespołu Szkół Mechanicznych Elektrycznych i Elektronicznych w Toruniu.
+
+## Twórcy
+ * [Kamil Paczkowski](https://github.com/ShamanDev)
+ * [Mateusz Targoński](https://github.com/Zeusiek)
+ * [Miłosz Pawłowski](https://github.com/belbekyt) 
+ * [Jan Napieralski](https://github.com/REVANPL)
+ 
+ 
+## Użyte technologie:
+
+### Frontend
+
+Wykorzystaliśmy standardowo:
+
+ * HTML
+ * CSS
+ * JavaScript
+ 
+A także:
+    * Google Fonts 
+	  * Ropa Sans
+	  * Audiowide
+
+### Backend
+
+Użyte przez nas technologie backendowe to:
+
+  * Django - Framework napisany w języku Python, łatwy i wygodny, pozwalający w nie męczący sposób projektować naszą aplikacje internetową.
+
+  * Python - Język programowania w którym został napisany Django, to w nim napisaliśmy większość skryptów dla strony ZSMEiE.
+
+  * PostgreSQL - Wykorzystaną przez nas technologią baz danych jest PostgreSQL.
+-------------------------------------
+## Prawa autorskie
+ * PRAWO DO UŻYTKU STRONY, JEJ KODU ORAZ SZABLONU POSIADA NA WYŁĄCZNOŚĆ:
+ 
+	ZESPÓŁ SZKÓŁ MECHANICZNYCH ELEKTRYCZNYCH I ELEKTONICZNYCH W TORUNIU
+	
+ *ZAWARTE NA STRONIE CZCIONKI ZOSTAŁY UŻYTE NA PODSTAWIE LICENCJI: 
+	SIL Open Font License
+	
+	-WŁAŚCICIELEM LICENCJI JEST: 
+		Google LLC

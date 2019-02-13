@@ -1,0 +1,115 @@
+﻿/* 2 członowe nazwy */
+.menuoptionlong {
+	display: none;
+	height: 30px;
+	width: 97%;
+	color: black;
+	border:2px solid black;
+	padding-top: 3px;
+	margin-top:3px;
+	text-align:center;
+	border-radius:5px;
+	z-index: 1;
+	background-color: white;
+	font-size: 0.9em;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0  gray;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.7s;
+	transition: ease-out 0.6s;
+}
+.menuoptionlong:hover {
+  box-shadow: inset 400px 0 0 0 #000;
+	color:white;
+}
+.menubuttons:hover .menuoptionlong {
+	display: block;
+	text-decoration:none;
+}
+/* ----------------------- */
+#podstrona
+{
+	width: 95%;
+	background-color: #e6f9ff;
+	padding-left: 1%;
+	float: left;
+	margin-bottom: 1%;
+	border-width: thin;
+	border-style: solid;
+	border-color: black;
+	margin-left: 1%;
+	font-size: 1em;
+	border-radius: 0 0 3px 3px;
+	margin-top: 1%;
+}
+/*CSS do ogarniania rekrutacji*/
+
+#rekrutacja{
+	float: left;
+}
+#rekrutacja2{
+	margin-right: 20px;
+}
+
+/*Koniec CSS do ogarniania rekrutacji*/
+/*slider*/
+.slidercontainer
+{
+	max-width: 29%;
+	position: relative;
+}
+.slide
+{
+	display: none;
+}
+.prev
+{
+	position: absolute;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	width: 10.5%;
+	height: 9%;
+	top: 68%;
+	padding-left: 5%;
+	padding-top:2.5%;
+}
+.prev:hover
+{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}
+/*koniec slidera na historii szkoły*/
+
+.strzałka
+{
+	color: white;
+	opacity: 0.8;
+}
+
+
+.next
+{
+	position: absolute;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	width: 10.5%;
+	height: 14%;
+	top: 46%;
+	padding-left: 5%;
+	padding-top:2.5%;
+}
+.next:hover
+{
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+}

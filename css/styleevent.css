@@ -65,6 +65,7 @@ input[type=submit]
 	color: black;
 	border:2px solid black;
 	padding-top: 8px;
+	margin-left:1px;
 	margin-top:3px;
 	text-align:center;
 	border-radius:5px;
@@ -84,13 +85,13 @@ input[type=submit]
 }
 
 .optionholder{
-	background-color:#eaeaea90;
+	background-color:white;
 	width: 98%;
 	border:2px solid black;
 	margin-left: -2px;
 	margin-top: 7px;
 	display: none;
-	border-radius:5px;
+	border-radius: 3px;
 	z-index: 1;
 	padding:1%;
 	padding-right: 1%;
@@ -117,7 +118,7 @@ input[type=submit]
 }
 /* MENU END */
 #alertbox{
-  width: 92%;
+	width: 92%;
 	border: 3px red dashed;
 	background-color: white;
 	margin: 0 auto;
@@ -135,7 +136,7 @@ input[type=submit]
 }
 .themepages a:after, a:visited:after {
   content: '';
-  height: 3px;
+  height: 2px;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -144,7 +145,7 @@ input[type=submit]
   transition: 0.2s;
 }
 .themepages a:hover:after, a:visited:hover:after {
-  width: 100%;
+  width:100%;
 }
 /* DOKUMENTY */
 #linki a {

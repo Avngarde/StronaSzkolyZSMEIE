@@ -1,7 +1,7 @@
 .articles
 {
 	width: 95%;
-	background-color: #e6f9ff;
+	background-color: #e6f7ff;
 	height: 130px;
 	padding-left: 1%;
 	float: left;
@@ -16,9 +16,9 @@
 }
 .pasek_articles
 {
-	background-color: #0066cc;
+	background-color: #8eb9ff;
 	float: right;
-	width: 101.1%;
+	width: 101%;
 	height: 30px;
 	margin-right: 0%;
 	border-top-left-radius: 9px;
@@ -33,11 +33,12 @@
 {
 	text-align: left;
 	padding-left: 15%;
+	margin-top: 2%;
 }
 .button
 {
 	text-align: right;
-	margin-top: 2.7%;
+	margin-bottom: 1%;
 	padding-right: 2%;
 	position:relative;
 	bottom:0;

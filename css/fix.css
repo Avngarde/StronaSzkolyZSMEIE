@@ -55,8 +55,8 @@
 /*slider*/
 .slidercontainer
 {
-	max-width: 29%;
-	position: relative;
+	max-width: 60%;
+	margin: 0 auto;
 }
 .slide
 {
@@ -92,24 +92,3 @@
 }
 
 
-.next
-{
-	position: absolute;
-	cursor: pointer;
-	color: black;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	width: 10.5%;
-	height: 14%;
-	top: 46%;
-	padding-left: 5%;
-	padding-top:2.5%;
-}
-.next:hover
-{
-	background-color: rgba(0,0,0,0.8);
-	color: white;
-}

@@ -24,6 +24,7 @@ Wykorzystaliśmy standardowo:
  * CSS
  * JS
  *  A także:
+    * Google Maps
     * Google Fonts 
       * Ropa Sans 
       * Audiowide

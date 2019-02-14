@@ -20,6 +20,7 @@ Wykorzystaliśmy standardowo:
  * JavaScript
  
 A także:
+    * Google Maps
     * Google Fonts 
 	  * Ropa Sans
 	  * Audiowide

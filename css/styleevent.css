@@ -56,7 +56,7 @@ input[type=submit]
 	z-index: 1;
 	position: relative;
 	font-size: 1em;
-	cursor: grab;
+	cursor: pointer;
 }
 .menuoption {
 	display: none;
@@ -97,16 +97,7 @@ input[type=submit]
 	padding-right: 1%;
 	padding-bottom: 3px;
 }
-.optionholder>a{
-	text-decoration:none;
-}
-.menubuttons:hover .menuoption {
-	display: block;
-	text-decoration:none;
-}
-.menubuttons:hover .optionholder{
-	display: block;
-}
+
 .menubuttons:hover {
 	background: #000000;
 	color: #FFFFFF;

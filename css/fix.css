@@ -1,4 +1,4 @@
-﻿/* 2 członowe nazwy */
+/* 2 członowe nazwy */
 .menuoptionlong {
 	display: none;
 	height: 30px;
@@ -57,36 +57,32 @@
 {
 	max-width: 60%;
 	margin: 0 auto;
+	z-index: 0;
 }
 .slide
 {
 	display: none;
+	z-index: 0;
+	position: relative;
 }
-.prev
-{
-	position: absolute;
-	cursor: pointer;
-	color: black;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	width: 10.5%;
-	height: 9%;
-	top: 68%;
-	padding-left: 5%;
-	padding-top:2.5%;
-}
-.prev:hover
-{
-	background-color: rgba(0,0,0,0.8);
-	color: white;
-}
+
 /*koniec slidera na historii szkoły*/
 
-.strzałka
+.arrow
 {
+	width: 10%;
+	height: 98.6%;
 	color: white;
 	opacity: 0.8;
+	z-index: 2;
+	position: absolute;
+	top: 0%;
+	font-size: 1.8em;
+	cursor: pointer;
 }
+.arrow:hover
+{
+	background-color: black;
+	opacity: 0.8;
+}
+

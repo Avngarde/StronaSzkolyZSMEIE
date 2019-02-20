@@ -1,33 +1,33 @@
 .articles
 {
 	width: 95%;
-	background-color: #e6f7ff;
+	background-color: white;
 	height: 130px;
 	padding-left: 1%;
 	float: left;
 	margin-left: 1%;
 	font-size: 1em;
 	border-radius: 10px;
-	border-width: thin;
-	border-style: solid;
-	border-color: black;
+	border: thin solid black;
 	margin-bottom: 1%;
 	position: relative;
 }
 .pasek_articles
 {
-	background-color: #408cff;
+	background-color: #73a9ff;
 	float: right;
-	width: 101%;
+	width: 101.1%;
 	height: 30px;
 	margin-right: 0%;
 	border-top-left-radius: 9px;
 	border-top-right-radius: 9px;
+	
 }
 .text_pasek
 {
-	padding-left: 1%;
+	padding-left: 2%;
 	padding-top: 0.8%;
+	font-weight:bold;
 }
 .text_in_articles
 {
@@ -54,4 +54,12 @@ table, td, th
 {
 	border: 1px solid black;
 	width: 30%;
+}
+.photo_articles{
+	width:90px; 
+	height:88px; 
+	float: left;  
+	height: 88px; 
+	margin-top: 0.1%;"
+	
 }

@@ -106,13 +106,16 @@
 	#sponsors{
 	font-size: 0.7em;
 }
-	#footer
-{
+	#footer{
 	font-size: 0.9em;
 }
 	#menuright{
-		height:100%;
-	}
+	height:100%;
+}
+	.text_pasek{
+	padding-left:2.5%;
+	padding-top:1.2%;
+}
 }
 
 
@@ -184,6 +187,10 @@
 }	
 	.button{
 	font-size:0.8em;
+}
+	.text_pasek{
+	padding-left:3%;
+	padding-top:1.7%;
 }
 }
 @media (min-width:0px) and (max-width: 400px){ /*Telefony komórkowe od małego IPhone 5 po wszelakie Androidy */
@@ -257,5 +264,20 @@
 }	
 	.button{
 	font-size:0.7em;
+}
+	.articles{
+	height: 100px;
+}	
+	.pasek_articles{
+	height:20px;
+	font-size:0.8em;
+}
+	.photo_articles{
+	width:85px;
+	height:75px;
+}
+	.text_pasek{
+	padding-left:3%;
+	padding-top:1.2%;
 }
 }

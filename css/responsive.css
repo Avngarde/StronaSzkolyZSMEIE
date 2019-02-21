@@ -130,7 +130,7 @@
 	float: none;
 	width: 100%;
 	z-index:initial;
-	
+
 }
 	#contentcontainer{
 	height:150%;
@@ -183,14 +183,14 @@
 	position:absolute;
 }
 	#menuright{
-	min-height:165%;	
+	min-height:165%;
 }
 	.rozwiniecie{
 	font-size: 0.8em;
 }
 	.text_in_articles{
 	font-size:0.8em;
-}	
+}
 	.button{
 	font-size:0.8em;
 }
@@ -233,8 +233,8 @@
 	margin-bottom:1px;
 	position:relative;
 	z-index:2;
-	
-}	
+
+}
 	.menuoptionlong{
 	height: 18px;
 	width: 99%;
@@ -275,13 +275,13 @@
 }
 	.text_in_articles{
 	font-size:0.7em;
-}	
+}
 	.button{
 	font-size:0.7em;
 }
 	.articles{
 	height: 100px;
-}	
+}
 	.pasek_articles{
 	height:20px;
 	font-size:0.8em;

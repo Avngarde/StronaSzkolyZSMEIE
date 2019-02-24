@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+	font-family: 'Ropa Sans', sans-serif;
+	background-color: white;
+	position: relative;
+}
+
+#contentbox{
+    width: 45%;
+    height: 600px;
+    margin-top: 7%;
+    margin-left: 27.5%;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+
+#logo{
+    margin-left: 37%;
+    margin-top: 1%;
+}
+
+.napis{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    margin-left: 38%;
+}
+
+#osoba{
+    margin-left: 41%;
+    margin-top: 4%;
+    border-radius: 30px;
+}
+
+#logowanie{
+    margin-top: 2%;
+    width: 70%;
+    height: 260px;
+    background-color: rgb(248, 246, 246);
+    margin-left: 15%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inputy{
+    margin-left: 27%;
+    margin-top: 2%;
+    width: 50%;
+    height: 40%;
+    font-size: 24px;
+}

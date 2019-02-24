@@ -80,7 +80,6 @@ else
         $('.menuoption').eq(9).css('display', 'block');
         $('.menuoption').eq(10).css('display', 'block');
         $('.menuoption').eq(11).css('display', 'block');
-        $('.menuoption').eq(12).css('display', 'block');
     });
     document.getElementsByClassName('menubuttons')[2].addEventListener("mouseout", function(){
         $('.optionholder').eq(1).css('display', 'none');  
@@ -89,6 +88,7 @@ else
     
     document.getElementsByClassName("menubuttons")[3].addEventListener("mouseover", function(){
         $('.optionholder').eq(2).css('display', 'block');
+        $('.menuoption').eq(12).css('display', 'block');
         $('.menuoption').eq(13).css('display', 'block');
        
     

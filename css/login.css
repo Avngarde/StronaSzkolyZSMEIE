@@ -2,49 +2,49 @@ body{
 	margin: 0;
 	font-family: 'Ropa Sans', sans-serif;
 	background-color: white;
-	position: relative;
+    position: relative;
 }
 
 #contentbox{
-    width: 45%;
+    width: 40%;
     height: 600px;
-    margin-top: 7%;
-    margin-left: 27.5%;
+    margin-top: 5%;
+    margin-left: 30%;
     border: 1px solid #b3b3b3;
     border-radius: 5px;
+    text-align: center;
 }
 
 #logo{
-    margin-left: 37%;
     margin-top: 1%;
 }
 
 .napis{
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
-    margin-left: 38%;
 }
 
 #osoba{
-    margin-left: 41%;
     margin-top: 4%;
-    border-radius: 30px;
+    border-radius: 50px;
+    margin-left: 0%;
 }
 
 #logowanie{
     margin-top: 2%;
     width: 70%;
     height: 260px;
-    background-color: rgb(248, 246, 246);
+    background-color: rgb(245, 245, 245);
     margin-left: 15%;
+    text-align: center;
     border-radius: 3px;
     box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .inputy{
-    margin-left: 27%;
-    margin-top: 2%;
-    width: 50%;
-    height: 40%;
+    box-shadow: none;
+    margin-top: 1%;
     font-size: 24px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
 }

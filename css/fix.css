@@ -88,3 +88,19 @@
 #tekstpodstrona{
 	margin-right:1.5%;
 }
+.prev{
+	width: 10%;
+	height: 65%;
+	color: white;
+	opacity: 0.8;
+	z-index: 2;
+	position: absolute;
+	top: 33%;
+	font-size: 1.8em;
+	cursor: pointer;
+  text-align: center;
+}
+.prev:hover{
+	background-color: black;
+	opacity: 0.8;
+}

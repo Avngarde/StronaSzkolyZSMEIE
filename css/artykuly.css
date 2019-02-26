@@ -49,6 +49,7 @@
 	opacity: 0;
 	font-size: 1em;
 	padding: 2px;
+	clear:both;
 }
 table, td, th
 {
@@ -57,7 +58,6 @@ table, td, th
 }
 .photo_articles{
 	width:90px; 
-	height:88px; 
 	float: left;  
 	height: 88px; 
 	margin-top: 0.1%;"

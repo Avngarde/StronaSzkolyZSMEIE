@@ -198,6 +198,9 @@
 	padding-left:3%;
 	padding-top:1.7%;
 }
+	#banner{
+	background-image: url('../slider/3.jpg');
+}
 }
 @media (min-width:0px) and (max-width: 400px){ /*Telefony komórkowe od małego IPhone 5 po wszelakie Androidy */
 	#mainlogoholder{
@@ -206,6 +209,7 @@
 
 	#banner{
 		height:250px;
+		background-image: url('../slider/3.jpg');
 	}
 
 	.menubuttons{

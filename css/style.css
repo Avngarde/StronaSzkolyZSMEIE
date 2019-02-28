@@ -19,6 +19,7 @@ a{
 	background-image: url('../slider/3a.jpg');
 	text-align:center;
 	margin: 0 auto;
+	background-repeat: no-repeat;
 }
 #mainlogoholder{
 	color: white;

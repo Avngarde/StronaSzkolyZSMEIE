@@ -157,11 +157,11 @@ a{
 #dyrektorzy{
 	float:left;
 	margin-left:2%;
+	margin-right:7%;
 }
 #przebudowy{
-	float:right;
+	float:left;
 	margin-left:2%;
-  margin-right:22%;
 }
 /* PRACOWNICY */
 .nauczyciele{

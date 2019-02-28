@@ -109,9 +109,6 @@
 	#footer{
 	font-size: 0.9em;
 }
-	#menuright{
-	height:100%;
-}
 	.text_pasek{
 	padding-left:2.5%;
 	padding-top:1.2%;
@@ -135,9 +132,6 @@
 	#contentcontainer{
 	height:150%;
 }
-	#menuright{
-	height:150%;
-	}
 	#menu{
 	height: 315px;
 }
@@ -208,8 +202,8 @@
 }
 
 	#banner{
-		height:250px;
-		background-image: url('../slider/3.jpg');
+	height:250px;
+	background-image: url('../slider/3.jpg');
 	}
 
 	.menubuttons{
@@ -267,9 +261,6 @@
 	font-size: 1em;
 	width: 95%;
 	float:none;
-}
-	#menuright{
-	height:100%;
 }
 	.menuoptionlong>br{
 	display:none;

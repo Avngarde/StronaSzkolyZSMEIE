@@ -85,3 +85,15 @@
 #tekstpodstrona{
 	margin-right:1.5%;
 }
+/*CSS Zdjęcia/Galeria */
+.zdj_galeria{
+	width: 31%;
+	margin: 5px;
+	float: right;
+	border-radius:8px;
+	transition: transform .2s;
+}
+.zdj_galeria:hover{
+	transform: scale(1.3);
+}
+/*CSS Zdjęcia/Galeria KONIEC */

@@ -105,6 +105,7 @@ else
         $('.menuoption').eq(10).css('display', 'block');
         $('.menuoption').eq(11).css('display', 'block');
         $('.menuoption').eq(12).css('display', 'block');
+        $('.menuoption').eq(13).css('display', 'block');
     });
     document.getElementsByClassName('menubuttons')[2].addEventListener("mouseout", function(){
         $('.optionholder').eq(1).css('display', 'none');  
@@ -113,7 +114,13 @@ else
     
     document.getElementsByClassName("menubuttons")[3].addEventListener("mouseover", function(){
         $('.optionholder').eq(2).css('display', 'block');
-        $('.menuoption').eq(13).css('display', 'block'); 
+        $('.menuoption').eq(14).css('display', 'block');
+        $('.menuoption').eq(15).css('display', 'block');
+        $('.menuoption').eq(16).css('display', 'block');
+        $('.menuoption').eq(17).css('display', 'block');
+        $('.menuoption').eq(18).css('display', 'block');
+        $('.menuoption').eq(19).css('display', 'block');
+        
     });
     document.getElementsByClassName('menubuttons')[3].addEventListener("mouseout", function(){
         $('.optionholder').eq(2).css('display', 'none');  
@@ -121,8 +128,10 @@ else
 
     document.getElementsByClassName('menubuttons')[4].addEventListener("mouseover", function(){
         $('.optionholder').eq(3).css('display', 'block');
-        $('.menuoption').eq(14).css('display', 'block');
-        $('.menuoption').eq(15).css('display', 'block');
+        $('.menuoption').eq(20).css('display', 'block');
+        $('.menuoption').eq(21).css('display', 'block');
+        $('.menuoption').eq(22).css('display', 'block');
+        $('.menuoption').eq(23).css('display', 'block');
     });
     document.getElementsByClassName('menubuttons')[4].addEventListener("mouseout", function(){
         $('.optionholder').eq(3).css('display', 'none');
@@ -130,7 +139,12 @@ else
 
     document.getElementsByClassName('menubuttons')[5].addEventListener("mouseover", function(){
         $('.optionholder').eq(4).css('display', 'block');
-        $('.menuoption').eq(15).css('display', 'block');
+        $('.menuoption').eq(24).css('display', 'block');
+        $('.menuoption').eq(25).css('display', 'block');
+        $('.menuoption').eq(26).css('display', 'block');
+        $('.menuoption').eq(27).css('display', 'block');
+        $('.menuoption').eq(28).css('display', 'block');
+        
     });
     document.getElementsByClassName('menubuttons')[5].addEventListener("mouseout", function(){
         $('.optionholder').eq(4).css('display', 'none');
@@ -138,10 +152,10 @@ else
 
     document.getElementsByClassName("menubuttons")[6].addEventListener("mouseover", function(){
         $('.optionholder').eq(5).css('display', 'block');  
-        $('.menuoption').eq(16).css('display', 'block');
-        $('.menuoption').eq(17).css('display', 'block');
-        $('.menuoption').eq(18).css('display', 'block');
-        $('.menuoption').eq(19).css('display', 'block');  
+        $('.menuoption').eq(29).css('display', 'block');
+        $('.menuoption').eq(30).css('display', 'block');
+        $('.menuoption').eq(31).css('display', 'block');
+        $('.menuoption').eq(32).css('display', 'block');  
     });
     document.getElementsByClassName('menubuttons')[6].addEventListener("mouseout", function(){
         $('.optionholder').eq(5).css('display', 'none');  
@@ -255,6 +269,7 @@ function expand2()
         $('.menuoption').eq(10).css('display', 'block');
         $('.menuoption').eq(11).css('display', 'block');
         $('.menuoption').eq(12).css('display', 'block');
+        $('.menuoption').eq(13).css('display', 'block');
         rozwiniety2 = true;
     }
     else
@@ -271,6 +286,7 @@ function expand2()
             $('.menuoption').eq(10).css('display', 'block');
             $('.menuoption').eq(11).css('display', 'block');
             $('.menuoption').eq(12).css('display', 'block');
+            $('.menuoption').eq(13).css('display', 'block');
             rozwiniety2 = true;
         }
         else if(rozwiniety3 == true)
@@ -285,6 +301,7 @@ function expand2()
             $('.menuoption').eq(10).css('display', 'block');
             $('.menuoption').eq(11).css('display', 'block');
             $('.menuoption').eq(12).css('display', 'block');
+            $('.menuoption').eq(13).css('display', 'block');
             rozwiniety2 = true;
         }
         else if(rozwiniety6 == true)
@@ -299,6 +316,7 @@ function expand2()
             $('.menuoption').eq(10).css('display', 'block');
             $('.menuoption').eq(11).css('display', 'block');
             $('.menuoption').eq(12).css('display', 'block');
+            $('.menuoption').eq(13).css('display', 'block');
             rozwiniety2 = true;
         }
         else if(rozwiniety4 == true)
@@ -313,6 +331,7 @@ function expand2()
             $('.menuoption').eq(10).css('display', 'block');
             $('.menuoption').eq(11).css('display', 'block');
             $('.menuoption').eq(12).css('display', 'block');
+            $('.menuoption').eq(13).css('display', 'block');
             rozwiniety2 = true;
         }
         else if(rozwiniety5 == true)
@@ -327,6 +346,7 @@ function expand2()
             $('.menuoption').eq(10).css('display', 'block');
             $('.menuoption').eq(11).css('display', 'block');
             $('.menuoption').eq(12).css('display', 'block');
+            $('.menuoption').eq(13).css('display', 'block');
             rozwiniety2 = true;
         }
     }

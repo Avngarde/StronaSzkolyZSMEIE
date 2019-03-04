@@ -7,6 +7,21 @@ var rozwiniecie2 = false;
 var previous;
 var mniej = "Mniej...";
 var wiecej = "Więcej...";
+var wysokosc = $('.articles').eq(0).height();
+
+//.................................................
+wysokosc1 = $('.themepages').eq(0).height();
+wysokosc2 = $('.themepages').eq(1).height();
+if(wysokosc1 >= wysokosc2)
+{
+   $('.themepages').eq(1).height(wysokosc1);
+}
+else
+{
+   $('.themepages').eq(0).height(wysokosc2);
+}
+
+//.................................................
 
 $('.rozwiniecie').hide();
 
@@ -51,8 +66,8 @@ function expand(indeks1)
 {
    if(pozostaly_rozwiniety == false)
    {
-      $('.articles').eq(indeks1).animate({height: '320px'});
-      $('.button').eq(indeks1).animate({top: '190px'}, function() 
+      $('.articles').eq(indeks1).animate({height: 2.5*wysokosc});
+      $('.button').eq(indeks1).animate({top: 1.5*wysokosc}, function() 
           {
              $('.rozwiniecie').eq(indeks1).show();
              $('.rozwiniecie').eq(indeks1).fadeTo("slow", 1);
@@ -81,15 +96,15 @@ function expand(indeks1)
       $('.rozwiniecie').eq(previous).fadeTo("slow", 0, function()
       {
          $('.button').eq(previous).css('position', 'relative');
-         $('.articles').eq(previous).animate({height: '130px'});
+         $('.articles').eq(previous).animate({height: wysokosc});
          $('.button').eq(previous).animate({top: '0%'}, function()
          {
             $('.button > a').eq(previous).delay(4000);
             $('.button > a').eq(previous).html(wiecej);
 
 
-            $('.articles').eq(indeks1).animate({height: '320px'});
-            $('.button').eq(indeks1).animate({top: '190px'}, function() 
+            $('.articles').eq(indeks1).animate({height: 2.5*wysokosc});
+            $('.button').eq(indeks1).animate({top: 1.5*wysokosc}, function() 
                 {
                    $('.rozwiniecie').eq(indeks1).show();
                    $('.rozwiniecie').eq(indeks1).fadeTo("slow", 1);
@@ -122,7 +137,7 @@ function fold(indeks2)
    $('.rozwiniecie').eq(indeks2).fadeTo("slow", 0, function()
    {
       $('.button').eq(indeks2).css('position', 'relative');
-      $('.articles').eq(indeks2).animate({height: '130px'});
+      $('.articles').eq(indeks2).animate({height: wysokosc});
       $('.button').eq(indeks2).animate({top: '0%'}, function()
       {
          $('.button > a').eq(indeks2).delay(4000);

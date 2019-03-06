@@ -20,7 +20,12 @@ a{
 	text-align:center;
 	margin: 0 auto;
 	background-repeat: no-repeat;
+	backgroundsize:cover;
+	display:table;
+	background-attachment:fixed;
+	text-shadow: 3px 3px black;
 }
+
 #mainlogoholder{
 	color: white;
 	font-size: 2em;

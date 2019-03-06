@@ -49,6 +49,7 @@
 	opacity: 0;
 	font-size: 1em;
 	padding: 2px;
+	padding-top:10px;
 	clear:both;
 }
 table, td, th
@@ -58,8 +59,8 @@ table, td, th
 }
 .photo_articles{
 	width:90px; 
-	float: left;  
-	height: 88px; 
-	margin-top: 0.1%;"
+	float: left;   
+	margin-top: 0.1%;
+	padding-top:5px;
 	
 }

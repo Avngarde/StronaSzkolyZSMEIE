@@ -233,6 +233,7 @@
 		html{
 			width: 100vw;
 			}
+			
 }
 @media (min-width:0px) and (max-width: 400px){ 
 	#mainlogoholder{
@@ -362,9 +363,9 @@
 	height: 98vh;
 	overflow-x:auto;
 	}
-	#respmenuholder:hover{
-	right: 5px;
-	}
+	#rightmenubutton:hover #respmenuholder{
+		right: 5px;
+		}
 	html{
 	width: 100vw;
 	}

@@ -16,11 +16,10 @@ a{
 	width: 100%;
 	height: 300px;
 	overflow: hidden;
-	background-image: url('../slider/3a.png');
+	background-image: url('../slider/tlo.JPG');
 	text-align:center;
 	margin: 0 auto;
 	background-repeat: no-repeat;
-	backgroundsize:cover;
 	display:table;
 	background-attachment:fixed;
 	text-shadow: 3px 3px black;
@@ -79,7 +78,11 @@ a{
 	padding-right:0.5%;
 	padding-top: 0.5%;
 }
-
+#rightmenubutton{
+	border-radius: 5px;
+	display: none;
+	background-color: aquamarine;
+}
 .themepages{
 	width:46%;
 	float:right;
@@ -91,7 +94,6 @@ a{
 	text-align: center;
 	margin-right:1%;
 }
-
 #logos{
 	padding-top: 6%;
 	margin: 0 auto;
@@ -120,7 +122,6 @@ a{
 }
 .text_themepages{
 	text-align: left;
-	style: square;
 	padding-left: 10%;
 }
 

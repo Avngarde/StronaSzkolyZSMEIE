@@ -193,7 +193,7 @@
 	padding-top:1.7%;
 }
 	#banner{
-	background-image: url('../slider/sm.png');
+	background-image: url('../slider/tlomob.JPG');
 }
 	.zdj_galeria{
 	width:46%;
@@ -201,6 +201,35 @@
 	.zdj_galeria:hover{
 	transform:none;		
 	}
+	#rightmenubutton{
+		width: 40px;
+		height: 40px;
+		display: block;
+		z-index: 999;
+		position: absolute;
+		}
+		#menuright{
+			float: right;
+			right: -160px;
+			width: 100px;
+			z-index: 998;
+		}
+		#contentcontainer{
+			width: 100%;
+		}
+		#respmenuholder{
+		position: fixed;
+		width: 142px;
+		top: 0px;
+		right: -100px;
+		z-index: 997;
+		overflow-y: scroll;
+		height: 98vh;
+		overflow-x:auto;
+		}
+		#respmenuholder:hover{
+		right: 5px;
+		}
 }
 @media (min-width:0px) and (max-width: 400px){ 
 	#mainlogoholder{
@@ -209,7 +238,7 @@
 
 	#banner{
 	height:250px;
-	background-image: url('../slider/sm.png');
+	background-image: url('../slider/tlomob.JPG');
 	}
 
 	.menubuttons{
@@ -254,6 +283,7 @@
 	font-size: 0.55em;
 	width:98%;
 	float:none;
+	position: relative;
 }
 	#footer{
 	font-size: 0.8em;
@@ -288,8 +318,8 @@
 	font-size:0.8em;
 }
 	.photo_articles{
-	width:85px;
-	height:75px;
+	width:80px;
+	height:70px;
 }
 	.text_pasek{
 	padding-left:3%;
@@ -302,5 +332,34 @@
 }	
 	.zdj_galeria:hover{
 	transform:none;		
+	}
+	#rightmenubutton{
+	width: 30px;
+	height: 30px;
+	display: block;
+	z-index: 999;
+	position: absolute;
+	}
+	#menuright{
+		float: right;
+		right: -94px;
+		width: 80px;
+		z-index: 998;
+	}
+	#contentcontainer{
+		width: 100%;
+	}
+	#respmenuholder{
+	position: fixed;
+	width: 112px;
+	top: 0px;
+	right: -80px;
+	z-index: 997;
+	overflow-y: scroll;
+	height: 98vh;
+	overflow-x:auto;
+	}
+	#respmenuholder:hover{
+	right: 5px;
 	}
 }

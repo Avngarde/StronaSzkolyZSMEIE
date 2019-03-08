@@ -362,4 +362,7 @@
 	#respmenuholder:hover{
 	right: 5px;
 	}
+	html{
+	width: 100vw;
+	}
 }

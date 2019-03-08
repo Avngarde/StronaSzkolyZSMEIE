@@ -227,7 +227,7 @@
 		height: 98vh;
 		overflow-x:auto;
 		}
-		#respmenuholder:hover{
+		#rightmenubutton:hover #respmenuholder{
 		right: 5px;
 		}
 		html{

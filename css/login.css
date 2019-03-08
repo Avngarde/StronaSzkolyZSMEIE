@@ -7,8 +7,8 @@ body{
 
 #contentbox{
     width: 40%;
-    height: 600px;
-    margin-top: 5%;
+    height: 90vh;
+    margin-top: 2%;
     margin-left: 30%;
     border: 1px solid #b3b3b3;
     border-radius: 5px;
@@ -21,7 +21,7 @@ body{
 
 .napis{
     font-family: 'Open Sans', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 #osoba{
@@ -44,7 +44,7 @@ body{
 .inputy{
     box-shadow: none;
     margin-top: 1%;
-    font-size: 24px;
+    font-size: 1.2em;
     border: 1px solid #b3b3b3;
     border-radius: 3px;
 }

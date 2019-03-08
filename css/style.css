@@ -24,7 +24,6 @@ a{
 	background-attachment:fixed;
 	text-shadow: 3px 3px black;
 }
-
 #mainlogoholder{
 	color: white;
 	font-size: 2em;
@@ -77,11 +76,14 @@ a{
 	padding-left:0.5%;
 	padding-right:0.5%;
 	padding-top: 0.5%;
+	transition: 0.5s;
 }
 #rightmenubutton{
 	border-radius: 5px;
 	display: none;
-	background-color: aquamarine;
+	z-index: 999;
+	background-image: url('../ikony/menuicon.png');
+	background-size: 100%;
 }
 .themepages{
 	width:46%;

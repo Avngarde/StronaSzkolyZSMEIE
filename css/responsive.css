@@ -227,13 +227,12 @@
 		height: 98vh;
 		overflow-x:auto;
 		}
-		#rightmenubutton:hover #respmenuholder{
+		#respmenuholder:hover {
 		right: 5px;
 		}
 		html{
 			width: 100vw;
 			}
-			
 }
 @media (min-width:0px) and (max-width: 400px){ 
 	#mainlogoholder{
@@ -338,11 +337,11 @@
 	transform:none;		
 	}
 	#rightmenubutton{
+	position: absolute;
+	margin-top: 2px;
 	width: 30px;
 	height: 30px;
 	display: block;
-	z-index: 999;
-	position: absolute;
 	}
 	#menuright{
 		float: right;
@@ -355,7 +354,7 @@
 	}
 	#respmenuholder{
 	position: fixed;
-	width: 112px;
+	width: 110px;
 	top: 0px;
 	right: -80px;
 	z-index: 997;
@@ -363,9 +362,9 @@
 	height: 98vh;
 	overflow-x:auto;
 	}
-	#rightmenubutton:hover #respmenuholder{
-		right: 5px;
-		}
+	#respmenuholder:hover{
+	right: 5px;
+	}
 	html{
 	width: 100vw;
 	}

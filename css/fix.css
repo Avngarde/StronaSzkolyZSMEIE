@@ -105,7 +105,7 @@
 	z-index: 10;
 	top:0;
 	left: 0%;
-	
+
 }
 #leftarrowgaleria{
 	width: 4%;
@@ -118,7 +118,7 @@
 	width: 4%;
 	float: right;
 	margin-top: 33vh;
-	margin-right: 1%; 
+	margin-right: 1%;
 	margin-left: 4%;
 }
 #screenholderimg{
@@ -138,9 +138,12 @@
 	font-size:4em;
 	padding-left:1%;
 	color: #f0ebebe1;
+	border: 1px solid black;
+	border-radius:0 0 0 5px;
+	background-color: #ff4c4c;
 }
 #exit:hover{
-	background-color: #ff4d4d;
+	background-color: #e5210b;
 	color:white;
 }
 /*CSS Zdjęcia/Galeria KONIEC */

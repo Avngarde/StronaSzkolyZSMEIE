@@ -110,40 +110,40 @@
 #leftarrowgaleria{
 	width: 4%;
 	float: left;
-	margin-top: 37vh;
+	margin-top: 38vh;
 	margin-left: 1%;
 	margin-right: 4%;
 }
 #rightarrowgaleria{
 	width: 4%;
 	float: right;
-	margin-top: 33vh;
+	margin-top: 38vh;
 	margin-right: 1%;
 	margin-left: 4%;
 }
 #screenholderimg{
-	width: 75%;
+	width: 65vw;
 	background-repeat: no-repeat;
 	margin: 0 auto;
-	height: 90%;
-	background-color: aqua;
+	height: 90vh;
 	margin-top: 5vh;
 	float: left;
-	margin-left: 12.5%;
+	margin-left: 15vw;
 }
 #exit{
-	margin-top:0%;
-	margin-left:95%;
 	cursor:pointer;
-	font-size:4em;
-	padding-left:1%;
 	color: #f0ebebe1;
 	border: 1px solid black;
-	border-radius:0 0 0 5px;
+	border-radius:0 0 5px 5px;
 	background-color: #ff4c4c;
+	float: right;
+	width: 24px;
+	height: 24px;
+	padding:13px;
+	right: 19vw;
+	position: absolute;
 }
 #exit:hover{
 	background-color: #e5210b;
-	color:white;
 }
 /*CSS Zdjęcia/Galeria KONIEC */

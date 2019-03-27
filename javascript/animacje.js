@@ -4,6 +4,7 @@ var pozostaly_rozwiniety = false
 var rozwiniecie0 = false;
 var rozwiniecie1 = false;
 var rozwiniecie2 = false;
+var button = false;
 var previous;
 var mniej = "Mniej...";
 var wiecej = "Więcej...";
@@ -28,6 +29,38 @@ if(warunek1 > 700)
    
 }
 
+if(warunek1 > 0 && warunek1 < 400)
+{
+   $('#respmenuholder').css('right', '-80px');
+}
+else if(warunek1 > 401 && warunek1 <701)
+{
+   $('#respmenuholder').css('right', '-100px');
+}
+
+document.getElementById('rightmenubutton').addEventListener("click", function(){
+   if(button == false)
+   {
+      $('#respmenuholder').css('right', '5px');
+      button = true;
+   }
+   else if(button == true)
+   {
+      if(warunek1 > 0 && warunek1 < 400)
+      {
+         $('#respmenuholder').css('right', '-80px');
+         button = false;
+      }
+      else if(warunek1 > 401 && warunek1 <701)
+      {
+         $('#respmenuholder').css('right', '-100px');
+         button = false;
+      }
+      
+   }
+   
+});
+
 //.................................................
 
 $('.rozwiniecie').hide();
@@ -38,7 +71,7 @@ document.getElementsByClassName("button")[0].addEventListener("click", function(
    {
       expand(0); 
    }
-   else if(rozwiniecie0 == true)
+   else if(unek1rozwiniecie0 == true)
    {
       fold(0);
    }       

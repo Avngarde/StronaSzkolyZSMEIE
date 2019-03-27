@@ -4,7 +4,6 @@ body{
 	background-color: white;
     position: relative;
 }
-
 #contentbox{
     width: 40%;
     height: 90vh;
@@ -14,22 +13,18 @@ body{
     border-radius: 5px;
     text-align: center;
 }
-
 #logo{
     margin-top: 1%;
 }
-
 .napis{
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
 }
-
 #osoba{
     margin-top: 4%;
     border-radius: 50px;
     margin-left: 0%;
 }
-
 #logowanie{
     margin-top: 2%;
     width: 70%;
@@ -40,7 +35,6 @@ body{
     border-radius: 3px;
     box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .inputy{
     box-shadow: none;
     margin-top: 1%;

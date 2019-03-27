@@ -241,7 +241,7 @@
 }
 	#respmenuholder{
 	position: fixed;
-	width: 142px;
+	width: 144px;
 	top: 0px;
 	right: -100px;
 	z-index: 997;
@@ -250,7 +250,7 @@
 	overflow-x:auto;
 	}
 	html{
-	width: 100vw;
+	width: 101vw;
 	}
 }
 @media (min-width:0px) and (max-width: 400px){ 
@@ -384,11 +384,11 @@
 	position: fixed;
 	width: 110px;
 	top: 0px;
-	right: -80px;
+	right: -82px;
 	z-index: 997;
 	overflow-y: scroll;
 	height: 98vh;
-	overflow-x:auto;
+	overflow-x: hidden;
 }
 	html{
 	width: 100vw;

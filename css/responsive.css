@@ -10,7 +10,7 @@
 	width: 18px;
 	height: 18px;
 	padding:6px;
-	right: 21vw;
+	right: 8vw;
 }
 	.menuoptionlong {
 	height: 23px;
@@ -37,10 +37,26 @@
 	#footer{
 	font-size: 0.9em;
 }
-.optionholder{
+	.optionholder{
 	padding:4px;
 	padding-right: 4px;
 	padding-bottom: 4px;
+}
+	#screenholderimg{
+	width: 85%;
+	height: 50vw;
+	margin-top: 1%;
+	margin-left: 7%;
+}
+	#leftarrowgaleria{
+	width: 5%;
+	margin-top: 22vw;
+	margin-right: 5%;
+}
+	#rightarrowgaleria{
+	width: 5%;
+	margin-top: 22vw;
+	margin-left: 5%;
 }
 }
 
@@ -65,7 +81,7 @@
 	width: 18px;
 	height: 18px;
 	padding:6px;
-	right: 21vw;
+	right: 11vw;
 }
 	.menuoptionlong{
 	height: 22px;
@@ -81,13 +97,35 @@
 	font-size: 0.9em;
 }
 	.menubuttons{
-	font-size: 0.8em;}
+	font-size: 0.8em;
 }
-
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 1%;
+	margin-left: 5%;
+}	
+	#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 5%;
+}
+	#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 5%;
+}
+}
 
 @media (min-width:701px) and (max-width: 800px){
 	#mainlogoholder{
 	font-size: 1.4em;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 10%;
+	margin-left: 5%;
 }
 	.menubuttons{
 	font-size: 0.7em;
@@ -108,7 +146,7 @@
 	width: 18px;
 	height: 18px;
 	padding:6px;
-	right: 21vw;
+	right: 9vw;
 }
 	.menuoptionlong {
 	height: 22px;
@@ -130,6 +168,22 @@
 	.text_pasek{
 	padding-left:2.5%;
 	padding-top:1.2%;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 5%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 4%;
 }
 }
 
@@ -181,7 +235,7 @@
 	width: 18px;
 	height: 18px;
 	padding:6px;
-	right: 19vw;
+	right: 9vw;
 }
 	.menuoptionlong>br{
 	display:none;
@@ -218,11 +272,9 @@
 	background-image: url('../slider/tlomob.JPG');
 }
 	.galeria{
-	width:46%;
+	width:40%;
+	float:left;
 }	
-	.galeria:hover{
-	transform:none;		
-}
 	#rightmenubutton{
 	width: 40px;
 	height: 40px;
@@ -248,10 +300,26 @@
 	overflow-y: scroll;
 	height: 98vh;
 	overflow-x:auto;
-	}
+}
 	html{
-	width: 101vw;
-	}
+	width: 100vw;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 15%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 4%;
+}
 }
 @media (min-width:0px) and (max-width: 400px){ 
 	#mainlogoholder{
@@ -271,7 +339,7 @@
 	width: 14px;
 	height: 14px;
 	padding:4px;
-	right: 25vw;
+	right: 9vw;
 }
 	.menubuttons{
 	font-size: 0.7em;
@@ -322,7 +390,6 @@
 	.optionholder{
 	margin-bottom:3px;
 	position:absolute;
-
 }
 	#STRONY_TEMATYCZNE{
 	font-size: 1em;
@@ -392,5 +459,21 @@
 }
 	html{
 	width: 100vw;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 30%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 25vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 25vw;
+	margin-left: 4%;
 }
 }

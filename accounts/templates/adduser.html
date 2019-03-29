@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        {% load static %}
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <title>Logowanie - ZSMEiE Toruń</title>
+        <link rel="stylesheet"	href="{% static 'css/style.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/styleevent.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/login.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/fix.css' %}">
+		<link rel="stylesheet"  	href="{% static 'css/artykuly.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/responsive.css' %}" media="all and (max-width: 1124px)">
+    </head>
+
+    <body>
+
+        <div id="contentbox">
+            <img src="{% static 'ikony/zsmeie.png' %}" width="24%" alt="Logo Zsmeie" id="logo">
+
+            <p class="napis">Zaloguj się<br>
+            na swoje konto nauczyciela</p>
+
+            <div id="logowanie">
+                    <img src="{% static 'ikony/login2.png' %}" width="70px" alt="osoba" id="osoba">
+                    <form method="POST" action="{% url 'signupfunc' %}">
+                        {% csrf_token %}
+                        <div id="inputholder1">
+                            Login: <input name="username" class="inputy" type="text">
+                        </div>
+
+                        <div id="inputholder1">
+                            Login: <input name="email" class="inputy" type="text">
+                        </div>
+
+                        <div id="inputholder2">
+                            Hasło: <input name="password" class="inputy" type="password">
+                        </div>
+
+                        <center><input type="submit" value="Zaloguj!"></center>
+                        
+                    </form>
+            </div>
+             
+        </div>
+
+    </body>
+</html>

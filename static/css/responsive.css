@@ -1,0 +1,373 @@
+@media (min-width: 961px) and (max-width: 1124px){
+	.menuoption {
+	height: 19px;
+	padding-top: 8px;
+	margin-top:5px;
+	font-size: 0.67em;
+	width: 96%;
+}
+	.menuoptionlong {
+	height: 23px;
+	padding-top: 3px;
+	margin-top:3px;
+	font-size: 0.67em;
+	width: 96%;
+}
+
+	.themepages{
+	width:46%;
+	padding:1%;
+	background-color: white;
+	border: 1px black solid;
+	margin-top: 2%;
+	border-radius:5px;
+	text-align: center;
+	font-size: 0.7em;
+}
+	#sponsors{
+	text-align: bottom;
+	font-size: 0.7em;
+	height:2%;
+}
+	#footer{
+	font-size: 0.9em;
+}
+.optionholder{
+	padding:4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+}
+
+
+@media (min-width:800px) and (max-width: 961px){
+	#mainlogoholder{
+	font-size: 1.4em;
+}
+
+	.menuoption {
+	height: 18px;
+	width: 95%;
+	padding-top: 8px;
+	margin-top:5px;
+	font-size: 0.7em;
+}
+	.menuoptionlong{
+	height: 22px;
+	width: 95%;
+	padding-top: 4px;
+	margin-top:5px;
+	font-size: 0.7em;
+}
+	.themepages{
+	font-size: 0.7em;
+
+}
+	#footer{
+	font-size: 0.9em;
+}
+
+	.menubuttons{
+	font-size: 0.8em;}
+}
+
+
+@media (min-width:701px) and (max-width: 800px){
+	#mainlogoholder{
+	font-size: 1.4em;
+}
+	.menubuttons{
+	font-size: 0.7em;
+	height:20px;
+}
+	#menu{
+	height: 50px;
+}
+
+	.menuoption {
+	height: 18px;
+	width: 92%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.75em;
+	margin-left: 1px;
+}
+	.menuoptionlong {
+	height: 22px;
+	width: 92%;
+	padding-top: 3px;
+	margin-top:4px;
+	font-size: 0.75em;
+	margin-left: 1px;
+}
+	.themepages{
+	font-size: 0.7em;
+}
+	#sponsors{
+	font-size: 0.7em;
+}
+	#footer{
+	font-size: 0.9em;
+}
+	.text_pasek{
+	padding-left:2.5%;
+	padding-top:1.2%;
+}
+}
+
+
+@media (min-width:400px) and (max-width: 700px){
+	#mainlogoholder{
+	font-size: 1.4em;
+}
+	.menubuttons{
+	font-size: 0.7em;
+	height: 25px;
+	padding-top: 5px;
+	float: none;
+	width: 100%;
+	z-index:initial;
+
+}
+	#contentcontainer{
+	height:150%;
+}
+	#menu{
+	height: 315px;
+}
+	#menubuttonlayout{
+	height: 26px;
+	font-size: 1.6em;
+}
+	.menuoption {
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	z-index:2;
+}
+	.menuoptionlong{
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	position:relative;
+	z-index:2;
+}
+	.menuoptionlong>br{
+	display:none;
+}
+	.themepages{
+	font-size: 0.7em;
+	width:96%;
+	float:none;
+}
+
+	#footer{
+	font-size: 0.9em;
+}
+	.optionholder{
+	margin-bottom:3px;
+	position:absolute;
+}
+	#menuright{
+	min-height:165%;
+}
+	.rozwiniecie{
+	font-size: 0.8em;
+}
+	.text_in_articles{
+	font-size:0.8em;
+}
+	.button{
+	margin-top: 0.5%;
+	font-size:0.8em;
+}
+	.text_pasek{
+	padding-left:3%;
+	padding-top:1.7%;
+}
+	#banner{
+	background-image: url('../slider/tlomob.JPG');
+}
+	.zdj_galeria{
+	width:46%;
+}	
+	.zdj_galeria:hover{
+	transform:none;		
+	}
+	#rightmenubutton{
+		width: 40px;
+		height: 40px;
+		display: block;
+		z-index: 999;
+		position: absolute;
+		}
+		#menuright{
+			float: right;
+			right: -160px;
+			width: 100px;
+			z-index: 998;
+		}
+		#contentcontainer{
+			width: 100%;
+		}
+		#respmenuholder{
+		position: fixed;
+		width: 142px;
+		top: 0px;
+		right: -100px;
+		z-index: 997;
+		overflow-y: scroll;
+		height: 98vh;
+		overflow-x:auto;
+		}
+		#respmenuholder:hover {
+		right: 5px;
+		}
+		html{
+			width: 100vw;
+			}
+}
+@media (min-width:0px) and (max-width: 400px){ 
+	#mainlogoholder{
+	font-size: 1em;
+}
+
+	#banner{
+	height:250px;
+	background-image: url('../slider/tlomob.JPG');
+	}
+
+	.menubuttons{
+	font-size: 0.7em;
+	height: 25px;
+	padding-top: 5px;
+	float: none;
+	width: 100%;
+	z-index:initial;
+}
+	#menu{
+	height: 315px;
+}
+	#menubuttonlayout{
+	height: 26px;
+	font-size: 1.6em;
+}
+	.menuoption {
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	position:relative;
+	z-index:2;
+
+}
+	.menuoptionlong{
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	position:relative;
+	z-index:2;
+}
+	.themepages{
+	font-size: 0.55em;
+	width:98%;
+	float:none;
+	position: relative;
+}
+	#footer{
+	font-size: 0.8em;
+}
+	.optionholder{
+	margin-bottom:3px;
+	position:absolute;
+
+}
+	#STRONY_TEMATYCZNE{
+	font-size: 1em;
+	width: 95%;
+	float:none;
+}
+	.menuoptionlong>br{
+	display:none;
+}
+	.rozwiniecie{
+	font-size: 0.7em;
+}
+	.text_in_articles{
+	font-size:0.7em;
+}
+	.button{
+	margin-top: 0.5%;
+	font-size:0.7em;
+}
+	.articles{
+	height: 100px;
+}
+	.pasek_articles{
+	height:20px;
+	font-size:0.8em;
+}
+	.photo_articles{
+	width:70px;
+	height:70px;
+}
+	.text_pasek{
+	padding-left:3%;
+	padding-top:1.2%;
+}
+	.zdj_galeria{
+	width:47%;
+	margin:3px;
+	float:left;
+}	
+	.zdj_galeria:hover{
+	transform:none;		
+	}
+	#rightmenubutton{
+	position: absolute;
+	margin-top: 2px;
+	width: 30px;
+	height: 30px;
+	display: block;
+	}
+	#menuright{
+		float: right;
+		right: -94px;
+		width: 80px;
+		z-index: 998;
+	}
+	#contentcontainer{
+		width: 100%;
+	}
+	#respmenuholder{
+	position: fixed;
+	width: 110px;
+	top: 0px;
+	right: -80px;
+	z-index: 997;
+	overflow-y: scroll;
+	height: 98vh;
+	overflow-x:auto;
+	}
+	#respmenuholder:hover{
+	right: 5px;
+	}
+	html{
+	width: 100vw;
+	}
+}

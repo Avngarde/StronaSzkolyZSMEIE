@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+
+{% for article in articles %}
+<article class="articles" style="margin-top: 1%;">
+		<div class="pasek_articles">
+			<div class="text_pasek">{{article.add_date}}</div>
+		</div>
+		<div><img src="{{article.icon.url}}" class="photo_articles"></div>
+		<div class="text_in_articles" style="padding-top: 2%;"><strong style="color: #3399ff;">{{article.title}}</strong></div>
+		<div class="text_in_articles">{{article.description}}</div>
+		<div class="button"><a href="#indeks">Więcej...</a></div>
+
+		<div class="rozwiniecie">{{article.content}}</div>
+</article>
+{% endfor %}
+
+{% endblock %}

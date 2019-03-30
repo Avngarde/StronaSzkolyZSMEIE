@@ -84,6 +84,7 @@ a{
 	z-index: 999;
 	background-image: url('../ikony/menuicon.png');
 	background-size: 100%;
+	cursor: pointer;
 }
 .themepages{
 	width:46%;

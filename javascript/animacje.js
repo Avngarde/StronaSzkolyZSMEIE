@@ -20,7 +20,7 @@ var wysokosc = $('.articles').eq(0).height();
 var warunek1 = $('body').width();
 
 //.................................................
-if(warunek1 > 700)
+/*if(warunek1 > 700)
 {
    wysokosc1 = $('.themepages').eq(0).height();
    wysokosc2 = $('.themepages').eq(1).height();
@@ -33,7 +33,7 @@ if(warunek1 > 700)
    {
       $('.themepages').eq(0).height(wysokosc2);
       $('#menuright').height(wysokosc2 * 1.04);
-   }
+   }*/
 
 
    

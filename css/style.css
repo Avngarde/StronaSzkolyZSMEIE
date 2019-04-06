@@ -55,12 +55,12 @@ a{
 }
 #container{
 	width: 100%;
-	height:800px;
+	min-height:135vh;
 	margin: 0 auto;
 }
 #contentcontainer{
 	width: 69%;
-	min-height: 120%;
+	min-height: 120vh;
 	background-color:#d8d8d8;
 	margin: 0 auto;
 	float:left;
@@ -75,8 +75,8 @@ a{
 	float:left;
 	padding-left:0.5%;
 	padding-right:0.5%;
-	padding-top: 0.5%;
 	transition: 0.5s;
+	height: auto;
 }
 #rightmenubutton{
 	border-radius: 5px;
@@ -87,15 +87,18 @@ a{
 	cursor: pointer;
 }
 .themepages{
-	width:46%;
+	width:49%;
 	float:right;
-	padding:1%;
 	background-color: white;
-	border: 1px black solid;
 	margin-top: 2%;
-	border-radius:5px;
 	text-align: center;
 	margin-right:1%;
+	position: relative;
+	height: 130vh;	
+}
+ul li{
+	list-style-type: none;
+	padding-bottom: 10px;
 }
 #logos{
 	padding-top: 6%;
@@ -129,16 +132,13 @@ a{
 }
 
 .STRONY_TEMATYCZNE{
-	padding-top: 0.1%;
-	width: 99%;
+	width: 100%;
 	background-color: #94bcfc;
 	margin: 0 auto;
 	text-align: center;
-	border-style: solid;
-	border-color: black;
-	border-width: thin;
 	padding-top: 1%;
-	border-radius: 6px;
+	padding-bottom: 1%;
+	border-radius: 5px;
 }
 /* PODSTRONA O PATRONIE */
 .p1_text{

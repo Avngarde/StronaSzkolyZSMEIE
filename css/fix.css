@@ -23,8 +23,7 @@
 	text-decoration:none;
 }
 /* ----------------------- */
-#podstrona
-{
+#podstrona{
 	width: 95%;
 	background-color: white;
 	padding-left: 1%;
@@ -49,15 +48,13 @@
 
 /*Koniec CSS do ogarniania rekrutacji*/
 /*slider*/
-.slidercontainer
-{
+.slidercontainer{
 	clear: both;
 	max-width: 60%;
 	margin: 0 auto;
 	z-index: 0;
 }
-.slide
-{
+.slide{
 	display: none;
 	z-index: 0;
 	position: relative;
@@ -65,8 +62,7 @@
 
 /*koniec slidera na historii szkoły*/
 
-.arrow
-{
+.arrow{
 	width: 10%;
 	height: 98.6%;
 	color: white;
@@ -77,8 +73,7 @@
 	font-size: 1.8em;
 	cursor: pointer;
 }
-.arrow:hover
-{
+.arrow:hover{
 	background-color: black;
 	opacity: 0.8;
 }

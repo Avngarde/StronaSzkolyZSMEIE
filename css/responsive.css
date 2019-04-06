@@ -20,13 +20,6 @@
 	width: 96%;
 }
 	.themepages{
-	width:46%;
-	padding:1%;
-	background-color: white;
-	border: 1px black solid;
-	margin-top: 2%;
-	border-radius:5px;
-	text-align: center;
 	font-size: 0.7em;
 }
 	#sponsors{
@@ -200,9 +193,6 @@
 	width: 100%;
 	z-index:initial;
 }
-	#contentcontainer{
-	height:150%;
-}
 	#menu{
 	height: 315px;
 }
@@ -244,6 +234,7 @@
 	font-size: 0.7em;
 	width:96%;
 	float:none;
+	height: auto;
 }
 	#footer{
 	font-size: 0.9em;
@@ -253,7 +244,7 @@
 	position:absolute;
 }
 	#menuright{
-	min-height:165%;
+	height:auto;
 }
 	.rozwiniecie{
 	font-size: 0.8em;
@@ -287,6 +278,7 @@
 	right: -160px;
 	width: 100px;
 	z-index: 998;
+	border: 1px black solid;
 }
 	#contentcontainer{
 	width: 100%;
@@ -383,6 +375,7 @@
 	width:98%;
 	float:none;
 	position: relative;
+	height:auto;
 }
 	#footer{
 	font-size: 0.8em;
@@ -443,6 +436,8 @@
 	right: -94px;
 	width: 80px;
 	z-index: 998;
+	height:auto;
+	border: 1px black solid;
 }
 	#contentcontainer{
 	width: 100%;

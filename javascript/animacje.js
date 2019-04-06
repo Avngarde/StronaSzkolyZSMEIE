@@ -33,11 +33,9 @@ var warunek1 = $('body').width();
    {
       $('.themepages').eq(0).height(wysokosc2);
       $('#menuright').height(wysokosc2 * 1.04);
-   }*/
+   }
 
-
-   
-}
+}*/
 
 if(warunek1 > 0 && warunek1 < 400)
 {

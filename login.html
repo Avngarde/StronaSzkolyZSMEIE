@@ -21,18 +21,22 @@
             <div id="logowanie">
                     <img src="ikony/login2.png" width="70px" alt="osoba" id="osoba">
                     <form>
-
-                        <div id="inputholder1">
-                            Login: <input name="login" class="inputy" type="text">
+                        <fieldset class="fieldset">
+                            <legend class="legend">Dane logowania</legend>
+                                <input name="login" class="inputy" type="text" placeholder="  login">
+                                <input name="haslo" class="inputy" type="password" placeholder="  hasło">
+                            </fieldset>                    
+                        <div id="inputholder3">
+                            <input type="reset" id="cofnij" value="Cofnij">
                         </div>
-                        <div id="inputholder2">
-                            Hasło: <input name="haslo" class="inputy" type="password">
+                        <div id="inputholder4">
+                            <input type="submit" id="dalej" value="Dalej">
                         </div>
+                        
 
                     </form>
             </div>
 
         </div>
-
     </body>
 </html>

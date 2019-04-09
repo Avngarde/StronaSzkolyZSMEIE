@@ -33,9 +33,9 @@ Wykorzystaliśmy standardowo:
 
 Użyte przez nas technologie backendowe to:
 
-  * Django - Framework napisany w języku Python, łatwy i wygodny, pozwalający w niemęczący sposób projektować naszą aplikacje internetową.
+  * Django - Framework napisany w języku Python, łatwy i wygodny, pozwalający w niemęczący sposób projektować naszą aplikacje              internetową.
 
-  * Python - Język programowania w którym został napisany Django, to w nim napisaliśmy wszystkie skrypty dla strony naszej szkoły.
+  * Python - Język programowania w którym został napisany Django, to w nim napisaliśmy wszystkie skrypty dotyczące edycji strony dla        nauczycieli naszej szkoły.
 
   * PostgreSQL - Wykorzystaną przez nas technologią baz danych jest PostgreSQL.
   

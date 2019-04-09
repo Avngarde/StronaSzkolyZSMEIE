@@ -81,6 +81,7 @@ body{
     height: 70%;
     margin-top: 4%;
 }
-.legend{
-    display: block;   
+#legend{
+    display: block; 
+     color: #999999;
 }

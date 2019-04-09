@@ -33,7 +33,7 @@ Wykorzystaliśmy standardowo:
 
 Użyte przez nas technologie backendowe to:
 
-  * Django - Framework napisany w języku Python, łatwy i wygodny, pozwalający w nie męczący sposób projektować naszą aplikacje internetową.
+  * Django - Framework napisany w języku Python, łatwy i wygodny, pozwalający w niemęczący sposób projektować naszą aplikacje internetową.
 
   * Python - Język programowania w którym został napisany Django, to w nim napisaliśmy wszystkie skrypty dla strony naszej szkoły.
 

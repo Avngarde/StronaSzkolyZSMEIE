@@ -37,6 +37,18 @@ var warunek1 = $('body').width();
 
 }*/
 
+document.getElementById('RODO').addEventListener("mouseover", function(){
+   document.getElementById('RODO_text').style.marginLeft = "18px";
+   $('#RODO_text a').css('color', 'white');
+});
+
+document.getElementById('RODO').addEventListener("mouseout", function(){
+   document.getElementById('RODO_text').style.marginLeft = "7px";
+   $('#RODO_text a').css('color', 'black');
+});
+
+
+
 if(warunek1 > 0 && warunek1 < 400)
 {
    $('#respmenuholder').css('right', '-80px');

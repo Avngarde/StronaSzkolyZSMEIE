@@ -39,8 +39,8 @@ a{
 #silverplate{
 	z-index:1;
 	margin-left: -2vw;
-	margin-top: 11vh;
-	position: absolute;
+	margin-top: 10vh;
+	position: relative;
 }
 #socialmedia{
 	width: 85px;
@@ -72,7 +72,7 @@ a{
 	font-weight: bold;
 }
 #zoom{
-	width: 70px;
+	width: 120px;
 	height:30px;
 	background-color: #fdf900;
 	position: absolute;
@@ -83,10 +83,12 @@ a{
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	right: 0;
+	/*-webkit-transition: height 2s; 
+	transition: height 2s;*/
 }
 #zoom_text{
 	margin-left:4%;
-	margin-top:3%;
+	margin-top:0%;
 	font-size:1.1em;
 	font-weight: bold;
 }

@@ -38,9 +38,9 @@ a{
 }
 #silverplate{
 	z-index:1;
-	margin-left: -2vw;
+	margin-left: -1.2vw;
 	margin-top: 10vh;
-	position: relative;
+	position: absolute;
 }
 #socialmedia{
 	width: 85px;
@@ -58,7 +58,7 @@ a{
 	height:27px;
 	background-color: #75a8fc;
 	position: absolute;
-	margin-top: -65px;
+	margin-top: -75px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border: 2px solid #adccfd;
@@ -72,25 +72,23 @@ a{
 	font-weight: bold;
 }
 #zoom{
-	width: 120px;
-	height:30px;
+	width: 137px;
+	height:33px;
 	background-color: #fdf900;
 	position: absolute;
-	margin-top: -32px;
-	margin-bottom: 5px;
-	font-family: 'Ropa Sans', sans-serif;
-	padding-right: 20px;
+	margin-top: -37px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	right: 0;
+	border: 1px black solid;
+	border-right: none;
 	/*-webkit-transition: height 2s; 
 	transition: height 2s;*/
 }
-#zoom_text{
-	margin-left:4%;
-	margin-top:0%;
-	font-size:1.1em;
-	font-weight: bold;
+#zoom img{
+	float: left;
+	width: 33px;
+	height: 33px;
 }
 #menu{
 	width:100%;

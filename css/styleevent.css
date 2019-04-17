@@ -6,9 +6,7 @@
 	float:right;
 	font-size: 0.9em;
 }
-
-#logininputs
-{
+#logininputs{
 	margin-left: 30%;
 	font-size:3em;
 	margin-top:10%;
@@ -19,18 +17,17 @@
 	width: 13%;
 	background-color: white;
 	border:2px solid black;
-	float:left;
 	padding-top: 8px;
 	margin-left:0.5%;
 	margin-top:10px;
 	text-align:center;
-	display: inline-block;
 	font-weight: bold;
 	border-radius:5px;
 	z-index: 1;
 	position: relative;
 	font-size: 1em;
 	cursor: pointer;
+	float:left;
 }
 .menuoption {
 	display: none;

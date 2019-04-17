@@ -33,16 +33,14 @@ a{
 	margin-bottom: 1.5%;
 }
 #zsmeiemainlogo{
-	z-index:2;
-	position:absolute;
-	margin-right: 30vw;
+	z-index:3;
+	margin: 0 auto;
 }
 #silverplate{
 	z-index:1;
-	margin-left: 9%;	
-}
-#test{
-	margin-top: 3%;
+	margin-left: -2vw;
+	margin-top: 11vh;
+	position: absolute;
 }
 #socialmedia{
 	width: 85px;
@@ -56,16 +54,17 @@ a{
 	padding-left: 5px;
 }
 #RODO{
-	width: 80px;
+	width: 70px;
 	height:27px;
 	background-color: #75a8fc;
 	position: absolute;
-	margin-top: -85px;
+	margin-top: -65px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border: 2px solid #adccfd;
 	cursor:pointer;
-	margin-left:94.5%;
+	float: right;
+	right: 0;
 }
 #RODO_text{
 	margin-left: 7px;
@@ -73,17 +72,17 @@ a{
 	font-weight: bold;
 }
 #zoom{
-	width: 90px;
-	height:45px;
-	background-color: #fcec5f;
+	width: 70px;
+	height:30px;
+	background-color: #fdf900;
 	position: absolute;
-	margin-top: -50px;
+	margin-top: -32px;
 	margin-bottom: 5px;
-	margin-left:93%;
 	font-family: 'Ropa Sans', sans-serif;
 	padding-right: 20px;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
+	right: 0;
 }
 #zoom_text{
 	margin-left:4%;
@@ -91,7 +90,6 @@ a{
 	font-size:1.1em;
 	font-weight: bold;
 }
-
 #menu{
 	width:100%;
 	height: 58px;

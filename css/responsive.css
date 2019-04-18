@@ -312,7 +312,15 @@
 	margin-top: 23vw;
 	margin-left: 4%;
 }
+.socialicon{
+	filter: grayscale(0%);
 }
+#RODO img{
+	filter: grayscale(0%);
+}
+}
+
+
 @media (min-width:0px) and (max-width: 400px){ 
 	#mainlogoholder{
 	font-size: 1em;
@@ -470,5 +478,11 @@
 	width: 5%;
 	margin-top: 25vw;
 	margin-left: 4%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
 }
 }

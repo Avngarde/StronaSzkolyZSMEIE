@@ -48,11 +48,14 @@
 	-webkit-transition: ease-out 0.4s;
 	-moz-transition: ease-out 0.7s;
 	transition: ease-out 0.6s;
+	list-style: none;
 }
-
+ul li{padding: 0;}
 .optionholder{
 	background-color:white;
 	width: 98%;
+	margin: 0;
+	padding: 0;
 	border:2px solid black;
 	margin-left: -2px;
 	margin-top: 7px;
@@ -62,6 +65,7 @@
 	padding:1%;
 	padding-right: 1%;
 	padding-bottom: 3px;
+	list-style: none;
 }
 
 /* MENU END */
@@ -77,7 +81,6 @@
 	font-size: 1em;
 	padding:3%;
 }
-
 .themepages a, a:visited {
   text-decoration: none;
   position: relative;

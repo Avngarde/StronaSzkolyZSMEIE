@@ -159,3 +159,15 @@
 	background-color: #ec200a;
 }
 /*CSS Zdjęcia/Galeria KONIEC */
+/*ikony header*/
+.socialicon{
+	filter: grayscale(100%);
+	transition: 0.2s;
+}
+.socialicon:hover{
+	filter: grayscale(0%);
+}
+#RODO:hover img{
+	filter: grayscale(0%);
+}
+/*ikony header-koniec*/

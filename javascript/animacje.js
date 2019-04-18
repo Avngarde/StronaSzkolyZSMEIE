@@ -19,6 +19,7 @@ var wiecej = "Więcej...";
 var wysokosc = $('.articles').eq(0).height();
 var warunek1 = $('body').width();
 
+$('body').css('fontSize', '1em');
 //.................................................
 /*if(warunek1 > 700)
 {
@@ -37,9 +38,22 @@ var warunek1 = $('body').width();
 
 }*/
 
-document.getElementById('RODO').addEventListener("mouseover", function(){
-   document.getElementById('RODO_text').style.marginLeft = "18px";
-   $('#RODO_text a').css('color', 'white');
+
+
+document.getElementsByClassName('zoom-icon')[0].addEventListener("click", function(){
+    alert("jej");
+});
+
+document.getElementsByClassName('zoom-icon')[1].addEventListener("click", function(){
+    $('body').css('fontSize', '0.7em');
+});
+
+document.getElementsByClassName('zoom-icon')[2].addEventListener("click", function(){
+    $('body').css('fontSize', '1em');
+});
+
+document.getElementsByClassName('zoom-icon')[3].addEventListener("click", function(){
+    $('body').css('fontSize', '1.3em');
 });
 
 document.getElementById('RODO').addEventListener("mouseout", function(){

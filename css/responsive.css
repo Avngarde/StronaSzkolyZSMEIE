@@ -51,6 +51,12 @@
 	margin-top: 22vw;
 	margin-left: 5%;
 }
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
+}
 }
 
 @media (min-width:800px) and (max-width: 961px){
@@ -107,6 +113,12 @@
 	width: 5%;
 	margin-top: 23vw;
 	margin-left: 5%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
 }
 }
 
@@ -177,6 +189,12 @@
 	width: 5%;
 	margin-top: 23vw;
 	margin-left: 4%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
 }
 }
 

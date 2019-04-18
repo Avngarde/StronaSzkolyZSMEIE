@@ -170,4 +170,7 @@
 #RODO:hover img{
 	filter: grayscale(0%);
 }
+.zoom-icon:hover{
+	background-color: #ecececcc;
+}
 /*ikony header-koniec*/

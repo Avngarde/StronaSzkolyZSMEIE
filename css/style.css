@@ -79,7 +79,7 @@ a{
 	right: 0;
 	border: 1px black solid;
 	border-right: none;
-
+	cursor: pointer;
 	/*-webkit-transition: height 2s; 
 	transition: height 2s;*/
 }

@@ -223,3 +223,25 @@ ul li{
 	width: 98%;
 	margin-right:2%;
 }
+/* ARCHIWUM */
+#archiwum_header{
+	margin-top:3%;
+	font-size: 1.5em;
+}
+.semestr{
+	margin-top: 4%;
+}
+.titles_articles{
+	padding-top: 1%;
+	font-size: 1.3em;
+	font-family: 'Roboto', sans-serif;
+}
+.titles_articles a{
+	color: #0A5794;
+	float: left;
+}
+.data{
+	float:left;
+	padding-left: 3%;
+	padding-top:0%;
+}

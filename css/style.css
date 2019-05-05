@@ -237,6 +237,27 @@ ul li{
 #archiwum_header{
 	margin-top:3%;
 	font-size: 1.5em;
+	margin-left: 25%;
+	float:left;
+}
+#archiwum_next{
+	float:right;
+	position: relative;
+	margin-top:5%;
+	
+}
+#archiwum_prev{
+	float:left;
+	position: relative;
+	margin-top:5%;
+}
+.arrow_text{
+	margin-bottom: -20%;
+	margin-left: 23%;
+}
+#szukaj{
+	margin-top: 13%;
+	margin-left:40%;
 }
 .semestr{
 	margin-top: 4%;

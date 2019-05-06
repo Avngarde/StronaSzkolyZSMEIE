@@ -190,8 +190,18 @@
 					</a>
 				</div>	
 	
-				<div id="szukaj">
-					<input type="search">
+				<div id="archiwum_input">
+					<form>
+					<input id="lupa" type="image" src="../ikony/lupa.png" title="szukaj" height="40" width="40" value="submit" onfocus="blur()"/>
+					<input id="szukaj" type="search" placeholder="">
+					<div id="szukaj_wybor">
+						<p>Wybierz metodę szukania</p>
+						<div id="sposob">
+							<input type="radio" value="Nazwa" name="sposob" checked>Nazwa<br>
+							<input type="radio" value="Data" name="sposob">Data
+						</div>
+					</form>
+					</div>
 				</div>
 
 
@@ -385,6 +395,14 @@ e-mail : zsmeie@zsmeie.torun.pl<br>
 </footer>
 <script src="../javascript/jquery.js"></script>
 <script src="../javascript/menu.js"></script>
+<script>
+	document.getElementById('szukaj_wybor').addEventListener("mouseover", function(){
+		$('#sposob').css('display', 'block');
+	});
+	document.getElementById('szukaj_wybor').addEventListener("mouseout", function(){
+		$('#sposob').css('display', 'none');
+	});
+</script>
 </body>
 
 </html>

@@ -38,7 +38,14 @@ $('body').css('fontSize', '1em');
 
 }*/
 
+document.getElementById('szukaj_wybor').addEventListener("mouseover", function(){
+   $('#sposob').css('display', 'block');
+});
+document.getElementById('szukaj_wybor').addEventListener("mouseout", function(){
+   $('#sposob').css('display', 'none');
+});
 
+//......................................................................................................
 
 document.getElementsByClassName('zoom-icon')[0].addEventListener("click", function(){
     alert("jej");

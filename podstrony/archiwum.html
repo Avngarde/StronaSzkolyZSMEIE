@@ -193,12 +193,34 @@
 				<div id="archiwum_input">
 					<form>
 					<input id="lupa" type="image" src="../ikony/lupa.png" title="szukaj" height="40" width="40" value="submit" onfocus="blur()"/>
-					<input id="szukaj" type="search" placeholder="">
+					<input id="szukaj" type="search" placeholder="Wpisz nazwę artykułu">
+
+					<div id="miesiąc">
+						<p>Wybierz miesiąc</p>
+						<div id="miesiące">
+							<input type="radio" value="Styczeń" name="miesiąc" checked>Styczeń<br>
+							<input type="radio" value="Luty" name="miesiąc" checked>Luty<br>
+							<input type="radio" value="Marzec" name="miesiąc" checked>Marzec<br>
+							<input type="radio" value="Kwiecień" name="miesiąc" checked>Kwiecień<br>
+							<input type="radio" value="Maj" name="miesiąc" checked>Maj<br>
+							<input type="radio" value="Czerwiec" name="miesiąc" checked>Czerwiec<br>
+							<input type="radio" value="Lipiec" name="miesiąc" checked>Lipiec<br>
+							<input type="radio" value="Sierpień" name="miesiąc" checked>Sierpień<br>
+							<input type="radio" value="Wrzesień" name="miesiąc" checked>Wrzesień<br>
+							<input type="radio" value="Październik" name="miesiąc" checked>Październik<br>
+							<input type="radio" value="Listopad" name="miesiąc" checked>Listopad<br>
+							<input type="radio" value="Grudzień" name="miesiąc" checked>Grudzień<br>
+						</div>
+					</div>
+
+						<input type="text" name="rok" placeholder="Wpisz rok" id="rok">
+					
+
 					<div id="szukaj_wybor">
 						<p>Wybierz metodę szukania</p>
 						<div id="sposob">
-							<input type="radio" value="Nazwa" name="sposob" checked>Nazwa<br>
-							<input type="radio" value="Data" name="sposob">Data
+							<input type="radio" value="Nazwa" name="sposob" id="Nazwa" checked>Nazwa<br>
+							<input type="radio" value="Data" name="sposob" id="Data">Data
 						</div>
 					</form>
 					</div>

@@ -3,6 +3,7 @@ body{
 	font-family: 'Ropa Sans', sans-serif;
 	background-color: #d8d8d8;
 	position: relative;
+	z-index:1;
 }
 a{
 	color:black;
@@ -284,9 +285,12 @@ ul li{
 	float:left;
 }
 #szukaj{
-	font-size:1.8em;
+	font-size:1em;
 	width:30%;
 	float:left;
+	line-height:1;
+	height:39px;
+	padding-left:1%;
 }
 #szukaj_wybor{
 	background-color:#e7e7e7;
@@ -302,4 +306,42 @@ ul li{
 #sposob{
 	display:none;
 	line-height:1;
+}
+#rok{
+	width:15%;
+	background-color:white;
+	border: 1px solid black;
+	border-color:grey;
+	display:none;
+	float:left;
+	border-left: none;
+	font-size:1em;
+	height:36px;
+	padding-left:2%;
+}
+#miesiąc{
+	width:20%;
+	background-color:white;
+	border: 1px solid black;
+	border-color:grey;
+	line-height: 0.5;
+	display:none;
+	float:left;
+	height:38px;
+	cursor:pointer;
+	padding-left:2%;
+}
+#miesiąc p{
+	font-size:1em;
+}
+#miesiące{
+	background-color:#e7e7e7;
+	z-index:99;
+	position:absolute;
+	width: 8.5%;
+	line-height:1.5;
+	top: 37.3%;
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+	display:none;
 }

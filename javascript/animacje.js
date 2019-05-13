@@ -38,11 +38,32 @@ $('body').css('fontSize', '1em');
 
 }*/
 
+//SKRYPTY DO ARCHIWUM
 document.getElementById('szukaj_wybor').addEventListener("mouseover", function(){
    $('#sposob').css('display', 'block');
 });
 document.getElementById('szukaj_wybor').addEventListener("mouseout", function(){
    $('#sposob').css('display', 'none');
+});
+
+document.getElementById('Data').addEventListener("click", function(){
+   $('#szukaj').css('display', 'none');
+   $('#miesiąc').css('display', 'block');
+   $('#rok').css('display', 'block');
+});
+
+document.getElementById('miesiąc').addEventListener("mouseover", function(){
+   $('#miesiące').css('display', 'block');
+});
+document.getElementById('miesiąc').addEventListener("mouseout", function(){
+   $('#miesiące').css('display', 'none');
+});
+
+document.getElementById('Nazwa').addEventListener("click", function(){
+   $('#miesiąc').css('display', 'none');
+   $('#rok').css('display', 'none');
+   $('#szukaj').css('display', 'block');
+   
 });
 
 //......................................................................................................

@@ -54,6 +54,7 @@
 	padding: 2px;
 	padding-top:10px;
 	clear:both;
+	cursor: default;
 }
 table, td, th
 {

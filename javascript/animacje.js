@@ -20,53 +20,6 @@ var wysokosc = $('.articles').eq(0).height();
 var warunek1 = $('body').width();
 
 $('body').css('fontSize', '1em');
-//.................................................
-/*if(warunek1 > 700)
-{
-   wysokosc1 = $('.themepages').eq(0).height();
-   wysokosc2 = $('.themepages').eq(1).height();
-   if(wysokosc1 >= wysokosc2)
-   {
-      $('.themepages').eq(1).height(wysokosc1);
-      $('#menuright').height(wysokosc1 * 1.04);
-   }
-   else if(wysokosc1 < wysokosc2)
-   {
-      $('.themepages').eq(0).height(wysokosc2);
-      $('#menuright').height(wysokosc2 * 1.04);
-   }
-
-}*/
-
-//SKRYPTY DO ARCHIWUM
-document.getElementById('szukaj_wybor').addEventListener("mouseover", function(){
-   $('#sposob').css('display', 'block');
-});
-document.getElementById('szukaj_wybor').addEventListener("mouseout", function(){
-   $('#sposob').css('display', 'none');
-});
-
-document.getElementById('Data').addEventListener("click", function(){
-   $('#szukaj').css('display', 'none');
-   $('#miesiąc').css('display', 'block');
-   $('#rok').css('display', 'block');
-});
-
-document.getElementById('miesiąc').addEventListener("mouseover", function(){
-   $('#miesiące').css('display', 'block');
-});
-document.getElementById('miesiąc').addEventListener("mouseout", function(){
-   $('#miesiące').css('display', 'none');
-});
-
-document.getElementById('Nazwa').addEventListener("click", function(){
-   $('#miesiąc').css('display', 'none');
-   $('#rok').css('display', 'none');
-   $('#szukaj').css('display', 'block');
-   
-});
-
-//......................................................................................................
 
 document.getElementsByClassName('zoom-icon')[0].addEventListener("click", function(){
     alert("jej");

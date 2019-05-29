@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	font-family: 'Ropa Sans', sans-serif;
-	background-color: #d40000;
+	background-color: #d8d8d8;
 	position: relative;
 }
 a{
@@ -11,18 +11,6 @@ a{
 .terminy{
 	text-align:center;
 }
-
-#headerinfo{
-	background-color: black;
-	width:auto;
-	height:50%;
-	color: orange;
-	padding-left: 5%;
-	text-align: center;
-	font-size: 100%;
-}
-
-
 #banner{
 	display:block;
 	width: 100%;
@@ -44,6 +32,16 @@ a{
 	padding:10px;
 	margin-bottom: 1.5%;
 }
+#zsmeiemainlogo{
+	z-index:3;
+	margin: 0 auto;
+}
+#silverplate{
+	z-index:1;
+	margin-left: -25px;
+	margin-top: 70px;
+	position: absolute;
+}
 #socialmedia{
 	width: 85px;
 	height:27px;
@@ -55,24 +53,66 @@ a{
 	border-bottom-right-radius: 5px;
 	padding-left: 5px;
 }
+#RODO{
+	width: 75px;
+	height:21px;
+	background-color: #75a8fc;
+	position: absolute;
+	margin-top: -75px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border: 2px solid #adccfd;
+	cursor:pointer;
+	float: right;
+	right: 0;
+	font-weight: bold;
+	padding-top: 7px;
+}
+#RODOtext{
+	height:100%;
+	width:50%;
+	float:right;
+	margin-right:1%;
+}
+#zoom{
+	width: 137px;
+	height:33px;
+	background-color: #fdf900;
+	position: absolute;
+	margin-top: -37px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	right: 0;
+	border: 1px black solid;
+	border-right: none;
+	cursor: pointer;
+	/*-webkit-transition: height 2s; 
+	transition: height 2s;*/
+}
+#zoom img{
+	float: left;
+	width: 33px;
+	height: 33px;
+}
 #menu{
 	width:100%;
 	height: 58px;
 	background-color: white;
 }
 #menubuttonlayout{
-	height: 34px;
 	width: 90%;
+	padding: 0;
+	list-style: none;
 	margin: 0 auto;
 }
 #container{
 	width: 100%;
-	height:800px;
+	min-height:135vh;
 	margin: 0 auto;
 }
 #contentcontainer{
 	width: 69%;
-	min-height: 120%;
+	min-height: 120vh;
 	background-color:#d8d8d8;
 	margin: 0 auto;
 	float:left;
@@ -87,8 +127,8 @@ a{
 	float:left;
 	padding-left:0.5%;
 	padding-right:0.5%;
-	padding-top: 0.5%;
 	transition: 0.5s;
+	height: auto;
 }
 #rightmenubutton{
 	border-radius: 5px;
@@ -98,15 +138,19 @@ a{
 	background-size: 100%;
 }
 .themepages{
-	width:46%;
+	width:49%;
 	float:right;
-	padding:1%;
 	background-color: white;
-	border: 1px black solid;
 	margin-top: 2%;
-	border-radius:5px;
 	text-align: center;
 	margin-right:1%;
+	position: relative;
+	height: 130vh;
+		
+}
+ul li{
+	list-style-type: none;
+	padding-bottom: 10px;
 }
 #logos{
 	padding-top: 6%;
@@ -119,7 +163,7 @@ a{
 	margin-bottom: 2.5%;
 	margin-top:3%;
 	padding:2%;
-	border-bottom:1px solid black;
+	border-bottom:1px solid rgb(128, 127, 127);
 }
 /* MENU RIGHT END */
 #footer{
@@ -138,18 +182,18 @@ a{
 	text-align: left;
 	padding-left: 10%;
 }
+.text_themepages li{
+	margin-top:5%;
+}
 
 .STRONY_TEMATYCZNE{
-	padding-top: 0.1%;
-	width: 99%;
-	background-color: #0c3575;
+	width: 100%;
+	background-color: #94bcfc;
 	margin: 0 auto;
 	text-align: center;
-	border-style: solid;
-	border-color: black;
-	border-width: thin;
 	padding-top: 1%;
-	border-radius: 6px;
+	padding-bottom: 1%;
+	border-radius: 5px;
 }
 /* PODSTRONA O PATRONIE */
 .p1_text{
@@ -188,4 +232,117 @@ a{
 	float: left;
 	width: 98%;
 	margin-right:2%;
+}
+/* ARCHIWUM */
+#archiwum_header{
+	margin-top:3%;
+	font-size: 1.5em;
+	margin-left: 25%;
+	float:left;
+}
+#archiwum_next{
+	float:right;
+	position: relative;
+	margin-top:5%;
+	
+}
+#archiwum_prev{
+	float:left;
+	position: relative;
+	margin-top:5%;
+}
+.arrow_text{
+	margin-bottom: -20%;
+	margin-left: 23%;
+}
+#archiwum_input{
+	margin-top: 13%;
+	margin-left:35%;
+}
+.semestr{
+	margin-top: 4%;
+}
+.titles_articles{
+	padding-top: 0%;
+	font-size: 1.3em;
+	font-family: 'Roboto', sans-serif;
+}
+.titles_articles a{
+	color: #0A5794;
+	float: left;
+}
+.data{
+	float:left;
+	padding-left: 3%;
+	padding-top:0%;
+}
+#lupa{
+	right:75.2%;
+	position:absolute;
+	border-top-left-radius:5px;
+	border-bottom-left-radius:5px;
+	float:left;
+}
+#szukaj{
+	font-size:1.8em;
+	width:30%;
+	float:left;
+}
+#szukaj_wybor{
+	background-color:#e7e7e7;
+	width:30%;
+	float:left;
+	margin-left:0.3%;
+	line-height:0.5;
+	padding-left:1%;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+	cursor:pointer;
+}
+#sposob{
+	display:none;
+	line-height:1;
+}
+
+#sposob{
+	display:none;
+	line-height:1;
+}
+#rok{
+	width:15%;
+	background-color:white;
+	border: 1px solid black;
+	border-color:grey;
+	display:none;
+	float:left;
+	border-left: none;
+	font-size:1em;
+	height:36px;
+	padding-left:2%;
+}
+#miesiąc{
+	width:20%;
+	background-color:white;
+	border: 1px solid black;
+	border-color:grey;
+	line-height: 0.5;
+	display:none;
+	float:left;
+	height:38px;
+	cursor:pointer;
+	padding-left:2%;
+}
+#miesiąc p{
+	font-size:1em;
+}
+#miesiące{
+	background-color:#e7e7e7;
+	z-index:99;
+	position:absolute;
+	width: 8.5%;
+	line-height:1.5;
+	top: 35.9%;
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
+	display:none;
 }

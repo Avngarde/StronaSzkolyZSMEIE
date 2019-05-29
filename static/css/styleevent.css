@@ -7,8 +7,16 @@
 	font-size: 0.9em;
 }
 
-#logininputs
-{
+#headerinfo{
+	background-color: black;
+	width:auto;
+	height:20px;
+	color: orange;
+	text-align: center;
+	font-size: 100%;
+}
+
+#logininputs{
 	margin-left: 30%;
 	font-size:3em;
 	margin-top:10%;
@@ -19,24 +27,23 @@
 	width: 13%;
 	background-color: white;
 	border:2px solid black;
-	float:left;
 	padding-top: 8px;
 	margin-left:0.5%;
 	margin-top:10px;
 	text-align:center;
-	display: inline-block;
 	font-weight: bold;
 	border-radius:5px;
 	z-index: 1;
 	position: relative;
 	font-size: 1em;
 	cursor: pointer;
+	float:left;
 }
 .menuoption {
 	display: none;
 	height: 24px;
 	width: 97%;
-	color:black;
+	color: black;
 	border:2px solid black;
 	padding-top: 8px;
 	margin: 0 auto;
@@ -51,11 +58,14 @@
 	-webkit-transition: ease-out 0.4s;
 	-moz-transition: ease-out 0.7s;
 	transition: ease-out 0.6s;
+	list-style: none;
 }
-
+ul li{padding: 0;}
 .optionholder{
 	background-color:white;
 	width: 98%;
+	margin: 0;
+	padding: 0;
 	border:2px solid black;
 	margin-left: -2px;
 	margin-top: 7px;
@@ -65,6 +75,7 @@
 	padding:1%;
 	padding-right: 1%;
 	padding-bottom: 3px;
+	list-style: none;
 }
 
 /* MENU END */
@@ -80,7 +91,6 @@
 	font-size: 1em;
 	padding:3%;
 }
-
 .themepages a, a:visited {
   text-decoration: none;
   position: relative;
@@ -92,7 +102,7 @@
   bottom: 0;
   left: 0;
   width: 0%;
-  background: red;
+  background: #0099FF;
   transition: 0.2s;
 }
 .themepages a:hover:after, a:visited:hover:after {

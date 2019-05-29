@@ -6,6 +6,12 @@
 	font-size: 0.67em;
 	width: 96%;
 }
+	#exit{
+	width: 18px;
+	height: 18px;
+	padding:6px;
+	right: 8vw;
+}
 	.menuoptionlong {
 	height: 23px;
 	padding-top: 3px;
@@ -13,15 +19,7 @@
 	font-size: 0.67em;
 	width: 96%;
 }
-
 	.themepages{
-	width:46%;
-	padding:1%;
-	background-color: white;
-	border: 1px black solid;
-	margin-top: 2%;
-	border-radius:5px;
-	text-align: center;
 	font-size: 0.7em;
 }
 	#sponsors{
@@ -32,25 +30,64 @@
 	#footer{
 	font-size: 0.9em;
 }
-.optionholder{
+	.optionholder{
 	padding:4px;
 	padding-right: 4px;
 	padding-bottom: 4px;
 }
+	#screenholderimg{
+	width: 85%;
+	height: 50vw;
+	margin-top: 1%;
+	margin-left: 7%;
 }
-
+	#leftarrowgaleria{
+	width: 5%;
+	margin-top: 22vw;
+	margin-right: 5%;
+}
+	#rightarrowgaleria{
+	width: 5%;
+	margin-top: 22vw;
+	margin-left: 5%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
+}
+}
 
 @media (min-width:800px) and (max-width: 961px){
 	#mainlogoholder{
 	font-size: 1.4em;
 }
-
 	.menuoption {
 	height: 18px;
 	width: 95%;
 	padding-top: 8px;
 	margin-top:5px;
 	font-size: 0.7em;
+}
+	.text_in_articles{
+	padding-left: 100px;
+}	
+	.text_in_articles2{
+	padding-left: 100px;
+}
+
+#adminarticletools{
+	margin-bottom: 4%;
+	margin-left: 40%;
+}
+
+
+	#exit{
+	width: 18px;
+	height: 18px;
+	padding:6px;
+	right: 11vw;
 }
 	.menuoptionlong{
 	height: 22px;
@@ -61,20 +98,47 @@
 }
 	.themepages{
 	font-size: 0.7em;
-
 }
+
 	#footer{
 	font-size: 0.9em;
 }
-
 	.menubuttons{
-	font-size: 0.8em;}
+	font-size: 0.8em;
 }
-
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 1%;
+	margin-left: 5%;
+}	
+	#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 5%;
+}
+	#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 5%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
+}
+}
 
 @media (min-width:701px) and (max-width: 800px){
 	#mainlogoholder{
 	font-size: 1.4em;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 10%;
+	margin-left: 5%;
 }
 	.menubuttons{
 	font-size: 0.7em;
@@ -83,7 +147,6 @@
 	#menu{
 	height: 50px;
 }
-
 	.menuoption {
 	height: 18px;
 	width: 92%;
@@ -91,6 +154,17 @@
 	margin-top:4px;
 	font-size: 0.75em;
 	margin-left: 1px;
+}
+
+#adminarticletools{
+	margin-bottom: 10%;
+	margin-left: 30%;
+}
+	#exit{
+	width: 18px;
+	height: 18px;
+	padding:6px;
+	right: 9vw;
 }
 	.menuoptionlong {
 	height: 22px;
@@ -113,6 +187,28 @@
 	padding-left:2.5%;
 	padding-top:1.2%;
 }
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 5%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 4%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
+}
 }
 
 
@@ -127,10 +223,6 @@
 	float: none;
 	width: 100%;
 	z-index:initial;
-
-}
-	#contentcontainer{
-	height:150%;
 }
 	#menu{
 	height: 315px;
@@ -139,6 +231,13 @@
 	height: 26px;
 	font-size: 1.6em;
 }
+
+#adminarticletools{
+	margin-bottom: 10%;
+	margin-left: 35%;
+}
+
+
 	.menuoption {
 	height: 18px;
 	width: 99%;
@@ -148,7 +247,7 @@
 	margin-left: 1px;
 	margin-bottom:1px;
 	z-index:2;
-}
+}	
 	.menuoptionlong{
 	height: 18px;
 	width: 99%;
@@ -160,6 +259,12 @@
 	position:relative;
 	z-index:2;
 }
+	#exit{
+	width: 18px;
+	height: 18px;
+	padding:6px;
+	right: 9vw;
+}
 	.menuoptionlong>br{
 	display:none;
 }
@@ -167,8 +272,8 @@
 	font-size: 0.7em;
 	width:96%;
 	float:none;
+	height: auto;
 }
-
 	#footer{
 	font-size: 0.9em;
 }
@@ -177,7 +282,7 @@
 	position:absolute;
 }
 	#menuright{
-	min-height:165%;
+	height:auto;
 }
 	.rozwiniecie{
 	font-size: 0.8em;
@@ -186,7 +291,6 @@
 	font-size:0.8em;
 }
 	.button{
-	margin-top: 0.5%;
 	font-size:0.8em;
 }
 	.text_pasek{
@@ -196,54 +300,91 @@
 	#banner{
 	background-image: url('../slider/tlomob.JPG');
 }
-	.zdj_galeria{
-	width:46%;
+	.galeria{
+	width:40%;
+	float:left;
 }	
-	.zdj_galeria:hover{
-	transform:none;		
-	}
 	#rightmenubutton{
-		width: 40px;
-		height: 40px;
-		display: block;
-		z-index: 999;
-		position: absolute;
-		}
-		#menuright{
-			float: right;
-			right: -160px;
-			width: 100px;
-			z-index: 998;
-		}
-		#contentcontainer{
-			width: 100%;
-		}
-		#respmenuholder{
-		position: fixed;
-		width: 142px;
-		top: 0px;
-		right: -100px;
-		z-index: 997;
-		overflow-y: scroll;
-		height: 98vh;
-		overflow-x:auto;
-		}
-		#respmenuholder:hover {
-		right: 5px;
-		}
-		html{
-			width: 100vw;
-			}
+	width: 40px;
+	height: 40px;
+	display: block;
+	z-index: 999;
+	position: absolute;
 }
+	#menuright{
+	float: right;
+	right: -160px;
+	width: 100px;
+	z-index: 998;
+	border: 1px black solid;
+}
+	#contentcontainer{
+	width: 100%;
+}
+	#respmenuholder{
+	position: fixed;
+	width: 144px;
+	top: 0px;
+	right: -100px;
+	z-index: 997;
+	overflow-y: scroll;
+	height: 98vh;
+	overflow-x:auto;
+}
+	html{
+	width: 100vw;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 15%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 4%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
+}
+}
+
+
 @media (min-width:0px) and (max-width: 400px){ 
 	#mainlogoholder{
 	font-size: 1em;
 }
-
+	.text_in_articles{
+	margin-top: 30px; 
+}	
+	.text_in_articles2{
+	font-size: 0.7em;
+}
 	#banner{
 	height:250px;
 	background-image: url('../slider/tlomob.JPG');
-	}
+}
+	#exit{
+	width: 14px;
+	height: 14px;
+	padding:4px;
+	right: 9vw;
+}
+
+
+#adminarticletools{
+	margin-bottom: 10%;
+	margin-left: 70%;
+}
 
 	.menubuttons{
 	font-size: 0.7em;
@@ -270,7 +411,6 @@
 	margin-bottom:1px;
 	position:relative;
 	z-index:2;
-
 }
 	.menuoptionlong{
 	height: 18px;
@@ -288,6 +428,7 @@
 	width:98%;
 	float:none;
 	position: relative;
+	height:auto;
 }
 	#footer{
 	font-size: 0.8em;
@@ -295,7 +436,6 @@
 	.optionholder{
 	margin-bottom:3px;
 	position:absolute;
-
 }
 	#STRONY_TEMATYCZNE{
 	font-size: 1em;
@@ -312,7 +452,6 @@
 	font-size:0.7em;
 }
 	.button{
-	margin-top: 0.5%;
 	font-size:0.7em;
 }
 	.articles{
@@ -330,44 +469,65 @@
 	padding-left:3%;
 	padding-top:1.2%;
 }
-	.zdj_galeria{
+	.galeria{
 	width:47%;
 	margin:3px;
 	float:left;
 }	
-	.zdj_galeria:hover{
+	.galeria:hover{
 	transform:none;		
-	}
+}
 	#rightmenubutton{
 	position: absolute;
 	margin-top: 2px;
 	width: 30px;
 	height: 30px;
 	display: block;
-	}
+}
 	#menuright{
-		float: right;
-		right: -94px;
-		width: 80px;
-		z-index: 998;
-	}
+	float: right;
+	right: -94px;
+	width: 80px;
+	z-index: 998;
+	height:auto;
+	border: 1px black solid;
+}
 	#contentcontainer{
-		width: 100%;
-	}
+	width: 100%;
+}
 	#respmenuholder{
 	position: fixed;
 	width: 110px;
 	top: 0px;
-	right: -80px;
+	right: -82px;
 	z-index: 997;
 	overflow-y: scroll;
 	height: 98vh;
-	overflow-x:auto;
-	}
-	#respmenuholder:hover{
-	right: 5px;
-	}
+	overflow-x: hidden;
+}
 	html{
 	width: 100vw;
-	}
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 30%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 25vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 25vw;
+	margin-left: 4%;
+}
+.socialicon{
+	filter: grayscale(0%);
+}
+#RODO img{
+	filter: grayscale(0%);
+}
 }

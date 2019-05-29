@@ -19,11 +19,13 @@ from pages import views,urls
 from django.conf.urls.static import static
 from django.conf import settings
 from accounts import urls
+from articles import urls
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name="home"),
+    path('artykuly/', include('articles.urls') ),
     path('podstrony/', include('pages.urls') ),
-    path('konto/', include('accounts.urls') )
+    path('konto/', include('accounts.urls') ),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

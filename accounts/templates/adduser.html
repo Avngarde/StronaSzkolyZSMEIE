@@ -13,14 +13,12 @@
     </head>
 
     <body>
-
         <div id="contentbox">
             <img src="{% static 'ikony/zsmeie.png' %}" width="24%" alt="Logo Zsmeie" id="logo">
 
-            <p class="napis">Zaloguj się<br>
-            na swoje konto nauczyciela</p>
+            <p class="napis">Dodaj nowego administratora</p>
 
-            <div id="logowanie">
+            <div id="greyholder">
                     <img src="{% static 'ikony/login2.png' %}" width="70px" alt="osoba" id="osoba">
                     <form method="POST" action="{% url 'signupfunc' %}">
                         {% csrf_token %}
@@ -29,7 +27,7 @@
                         </div>
 
                         <div id="inputholder1">
-                            Login: <input name="email" class="inputy" type="text">
+                            Email: <input name="email" class="inputy" type="text">
                         </div>
 
                         <div id="inputholder2">
@@ -41,7 +39,14 @@
                     </form>
             </div>
              
+            {% if messages %}
+                {% for message in messages %}
+                    <script>alert("{{message}}")</script>
+                {% endfor %}
+            {% endif %}
         </div>
+
+
 
     </body>
 </html>

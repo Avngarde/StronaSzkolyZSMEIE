@@ -2,6 +2,7 @@ from django.shortcuts import render,redirect
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.contrib.auth.decorators  import login_required
+from django.contrib import messages
 
 
 def renderlogin(request):
@@ -16,7 +17,8 @@ def loginfunc(request):
         login(request,user)
         return redirect('home')
     else:
-        return redirect('home')
+        messages.error(request,"Nie poprawny login bądź hasło")
+        return redirect('logowanie')
 
 @login_required
 def rendersignup(request):
@@ -24,17 +26,19 @@ def rendersignup(request):
 
 @login_required
 def signupfunc(request):
-    try:
-        user = User.objects.get(username = request.POST['username'])
-        return redirect('home')
-    except User.DoesNotExist:
-        user = User.objects.create_user(
-            username = request.POST['username'],
-            email = request.POST['email'],
-            password = request.POST['password'], 
-            is_staff = True)
-
-        return redirect('home')
+    if request.method == "POST":
+        try:
+            User.objects.get(username = request.POST['username'])
+            messages.error(request, "Podany użytkownik już istnieje")
+            return redirect('dodajusera')
+        except User.DoesNotExist:
+            User.objects.create_user(
+                username = request.POST['username'],
+                email = request.POST['email'],
+                password = request.POST['password'], 
+                is_staff = True)
+            messages.success(request,'Pomyślnie dodano nowego użytkownika')
+            return redirect('home')
 
 def logoutfunc(request):
     logout(request)

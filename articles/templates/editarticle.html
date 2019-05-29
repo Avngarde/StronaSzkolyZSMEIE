@@ -3,7 +3,7 @@
     <head>
         {% load static %}
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <title>Logowanie - ZSMEiE Toruń</title>
+        <title>ZSMEiE Toruń</title>
         <link rel="stylesheet"	href="{% static 'css/style.css' %}">
 		<link rel="stylesheet" 	href="{% static 'css/styleevent.css' %}">
 		<link rel="stylesheet" 	href="{% static 'css/login.css' %}">
@@ -13,37 +13,34 @@
     </head>
 
     <body>
-
         <div id="contentbox">
             <img src="{% static 'ikony/zsmeie.png' %}" width="24%" alt="Logo Zsmeie" id="logo">
-
-            <p class="napis">Zaloguj się<br>
-            na swoje konto nauczyciela</p>
+            <p class="napis">Edytuj artykuł</p>
 
             <div id="greyholder">
-                    <img src="{% static 'ikony/login2.png' %}" width="70px" alt="osoba" id="osoba">
-                    <form method="POST" action="{% url 'loginfunc' %}">
+                    <form method="POST" enctype="multipart/form-data" action="{% url 'editarticlefunc' article_id=article.id %}">
                         {% csrf_token %}
                         <div id="inputholder1">
-                            Login: <input name="username" class="inputy" type="text">
-                        </div>
-                        <div id="inputholder2">
-                            Hasło: <input name="password" class="inputy" type="password">
+                            Tytuł: <input name="title" class="inputy" type="text" value="{{ article.title }}">
                         </div>
 
-                        <center><input type="submit" value="Zaloguj!"></center>
+                        <div id="inputholder1">
+                            Opis: <input name="description" class="inputy" type="text" value="{{ article.description }}">
+                        </div>
+                        &nbsp;
+                        <div id="inputholder1">
+                            Ikona: <input name="icon" class="input" type="file" value="{{ article.icon }}">
+                        </div>
+
+
+                        <div id="inputholder2">
+                            <textarea id="content" name="content"  class="textareainput" cols="55" rows="5" placeholder="Zawartość artykułu">{{article.content}}</textarea>
+                        </div>
+
+                        <center><input type="submit" value="Edytuj!"></center>
                         
                     </form>
             </div>
-             
-        {% if messages %}
-            {% for message in messages %}
-                <script>alert("{{message}}")</script>
-            {% endfor %}
-        {% endif %}
-
-
         </div>
-
     </body>
 </html>

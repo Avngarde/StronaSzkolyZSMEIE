@@ -4,88 +4,10 @@
 
 {% load static %}
 
-<article id="podstrona" style="background-color:#eaeaea;">
-	<img src="zdjecia/s1.JPG" class="zdj_galeria">
-	<img src="zdjecia/s2.JPG" class="zdj_galeria">
-	<img src="zdjecia/s3.JPG" class="zdj_galeria">
-	<img src="zdjecia/s4.JPG" class="zdj_galeria">
-	<img src="zdjecia/s5.JPG" class="zdj_galeria">
-	<img src="zdjecia/s6.JPG" class="zdj_galeria">
-	<img src="zdjecia/s8.JPG" class="zdj_galeria">
-	<img src="zdjecia/s10.JPG" class="zdj_galeria">
-	<img src="zdjecia/s11.JPG" class="zdj_galeria">
-	<img src="zdjecia/s12.JPG" class="zdj_galeria">
-	<img src="zdjecia/s13.JPG" class="zdj_galeria">
-	<img src="zdjecia/s14.JPG" class="zdj_galeria">
-	<img src="zdjecia/s15.JPG" class="zdj_galeria">
-	<img src="zdjecia/s16.JPG" class="zdj_galeria">
-	<img src="zdjecia/s18.JPG" class="zdj_galeria">
-	<img src="zdjecia/s19.JPG" class="zdj_galeria">
-	<img src="zdjecia/s20.JPG" class="zdj_galeria">
-	<img src="zdjecia/s21.JPG" class="zdj_galeria">
-	<img src="zdjecia/s22.JPG" class="zdj_galeria">
-	<img src="zdjecia/s23.JPG" class="zdj_galeria">
-	<img src="zdjecia/s24.JPG" class="zdj_galeria">
-	<img src="zdjecia/s25.JPG" class="zdj_galeria">
-	<img src="zdjecia/s26.JPG" class="zdj_galeria">
-	<img src="zdjecia/s27.JPG" class="zdj_galeria">
-	<img src="zdjecia/s28.JPG" class="zdj_galeria">
-	<img src="zdjecia/s29.JPG" class="zdj_galeria">
-	<img src="zdjecia/s30.JPG" class="zdj_galeria">
-	<img src="zdjecia/s31.JPG" class="zdj_galeria">
-	<img src="zdjecia/s32.JPG" class="zdj_galeria">
-	<img src="zdjecia/s33.JPG" class="zdj_galeria">
-	<img src="zdjecia/s34.JPG" class="zdj_galeria">
-	<img src="zdjecia/s35.JPG" class="zdj_galeria">
-	
-	<img src="zdjecia/i1.JPG" class="zdj_galeria">
-	<img src="zdjecia/i2.JPG" class="zdj_galeria">
-	<img src="zdjecia/i3.JPG" class="zdj_galeria">
-	<img src="zdjecia/i4.JPG" class="zdj_galeria">
-	<img src="zdjecia/i5.JPG" class="zdj_galeria">
-	<img src="zdjecia/i6.JPG" class="zdj_galeria">
-	<img src="zdjecia/i7.JPG" class="zdj_galeria">
-	<img src="zdjecia/i8.JPG" class="zdj_galeria">
-	<img src="zdjecia/i9.JPG" class="zdj_galeria">
-	<img src="zdjecia/i10.JPG" class="zdj_galeria">
-	<img src="zdjecia/i11.JPG" class="zdj_galeria">
-	<img src="zdjecia/i12.JPG" class="zdj_galeria">
-	<img src="zdjecia/i13.JPG" class="zdj_galeria">
-	<img src="zdjecia/i14.JPG" class="zdj_galeria">
-	<img src="zdjecia/i15.JPG" class="zdj_galeria">
-	<img src="zdjecia/i16.JPG" class="zdj_galeria">
-	<img src="zdjecia/i17.JPG" class="zdj_galeria">
-	<img src="zdjecia/i18.JPG" class="zdj_galeria">
-	<img src="zdjecia/i19.JPG" class="zdj_galeria">
-	<img src="zdjecia/i20.JPG" class="zdj_galeria">
-	<img src="zdjecia/i21.JPG" class="zdj_galeria">
-	<img src="zdjecia/i22.JPG" class="zdj_galeria">
-	<img src="zdjecia/i23.JPG" class="zdj_galeria">
-	<img src="zdjecia/i24.JPG" class="zdj_galeria">
-	<img src="zdjecia/i25.JPG" class="zdj_galeria">
-	
-	<img src="zdjecia/k1.JPG" class="zdj_galeria">
-	<img src="zdjecia/k3.JPG" class="zdj_galeria">
-	<img src="zdjecia/k4.JPG" class="zdj_galeria">
-	<img src="zdjecia/k5.JPG" class="zdj_galeria">
-	<img src="zdjecia/k7.JPG" class="zdj_galeria">
-	<img src="zdjecia/k8.JPG" class="zdj_galeria">
-	<img src="zdjecia/k9.JPG" class="zdj_galeria">
-	<img src="zdjecia/k11.JPG" class="zdj_galeria">
-	<img src="zdjecia/k12.JPG" class="zdj_galeria">
-	<img src="zdjecia/k13.JPG" class="zdj_galeria">
-	<img src="zdjecia/k14.JPG" class="zdj_galeria">
-	<img src="zdjecia/k15.JPG" class="zdj_galeria">
-	<img src="zdjecia/k16.JPG" class="zdj_galeria">
-	<img src="zdjecia/k18.JPG" class="zdj_galeria">
-	<img src="zdjecia/k20.JPG" class="zdj_galeria">
-	<img src="zdjecia/k21.JPG" class="zdj_galeria">
-	<img src="zdjecia/k22.JPG" class="zdj_galeria">
-	<img src="zdjecia/k23.JPG" class="zdj_galeria">
+{% if user.is_authenticated %}
+    <center><a href="{% url 'edycjarender' subpage_name=content.name %}">Edytuj</a></center>
+{% endif %}
 
-</article>
+{{ content.content|safe }}
 
-
-<script src="../javascript/jquery.js"></script>
-<script src="../javascript/menu.js"></script>
 {% endblock %}

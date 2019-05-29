@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}													
+														
+	<article class="articles" style="height: 330px; margin-top: 5%;">
+
+    <div class="pasek_articles">
+      <div class="text_pasek">6 marzec 2019r.</div>
+    </div>
+    <div><img src="../articleimg/forum.jpg" class="photo_articles"></div>
+     <div class="text_in_articles"><span>ZSMEiE na III Toruńskim Forum Zawodowców</span></div>
+     <div class="text_in_articles2">Relacja z wydarzenia</div>
+            
+     <div class="rozwiniecie">Witaj Wędrowcze<br><br><br>
+    <strong><a href="https://www.facebook.com/pg/ZSMEiE.Torun/photos/?ref=page_internal" style="color:red;">Przejdź do fotorelacji</a></strong></div>
+            
+  </article>
+           
+
+<script>
+    $('.rozwiniecie').show();
+</script>
+
+{% endblock %}
+

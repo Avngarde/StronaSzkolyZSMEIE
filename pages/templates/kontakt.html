@@ -5,55 +5,10 @@
 
 {% load static %}
 
-<article id="podstrona">
-	<div id="tekstpodstrona">
+{% if user.is_authenticated %}
+    <center><a href="{% url 'edycjarender' subpage_name=content.name %}">Edytuj</a></center>
+{% endif %}
 
-	<h3>Lokalizacja</h3>
-	<p>Adres: 87-100 Toruń, ul. Świętego Józefa 26</p>
-
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2399.815014906612!2d18.58251151586535!3d53.02368827991264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4703345719143277%3A0xa9a93969f3e6918!2sZespo%C5%82u+Szk%C3%B3%C5%82+Mechanicznych+Elektrycznych+i+Elektronicznych+im.+prof.+Sylwestra+Kaliskiego!5e0!3m2!1spl!2spl!4v1550155626831" width="99%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-	<h3>Kontakt</h3>
-	<p>Telefon: (+48 56) 6544791<br>
-		 e-mail : zsmeie@zsmeie.torun.pl</p>
-
-	<h3>Godziny Przyjęć</h3>
-	<ul>
-		<p><li><b>mgr Małgorzata Łopatko - Dyrektor ZSMEiE</b></li>
-		poniedziałek, środa, czwartek w godzinach od 7:30 do 14:30, wtorek, piątek w godzinach od 11:00 do 17:00</p>
-
-		<p><li><b>dr Maciej Zawacki - Zastępca Dyrektora</b></li>
-		poniedziałek, czwartek w godzinach od 12:00 do 18:00, wtorek, środa, piątek w godzinach od 8:00 do 15:00</p>
-
-		<p><li><b>mgr Beata Wróblewska - Zastępca Dyrektora</b></li>
-		poniedziałek, środa w godzinach od 8:00 do 15:00, wtorek, czwartek, piątek w godzinach od 12:00 do 18:00</p>
-
-		<p><li><b>mgr inż. Jolanta Pokorska - Kierownik Kształcenia Praktycznego</b></li>
-		poniedziałek, wtorek, czwartek, piątek w godzinach od 8:00 do 15:00, środa w godzinach od 12:00 do 18:00</p>
-
-		<p><li><b>mgr Katarzyna Rosińska - Kierownik Internatu</b></li>
-		poniedziałek, wtorek od 7:00 do 15:00, środa w godzinach od 8:00 do 16:00, czwartek w godzinach od 12:00 do 20:00, piątek w godzinach od 10:00 do 15:00</p>
-
-		<p><li><b>mgr Sylwia Głowicka - Doradca zawodowy</b></li>
-		poniedziałek 16:10 do 17:00</p>
-
-		<p><li><b>mgr Alicja Tokarska - Pedagog Szkolny</b></li>
-		poniedziałek 11:15 do 14:00, wtorek 11:30 do 16:00, środa 11:15 do 14:00, czwartek 13:00 do 16:00 i piątek 8:30 do 13:30</p>
-
-		<p><li><b>mgr Marcin Grabowski - Pedagog Szkolny</b></li>
-		wtorek 8:00 do 11:00, środa 8:00 do 12:00, czwartek 13:00 do 16:00</p>
-
-		<p><li><b>Sekretariat</b></li>
-		poniedziałek, środa, czwartek, piątek w godzinach od 8:00 do 15:00, wtorek w godzinach od 7:30 do 15:30</br>
-		Uczniowie są przyjmowani codziennie w godzinach od 9:00 do 13:30</p>
-	</ul>
-	</div>
-	</article>
-
-<script src="../javascript/jquery.js"></script>
-<script src="../javascript/slider1.js"></script>
-<script src="../javascript/menu.js"></script>
-
-
+{{ content.content|safe }}
 
 {% endblock %}

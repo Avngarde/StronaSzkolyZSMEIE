@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        {% load static %}
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <title>ZSMEiE Toruń</title>
+        <link rel="stylesheet"	href="{% static 'css/style.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/styleevent.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/login.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/fix.css' %}">
+		<link rel="stylesheet"  	href="{% static 'css/artykuly.css' %}">
+		<link rel="stylesheet" 	href="{% static 'css/responsive.css' %}" media="all and (max-width: 1124px)">
+    </head>
+
+    <body>
+        <div id="contentbox" style="width: 60%; margin-left: 20%; height: 130vh;">
+            <img src="{% static 'ikony/zsmeie.png' %}" width="24%" alt="Logo Zsmeie" id="logo">
+            <p class="napis">Edytuj podstronę</p>
+            <div id="greyholder" style="height: 700px; width: 90%; margin-left: 7%;">
+                <span style="padding-bottom: 30px;"> 
+                    <form method="POST" enctype="multipart/form-data" action="{% url 'edycjafunc' subpage_name=subpage.name %}">
+                        {% csrf_token %}
+                    <div id="inputholder2">
+                            <textarea id="content" name="content" class="textareainput" cols="110" rows="35">{{subpage.content}}</textarea>
+                    </div>
+                        <center><input type="submit" value="Edytuj!"></center>
+                    </form>
+                </span>
+            </div>
+        </div>
+    </body>
+</html>

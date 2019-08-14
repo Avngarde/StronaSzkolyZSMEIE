@@ -6,11 +6,12 @@
 	float: left;
 	margin-left: 1%;
 	font-size: 1em;
-	border-radius: 10px;
-	border: thin solid black;
 	margin-bottom: 1%;
 	position: relative;
 	margin-top: 1%;
+	-webkit-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 5px -2px rgba(0,0,0,0.75);
 }
 .pasek_articles{
 	background-color: #73a9ff;
@@ -18,8 +19,9 @@
 	width: 101.1%;
 	height: 30px;
 	margin-right: 0%;
-	border-top-left-radius: 9px;
-	border-top-right-radius: 9px;
+	-webkit-box-shadow: -1px -1px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 5px -2px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 5px -2px rgba(0,0,0,0.75);
 }
 .text_pasek{
 	padding-left: 2%;

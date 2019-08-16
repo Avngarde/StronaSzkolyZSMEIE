@@ -80,14 +80,14 @@ function helperFold(index2){
 
 function expand(index){
     $('.option-animation-div').eq(index).animate({width: "100%"});	
-    $('.option-arrow').eq(index).css({'transform' : 'rotate(90deg)'}); 
+    $('.option-arrow').eq(index-1).css({'transform' : 'rotate(90deg)'}); 
     $('.optionholder').eq(index-1).css('display', 'block'); 
     helperExpand(index);
 }
 
 function expandMobile(index){
     $('.option-animation-div').eq(index).animate({width: "100%"});	
-    $('.option-arrow').eq(index).css({'transform' : 'rotate(90deg)'}); 
+    $('.option-arrow').eq(index-1).css({'transform' : 'rotate(90deg)'}); 
     if(lista[1] == false && lista[2] == false && lista[3] == false && lista[4] == false && lista[5] == false)
     {
         $('.optionholder').eq(index-1).css('display', 'block'); 
@@ -136,7 +136,7 @@ function expandMobile(index){
 
 function fold(index){
 $('.option-animation-div').eq(index).animate({width: "0%"});
-$('.option-arrow').eq(index).css({'transform' : 'rotate(-0deg)'});
+$('.option-arrow').eq(index-1).css({'transform' : 'rotate(-0deg)'});
 $('.optionholder').eq(index-1).css('display', 'none'); 
 helperFold(index);
 }
@@ -144,7 +144,7 @@ helperFold(index);
 
 function foldMobile(index){
     $('.option-animation-div').eq(index).animate({width: "0%"});
-    $('.option-arrow').eq(index).css({'transform' : 'rotate(-0deg)'});
+    $('.option-arrow').eq(index-1).css({'transform' : 'rotate(-0deg)'});
     $('.optionholder').eq(index-1).css('display', 'none'); 
     helperFold(index);
     lista[index] = false;

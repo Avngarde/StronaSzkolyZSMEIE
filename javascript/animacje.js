@@ -31,11 +31,14 @@ document.getElementById('contrast').addEventListener("click", function(){
       $('.menuoption').css('background-color', 'black');
       $('.option-animation-div').css('background-color', 'yellow');
       $('.text-article-contrast').css('color', 'white');
+      $('.text-article-contrast-button').css('color', 'white');
       $('.text-article-contrast-title').css('color', 'white');
       $('.themepages').css('background-color', 'black');
       $('#contrast-div').css('color', 'white');
       $('.contrast-li').css('color', 'white');
       $('.contrast-text').css('color', 'white');
+      $('#podstrona').css('background-color', 'black');
+      $('#podstrona *').css('color', 'white');
       kontrast = true;
    }
    else{
@@ -51,6 +54,8 @@ document.getElementById('contrast').addEventListener("click", function(){
       $('#contrast-div').css('color', 'black');
       $('.contrast-li').css('color', 'black');
       $('.contrast-text').css('color', 'black');
+      $('#podstrona').css('background-color', 'white');
+      $('#podstrona *').css('color', 'black');
       kontrast = false;
    }
    
@@ -66,6 +71,8 @@ document.getElementsByClassName('zoom-icon')[2].addEventListener("click", functi
 
 document.getElementsByClassName('zoom-icon')[3].addEventListener("click", function(){
     $('body').css('fontSize', '1.3em');
+    $('#strona-glowna').css('fontSize', '0.9em');
+    $('#dla-nauczycieli').css('fontSize', '0.9em');
 });
 
 document.getElementById('RODO').addEventListener("mouseout", function(){

@@ -18,7 +18,7 @@ function helperArticle(indeks3){
         {
            $('.rozwiniecie').eq(indeks3).show();
            $('.rozwiniecie').eq(indeks3).fadeTo("slow", 1);
-           $('.text-article-contrast').eq(indeks3).html(mniej);
+           $('.text-article-contrast-button').eq(indeks3).html(mniej);
            lista[0] = false;
            lista[1] = false;
            lista[2] = false;
@@ -83,7 +83,7 @@ function expandArticle(indeks1)
            $('.button').eq(previous).animate({top: '0%'}, function()
            {
               $('.button > span').eq(previous).delay(4000);
-              $('.text-article-contrast').eq(previous).html(wiecej);
+              $('.text-article-contrast-button').eq(previous).html(wiecej);
               helperArticle(indeks1);
            });
         });      
@@ -101,7 +101,7 @@ function foldArticle(indeks2)
        $('.button').eq(indeks2).animate({top: '0%'}, function()
        {
           $('.button > span').eq(indeks2).delay(4000);
-          $('.text-article-contrast').eq(indeks2).html(wiecej);
+          $('.text-article-contrast-button').eq(indeks2).html(wiecej);
           switch(indeks2)
            {
                 case 0:

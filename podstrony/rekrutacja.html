@@ -25,11 +25,25 @@
 	</header>
 
 	<section id="menu">
-			<article id="socialmedia">
-				<a class="icons" href="https://www.facebook.com/ZSMEiE.Torun/" target="_blank"><img src="../ikony/facebook.png" alt="FACEBOOK" width="25px" height="23px"></a>
-				<a class="icons" href="https://www.youtube.com/user/TheZSMEiE" target="_blank" style="margin-top: 1%;"><img src="../ikony/youtube.png"  alt="YOUTUBE" width="27px" height="23px"></a>
-				<a class="icons" href="https://www.instagram.com/uczniowie_zsmeie/?utm_source=ig_profile_share&igshid=87ab4pdc2rcs" target="_blank"><img src="../ikony/instagram.png" alt="Instagram" width="23px" height="23px"></a>
+		<a href="http://www.zsmeie.torun.pl/glowna/rodo.pdf">
+			<article id="RODO">
+				<img src="../ikony/euflag.png" alt="flaga unii europejskiej" width="30px" height="20px" style="margin-top:-3px; position:absolute; float:left;" class="socialicon">
+				<div id="RODOtext">RODO</p>
 			</article>
+		</a>
+			<article id="socialmedia">
+				<a class="icons" href="https://www.facebook.com/ZSMEiE.Torun/" target="_blank"><img src="../ikony/facebook.png" width="25px" height="23px" alt="ikona facebook" class="socialicon"></a>
+				<a class="icons" href="https://www.youtube.com/user/TheZSMEiE" target="_blank" style="margin-top: 1%;"><img src="../ikony/youtube.png" width="27px" height="23px" alt="ikona youtube" class="socialicon"></a>
+				<a class="icons" href="https://www.instagram.com/uczniowie_zsmeie/?utm_source=ig_profile_share&igshid=87ab4pdc2rcs" target="_blank"><img src="../ikony/instagram.png" width="23px" height="23px" alt="ikona instagram" class="socialicon"></a>
+			</article>
+	
+			<article id="zoom">
+					<img src="../ikony/test1.png" class="zoom-icon" id="contrast" alt="ikona kontrastu">
+					<img src="../ikony/a-.png" class="zoom-icon" id="zoom_in" alt="ikona pomniejszenia tekstu">
+					<img src="../ikony/a.png" class="zoom-icon" id="normalize" alt="ikona normalizowania wielkości tekstu">
+					<img src="../ikony/a+.png" class="zoom-icon" id="zoom_out" alt="ikona powiększania tekstu">
+			</article>
+
 
 
 		<article id="menubuttonlayout">
@@ -39,11 +53,7 @@
 					<div class="option-animation-div"></div>
 
 					<div class="option-title">
-						<div class="option-title-span">STRONA GŁÓWNA</div>
-					</div>
-
-					<div class="option-arrow">
-						<div class="option-arrow-span">&#9002;</div>
+						<div class="option-title-span" id="strona-glowna">STRONA GŁÓWNA</div>
 					</div>
 				</li>
 			</a>
@@ -234,7 +244,7 @@
 	<section id="contentcontainer">
 		<article id="podstrona">
      <div style="padding-right: 2%;">
-		<h2>Rekturacja 2018</h2>
+		<h2>Rekrutacja 2019</h2>
 		  <p>Strona do logowania - rekrutacja: &nbsp<a href="http://www.torun.e-omikron.pl/index.shtml"><strong>www.torun.e-omikron.pl</strong></a></p>
 		<h3 class="terminy">Punktacja</h3>
 		  <p>O przyjęciu do ZSMEiE w Toruniu decyduje suma uzyskanych punktów:</p>
@@ -405,81 +415,86 @@
 <div id="respmenuholder">
 <div id="rightmenubutton"></div>
 <section id="menuright">
-		<article class="themepages">
 
-		<div class="STRONY_TEMATYCZNE">
-			<p><h4>SPONSORZY I WSPÓŁPRACA</h4></p>
-		</div>
+	<article class="themepages">
 
-		<a href="https://uonetplus.vulcan.net.pl/torun/LoginEndpoint.aspx" style="text-decoration:none; color:black;" target="_blank">
-							<div class="imglogolayout">
-								<center><img src="../sponsors/vulcan_login.jpg" alt="Zaloguj się do e-dziennkika firmy Vulcan" style="width:73%"><br>
-								E-DZIENNIK</center>
-							</div>
-						</a>
-		<a href="https://www.kopel.pl/" style="text-decoration:none; color:black;" target="_blank">
-							<div class="imglogolayout">
-								<center><img src="../sponsors/kopel.png" alt="Logo firmy Kopel" style="width:91%; padding-left: 10%; padding-top: 5%; padding-bottom: 2.5%;"><br>
-								SPONSOR/ WSPÓŁPRACA</center>
-							</div>
-						</a>
-		<a href="http://aniro.pl/" style="text-decoration:none; color:black;" target="_blank">
-							<div class="imglogolayout">
-								<center><img src="../sponsors/aniro.png" alt="Logo firmy  Aniro" style="width:83%; padding-top: 6%;"><br>
-								WSPÓŁPRACA</center>
-							</div>
-						</a>
-		<a href="http://www.twerd.pl/" style="text-decoration:none; color:black;" target="_blank">
-							<div class="imglogolayout" >
-								<center><img src="../sponsors/twerd.png" alt="Logo firmy TWERD" style="width:38%; padding-bottom:0.5%;"><br>
-										WSPÓŁPRACA</center>
-							</div>
-						</a>
-		<a href="https://www.energa.pl/" style="text-decoration:none; color:black;" target="_blank">
+	<div class="STRONY_TEMATYCZNE">
+		<p><h4>SPONSORZY I WSPÓŁPRACA</h4></p>
+	</div>
+
+	<a href="https://uonetplus.vulcan.net.pl/torun/LoginEndpoint.aspx" style="text-decoration:none; color:black;" target="_blank">
 						<div class="imglogolayout">
-								<center><img src="../sponsors/energa.png" alt="Logo firmy Energa" style="width:100%; padding-left: 0.1%; padding-top: 5%;"><br>
-										WSPÓŁPRACA</center>
+							<center><img src="../sponsors/vulcan_login.jpg" alt="Zaloguj się do e-dziennkika firmy Vulcan" style="width:73%"><br>
+							<span class="contrast-text">E-DZIENNIK</span></center>
 						</div>
 					</a>
-	 <a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
+	<a href="https://www.kopel.pl/" style="text-decoration:none; color:black;" target="_blank">
 						<div class="imglogolayout">
-								<center><img src="../sponsors/psse.jpg" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:100%"><br>
-										WSPÓŁPRACA</center>
+							<center><img src="../sponsors/kopel.png" alt="Logo firmy Kopel" style="width:91%; padding-left: 10%; padding-top: 5%; padding-bottom: 2.5%;"><br>
+							<span class="contrast-text">SPONSOR/ WSPÓŁPRACA</span></center>
 						</div>
 					</a>
-  <a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
-						<div class="imglogolayout" style="border-bottom:none;">
-								<center><img src="../sponsors/bosch.png" alt="Logo firmy Bosch" style="width:97%; padding-top: 7%;"><br>
-										WSPÓŁPRACA</center>
+	<a href="http://aniro.pl/" style="text-decoration:none; color:black;" target="_blank">
+						<div class="imglogolayout">
+							<center><img src="../sponsors/aniro.png" alt="Logo firmy  Aniro" style="width:83%; padding-top: 6%;"><br>
+							<span class="contrast-text">WSPÓŁPRACA</span></center>
 						</div>
 					</a>
-		</article>
-		<article class="themepages">
+	<a href="http://www.twerd.pl/" style="text-decoration:none; color:black;" target="_blank">
+						<div class="imglogolayout" >
+							<center><img src="../sponsors/twerd.png" alt="Logo firmy TWERD" style="width:38%; padding-bottom:0.5%;"><br>
+									<span class="contrast-text">WSPÓŁPRACA</span></center>
+						</div>
+					</a>
+	<a href="https://www.energa.pl/" style="text-decoration:none; color:black;" target="_blank">
+					<div class="imglogolayout">
+							<center><img src="../sponsors/energa.png" alt="Logo firmy Energa" style="width:100%; padding-left: 0.1%; padding-top: 5%;"><br>
+									<span class="contrast-text">WSPÓŁPRACA</span></center>
+					</div>
+				</a>
+ <a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
+					<div class="imglogolayout">
+							<center><img src="../sponsors/psse.jpg" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:100%"><br>
+									<span class="contrast-text">WSPÓŁPRACA</span></center>
+					</div>
+				</a>
+<a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
+					<div class="imglogolayout" style="border-bottom:none;">
+							<center><img src="../sponsors/bosch.png" alt="Logo firmy Bosch" style="width:97%; padding-top: 7%;"><br>
+									<span class="contrast-text">WSPÓŁPRACA</span></center>
+					</div>
+				</a>
+	</article>
+	<article class="themepages">
 
-			<div class="STRONY_TEMATYCZNE">
-			<p><h4>STRONY TEMATYCZNE</h4></p>
-		</div>
-		<p class="title_themepages"><strong>Strony przedmiotowe</strong></p>
-			<ul class="text_themepages">
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/mvs/index.php">Elektrotechnika</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/site/index.html">Pracownia elektroniki</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/biola/index.php">Biologia w ZSMEiE</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html">Strona katechetyczna</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/matma/index.php">Matematyka</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/english/index.php">Język angielski</a></li>
-			</ul>
+	<div class="STRONY_TEMATYCZNE">
+		<p><h4>STRONY TEMATYCZNE</h4></p>
+	</div>
 
-		<p class="title_themepages"><strong>Strony tematyczne</strong></p>
-			<ul class="text_themepages">
-				<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/regens/index.php">Współpraca ze szkołą techniczną Staatliche Fachoberschule und Berufsoberschule z Regensburga</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/syke/index.html">Współpraca ze szkołą techniczną BBS z Syke</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/bosch/index.html">Praktyki w zakładach BOSCH w Eisenach</a></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/biblio/index.php">Biblioteka ZSMEiE</a></li>
-				<li><a href="http://www.sport.zsmeie.torun.pl/index0.php">Sport w ZSMEiE</a> </li></li>
-				<li><a href="http://www.zsmeie.torun.pl/glowna/temat/internat/index.php">Internat ZSMEiE</a></li>
-				<li><a href="podstrony/egzaminy.html">Egzaminy, matura ...</a></li>
-			</ul>
-		</article>
+	<div id="contrast-div">
+		<p class="title_themepages"><strong><h4>Strony przedmiotowe</h4></strong></p>
+		<ul class="text_themepages">
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/mvs/index.php"><span class="contrast-li">Elektrotechnika</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/site/index.html"><span class="contrast-li">Pracownia elektroniki</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/biola/index.php"><span class="contrast-li">Biologia w ZSMEiE</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html"><span class="contrast-li">Strona katechetyczna</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/matma/index.php"><span class="contrast-li">Matematyka</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/english/index.php"><span class="contrast-li">Język angielski</span></a></li>
+		</ul>
+
+	<p class="title_themepages"><strong><h4>Strony tematyczne</h4></strong></p>
+		<ul class="text_themepages">
+			<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/regens/index.php"><span class="contrast-li">Współpraca ze szkołą techniczną Staatliche Fachoberschule und Berufsoberschule z Regensburga</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/syke/index.html"><span class="contrast-li">Współpraca ze szkołą techniczną BBS z Syke</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/bosch/index.html"><span class="contrast-li">Praktyki w zakładach BOSCH w Eisenach</span></a></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/biblio/index.php"><span class="contrast-li">Biblioteka ZSMEiE</span></a></li>
+			<li><a href="http://www.sport.zsmeie.torun.pl/index0.php"><span class="contrast-li">Sport w ZSMEiE</span></a> </li></li>
+			<li><a href="http://www.zsmeie.torun.pl/glowna/temat/internat/index.php"><span class="contrast-li">Internat ZSMEiE</span></a></li>
+			<li><a href="podstrony/egzaminy.html"><span class="contrast-li">Egzaminy, matura ...</span></a></li>
+		</ul>
+	</div>
+
+	</article>
 
 </section>
 </div>
@@ -495,7 +510,8 @@ e-mail : zsmeie@zsmeie.torun.pl<br>
 <!--SKRYPTY-->
 <script src="../javascript/jquery.js"></script>
 <script src="../javascript/slider1.js"></script>
-<script src="../javascript/menu.js"></script>
+<script src="../javascript/animacje.js"></script>
+<script src="../javascript/menu1.js"></script>
 
 </body>
 

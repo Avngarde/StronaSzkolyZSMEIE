@@ -18,11 +18,47 @@ var mniej = "Mniej...";
 var wiecej = "Więcej...";
 var wysokosc = $('.articles').eq(0).height();
 var warunek1 = $('body').width();
+var kontrast = false;
 
 $('body').css('fontSize', '1em');
 
-document.getElementsByClassName('zoom-icon')[0].addEventListener("click", function(){
-    alert("jej");
+document.getElementById('contrast').addEventListener("click", function(){
+   if(kontrast == false){
+      $('.pasek_articles').css('background-color', 'yellow');
+      $('.STRONY_TEMATYCZNE').css('background-color', 'yellow');
+      $('.articles').css('background-color', 'black');
+      $('.menubuttons').css('background-color', 'black');
+      $('.menuoption').css('background-color', 'black');
+      $('.option-animation-div').css('background-color', 'yellow');
+      $('.text-article-contrast').css('color', 'white');
+      $('.text-article-contrast-button').css('color', 'white');
+      $('.text-article-contrast-title').css('color', 'white');
+      $('.themepages').css('background-color', 'black');
+      $('#contrast-div').css('color', 'white');
+      $('.contrast-li').css('color', 'white');
+      $('.contrast-text').css('color', 'white');
+      $('#podstrona').css('background-color', 'black');
+      $('#podstrona *').css('color', 'white');
+      kontrast = true;
+   }
+   else{
+      $('.pasek_articles').css('background-color', '#73a9ff');
+      $('.STRONY_TEMATYCZNE').css('background-color', 'rgb(131, 180, 245)');
+      $('.articles').css('background-color', 'white');
+      $('.menubuttons').css('background-color', '#21303f');
+      $('.menuoption').css('background-color', '#21303f');
+      $('.option-animation-div').css('background-color', '#0A5794');
+      $('.text-article-contrast-title').css('color', '#3399ff');
+      $('.text-article-contrast').css('color', 'black');
+      $('.themepages').css('background-color', 'rgb(253, 253, 253)');
+      $('#contrast-div').css('color', 'black');
+      $('.contrast-li').css('color', 'black');
+      $('.contrast-text').css('color', 'black');
+      $('#podstrona').css('background-color', 'white');
+      $('#podstrona *').css('color', 'black');
+      kontrast = false;
+   }
+   
 });
 
 document.getElementsByClassName('zoom-icon')[1].addEventListener("click", function(){
@@ -35,6 +71,8 @@ document.getElementsByClassName('zoom-icon')[2].addEventListener("click", functi
 
 document.getElementsByClassName('zoom-icon')[3].addEventListener("click", function(){
     $('body').css('fontSize', '1.3em');
+    $('#strona-glowna').css('fontSize', '0.9em');
+    $('#dla-nauczycieli').css('fontSize', '0.9em');
 });
 
 document.getElementById('RODO').addEventListener("mouseout", function(){
@@ -46,7 +84,7 @@ document.getElementById('RODO').addEventListener("mouseout", function(){
 
 if(warunek1 > 0 && warunek1 < 400)
 {
-   $('#respmenuholder').css('right', '-80px');
+   $('#respmenuholder').css('right', '-70px');
 }
 else if(warunek1 > 401 && warunek1 <701)
 {
@@ -78,12 +116,12 @@ document.getElementById('rightmenubutton').addEventListener("click", function(){
 
 //........................................................................................
 
-$('.rozwiniecie').hide();
 
-TheButton = document.getElementsByClassName("button")[0];
 
-if(TheButton){
-   TheButton.addEventListener("click", function()
+
+
+
+/*document.getElementsByClassName('button')[0].addEventListener("click", function()
 {
    if(rozwiniecie0 == false)
    {
@@ -94,7 +132,6 @@ if(TheButton){
       fold(0);
    }       
 });
-}
 
 document.getElementsByClassName("button")[1].addEventListener("click", function()
 {
@@ -427,3 +464,4 @@ function fold(indeks2)
    pozostaly_rozwiniety = false;
   
 }
+*/

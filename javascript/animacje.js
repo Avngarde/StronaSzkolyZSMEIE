@@ -84,7 +84,7 @@ document.getElementById('RODO').addEventListener("mouseout", function(){
 
 if(warunek1 > 0 && warunek1 < 400)
 {
-   $('#respmenuholder').css('right', '-80px');
+   $('#respmenuholder').css('right', '-70px');
 }
 else if(warunek1 > 401 && warunek1 <701)
 {

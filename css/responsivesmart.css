@@ -1,0 +1,333 @@
+@media (min-width:400px) and (max-width: 700px){
+	#mainlogoholder{
+	font-size: 1.4em;
+}
+	.menubuttons{
+	font-size: 0.7em;
+	height: 32px;
+	margin-bottom: 2px;
+	padding-top: 7px;
+	float: none;
+	width: 100%;
+	z-index:initial;
+}
+	#menu{
+	height: 315px;
+}
+	#menubuttonlayout{
+	height: 26px;
+	font-size: 1.6em;
+}
+	.menuoption {
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	z-index:2;
+}	
+	.menuoptionlong{
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	position:relative;
+	z-index:2;
+}
+	#exit{
+	width: 18px;
+	height: 18px;
+	padding:6px;
+	right: 9vw;
+}
+	.menuoptionlong>br{
+	display:none;
+}
+	.themepages{
+	font-size: 0.7em;
+	width:96%;
+	float:none;
+	height: auto;
+}
+	#footer{
+	font-size: 0.9em;
+}
+	.optionholder{
+	margin-bottom:3px;
+	position:absolute;
+}
+	#menuright{
+	height:auto;
+}
+	.rozwiniecie{
+	font-size: 0.8em;
+}
+	.text_in_articles{
+	font-size:0.8em;
+}
+	.button{
+	font-size:0.8em;
+}
+	.text_pasek{
+	padding-left:3%;
+	padding-top:1.7%;
+}
+	#banner{
+	background-image: url('../slider/tlomob.JPG');
+}
+	.galeria{
+	width:40%;
+	float:left;
+}	
+	#rightmenubutton{
+	width: 40px;
+	height: 40px;
+	display: block;
+	z-index: 999;
+	position: absolute;
+}
+	#menuright{
+	float: right;
+	right: -160px;
+	width: 100px;
+	z-index: 998;
+	border: 1px black solid;
+}
+	#contentcontainer{
+	width: 100%;
+}
+	#respmenuholder{
+	position: fixed;
+	width: 144px;
+	top: 0px;
+	right: -100px;
+	z-index: 997;
+	overflow-y: scroll;
+	height: 98vh;
+	overflow-x:auto;
+}
+	html{
+	width: 100vw;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 15%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 23vw;
+	margin-left: 4%;
+}
+.socialicon{filter: grayscale(0%);}
+#RODO img{filter: grayscale(0%);}
+.option-arrow{display: none;}
+.option-title-span{width: 100%; margin: 0;}
+.option-title{
+	width: 100%; 
+	margin: 0;
+	height: 20px;
+
+}
+.optionholder{
+	margin-left: 0px;
+	padding: 0;
+	padding-bottom: 2px;
+	width: 100%;
+	margin-top: 30px;
+}
+.option-animation-div{
+	display: none;
+}
+}
+
+@media (min-width:0px) and (max-width: 400px){ 
+	#mainlogoholder{
+	font-size: 1em;
+}
+	.text_in_articles{
+	margin-top: 30px; 
+}	
+	.text_in_articles2{
+	font-size: 0.7em;
+}
+	#banner{
+	height:250px;
+	background-image: url('../slider/tlomob.JPG');
+}
+	#exit{
+	width: 14px;
+	height: 14px;
+	padding:4px;
+	right: 9vw;
+}
+.menubuttons{
+	font-size: 0.7em;
+	height: 32px;
+	margin-bottom: 2px;
+	padding-top: 7px;
+	float: none;
+	width: 100%;
+	z-index:initial;
+}
+	#menu{
+	height: 315px;
+}
+	#menubuttonlayout{
+	height: 26px;
+	font-size: 1.6em;
+}
+	.menuoption {
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	position:relative;
+	z-index:2;
+}
+	.menuoptionlong{
+	height: 18px;
+	width: 99%;
+	padding-top: 8px;
+	margin-top:4px;
+	font-size: 0.7em;
+	margin-left: 1px;
+	margin-bottom:1px;
+	position:relative;
+	z-index:2;
+}
+	.themepages{
+	font-size: 0.55em;
+	width:98%;
+	float:none;
+	position: relative;
+	height:auto;
+}
+	#footer{
+	font-size: 0.8em;
+}
+	.optionholder{
+	margin-bottom:3px;
+	position:absolute;
+}
+	#STRONY_TEMATYCZNE{
+	font-size: 1em;
+	width: 95%;
+	float:none;
+}
+	.menuoptionlong>br{
+	display:none;
+}
+	.rozwiniecie{
+	font-size: 0.7em;
+}
+	.text_in_articles{
+	font-size:0.7em;
+}
+	.button{
+	font-size:0.7em;
+}
+	.articles{
+	height: 100px;
+}
+	.pasek_articles{
+	height:20px;
+	font-size:0.8em;
+}
+	.photo_articles{
+	width:70px;
+	height:70px;
+}
+	.text_pasek{
+	padding-left:3%;
+	padding-top:1.2%;
+}
+	.galeria{
+	width:47%;
+	margin:3px;
+	float:left;
+}	
+	.galeria:hover{
+	transform:none;		
+}
+	#rightmenubutton{
+	position: absolute;
+	margin-top: 2px;
+	width: 30px;
+	height: 30px;
+	display: block;
+}
+	#menuright{
+	float: right;
+	right: -94px;
+	width: 80px;
+	z-index: 998;
+	height:auto;
+}
+	#contentcontainer{
+	width: 100%;
+}
+	#respmenuholder{
+	position: fixed;
+	width: 110px;
+	top: 0px;
+	right: -82px;
+	z-index: 997;
+	overflow-y: scroll;
+	height: 98vh;
+	overflow-x: hidden;
+}
+	html{
+	width: 100vw;
+}
+	#screenholderimg{
+	width: 90%;
+	height: 55vw;
+	margin-top: 30%;
+	margin-left: 5%;
+}	
+#leftarrowgaleria{
+	width: 5%;
+	margin-top: 25vw;
+	margin-right: 4%;
+}
+#rightarrowgaleria{
+	width: 5%;
+	margin-top: 25vw;
+	margin-left: 4%;
+}
+.socialicon{filter: grayscale(0%);}
+#RODO img{filter: grayscale(0%);}
+.option-arrow{display: none;}
+.option-title-span{width: 100%; margin: 0;}
+.option-title{
+	width: 100%; 
+	margin: 0;
+	height: 20px;
+
+}
+.optionholder{
+	margin-left: 0px;
+	padding: 0;
+	padding-bottom: 2px;
+	width: 100%;
+	margin-top: 30px;
+}
+.option-animation-div{
+	display: none;
+}
+}

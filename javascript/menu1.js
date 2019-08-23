@@ -1,37 +1,38 @@
+var index;
 function helperExpand(index1){
     switch(index1){
         case 1:
-            for(i=0; i<7; i+=1){
+            for(i=0; i<8; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             }
             break;
 
         case 2:
-            for(i=6; i<15; i+=1){
+            for(i=7; i<16; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;  
             
         case 3:
-            for(i=14; i<21; i+=1){
+            for(i=15; i<22; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;
 
         case 4:
-            for(i=19; i<25; i+=1){
+            for(i=20; i<26; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;
 
         case 5:
-            for(i=23; i<30; i+=1){
+            for(i=24; i<31; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;
 
         case 6:
-            for(i=28; i<34; i+=1){
+            for(i=29; i<35; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;                      
@@ -76,6 +77,8 @@ function helperFold(index2){
             } 
             break;                      
         }
+        lista[index-1] = false;
+    
 }
 
 function expand(index){
@@ -86,59 +89,67 @@ function expand(index){
 }
 
 function expandMobile(index){
-    $('.option-animation-div').eq(index).animate({width: "100%"});	
-    $('.option-arrow').eq(index-1).css({'transform' : 'rotate(90deg)'}); 
-    if(lista[1] == false && lista[2] == false && lista[3] == false && lista[4] == false && lista[5] == false)
+    if(lista[0] == false && lista[1] == false && lista[2] == false && lista[3] == false && lista[4] == false && lista[5] == false)
     {
         $('.optionholder').eq(index-1).css('display', 'block'); 
         helperExpand(index);
-        lista[index] = true;
+        if(index >= 1){
+            lista[index-1] = true;
+        }
+        else{
+            lista[0] = true;
+        }
+        
     }
     else
     {
-        if(lista[1] == true)
+        if(lista[0] == true)
+        { 
+            helperFold(1);
+        lista[1] = false; 
+        }
+        else if(lista[1] == true)
         {
-            $('.optionholder').eq(1).css('display', 'none');
+            helperFold(2);
             lista[1] = false; 
-            helperExpand(index);
-            lista[index] = true; 
         }
         else if(lista[2] == true)
         {
-            $('.optionholder').eq(2).css('display', 'none'); 
-            lista[2] = false;
-            helperExpand(index);
-            lista[index] = true;  
+            helperFold(3);
+            lista[2] = false; 
         }
         else if(lista[3] == true)
         {
-            $('.optionholder').eq(3).css('display', 'none'); 
+            helperFold(4);
             lista[3] = false;
-            helperExpand(index);  
-            lista[index] = true;
         }
         else if(lista[4] == true)
         {
-            $('.optionholder').eq(4).css('display', 'none'); 
+            helperFold(5);
             lista[4] = false;
-            helperExpand(index);  
-            lista[index] = true;
         }
         else if(lista[5] == true)
         {
-            $('.optionholder').eq(5).css('display', 'none'); 
+            helperFold(6);
             lista[5] = false;
-            helperExpand(index);  
-            lista[index] = true;
         }
+        $('.optionholder').eq(index-1).css('display', 'block'); 
+        helperExpand(index);
+        if(index >= 1){
+            lista[index-1] = true;
+        }
+        else{
+            lista[0] = true;
+        }
+        
     }
 }
 
 function fold(index){
-$('.option-animation-div').eq(index).animate({width: "0%"});
-$('.option-arrow').eq(index-1).css({'transform' : 'rotate(-0deg)'});
-$('.optionholder').eq(index-1).css('display', 'none'); 
-helperFold(index);
+    $('.option-animation-div').eq(index).animate({width: "0%"});
+    $('.option-arrow').eq(index-1).css({'transform' : 'rotate(-0deg)'});
+    $('.optionholder').eq(index-1).css('display', 'none'); 
+    helperFold(index);
 }
 
 
@@ -147,7 +158,7 @@ function foldMobile(index){
     $('.option-arrow').eq(index-1).css({'transform' : 'rotate(-0deg)'});
     $('.optionholder').eq(index-1).css('display', 'none'); 
     helperFold(index);
-    lista[index] = false;
+    lista[index-1] = false;
     }
 
 var warunek = $('body').width();
@@ -221,60 +232,61 @@ if(warunek <=700){
         }
     });
 }
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[0].addEventListener("mouseover", function(){
-    expand(0)
-});
-
-document.getElementsByClassName('menubuttons')[0].addEventListener("mouseleave", function(){
-    fold(0)
-});
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[1].addEventListener("mouseover", function(){
-    expand(1)
-});
-
-document.getElementsByClassName('menubuttons')[1].addEventListener("mouseleave", function(){
-    fold(1)
-});
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[2].addEventListener("mouseover", function(){
-    expand(2)
-});
-
-document.getElementsByClassName('menubuttons')[2].addEventListener("mouseleave", function(){
-    fold(2)
-});
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[3].addEventListener("mouseover", function(){
-    expand(3)
-});
-
-document.getElementsByClassName('menubuttons')[3].addEventListener("mouseleave", function(){
-    fold(3)
-});
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[4].addEventListener("mouseover", function(){
-    expand(4)
-});
-
-document.getElementsByClassName('menubuttons')[4].addEventListener("mouseleave", function(){
-    fold(4)
-});
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[5].addEventListener("mouseover", function(){
-    expand(5)
-});
-
-document.getElementsByClassName('menubuttons')[5].addEventListener("mouseleave", function(){
-    fold(5)
-});
-//..........................................................................................
-document.getElementsByClassName('menubuttons')[6].addEventListener("mouseover", function(){
-    expand(6)
-});
-
-document.getElementsByClassName('menubuttons')[6].addEventListener("mouseleave", function(){
-    fold(6)
-});
-//..........................................................................................
+else
+{
+    document.getElementsByClassName('menubuttons')[0].addEventListener("mouseover", function(){
+        expand(0)
+    });
+    
+    document.getElementsByClassName('menubuttons')[0].addEventListener("mouseleave", function(){
+        fold(0)
+    });
+    //..........................................................................................
+    document.getElementsByClassName('menubuttons')[1].addEventListener("mouseover", function(){
+        expand(1)
+    });
+    
+    document.getElementsByClassName('menubuttons')[1].addEventListener("mouseleave", function(){
+        fold(1)
+    });
+    //..........................................................................................
+    document.getElementsByClassName('menubuttons')[2].addEventListener("mouseover", function(){
+        expand(2)
+    });
+    
+    document.getElementsByClassName('menubuttons')[2].addEventListener("mouseleave", function(){
+        fold(2)
+    });
+    //..........................................................................................
+    document.getElementsByClassName('menubuttons')[3].addEventListener("mouseover", function(){
+        expand(3)
+    });
+    
+    document.getElementsByClassName('menubuttons')[3].addEventListener("mouseleave", function(){
+        fold(3)
+    });
+    //..........................................................................................
+    document.getElementsByClassName('menubuttons')[4].addEventListener("mouseover", function(){
+        expand(4)
+    });
+    
+    document.getElementsByClassName('menubuttons')[4].addEventListener("mouseleave", function(){
+        fold(4)
+    });
+    //..........................................................................................
+    document.getElementsByClassName('menubuttons')[5].addEventListener("mouseover", function(){
+        expand(5)
+    });
+    
+    document.getElementsByClassName('menubuttons')[5].addEventListener("mouseleave", function(){
+        fold(5)
+    });
+    //..........................................................................................
+    document.getElementsByClassName('menubuttons')[6].addEventListener("mouseover", function(){
+        expand(6)
+    });
+    
+    document.getElementsByClassName('menubuttons')[6].addEventListener("mouseleave", function(){
+        fold(6)
+    });
+}

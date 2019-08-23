@@ -185,7 +185,8 @@ ul li{
 }
 .text_themepages{
 	text-align: left;
-	padding-left: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 .text_themepages li{
 	margin-top:5%;

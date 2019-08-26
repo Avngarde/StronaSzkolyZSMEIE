@@ -130,10 +130,9 @@ body{
 }
 .pliki-input-title {
     cursor: pointer;
-    margin-right:70%;
     height:100%;
     width: 30%;
-    background-color:#668cff;  
+    background-color:#668cff; 
  }
  
  .pliki-input {
@@ -141,3 +140,8 @@ body{
     position: absolute;
     z-index: -1;
  }
+.file-name{
+    float:right;
+    margin-top:-7%;
+    margin-right:10%;
+}

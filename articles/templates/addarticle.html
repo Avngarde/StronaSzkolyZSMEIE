@@ -16,7 +16,6 @@
         <div id="contentbox">
             <img src="{% static 'ikony/zsmeie.png' %}" width="24%" alt="Logo Zsmeie" id="logo">
             <p class="napis">Dodaj nowy artykuł</p>
-
             <div id="greyholder">
                     <form method="POST" enctype="multipart/form-data" action="{% url 'articlefunc' %}">
                         {% csrf_token %}
@@ -40,41 +39,42 @@
 
                             <div class="pliki-input-holder">
                                 <div class="pliki-input-title">
-                                    <label for="plik-1" class="pliki-label"> WYBIERZ PLIK </label>
-                                    <input type="file" name="photo" id="plik-1" class="pliki-input"/>
-                                </div>                                
+                                    <label for="plik-1" class="pliki-label" > WYBIERZ PLIK </label>
+                                    <input type="file" name="file1" id="plik-1" class="pliki-input" value="" onchange="myFunction(0)"/>
+                                </div>
+                                <span class="file-name"></span> 
                             </div>
 
                             <div class="pliki-input-holder">
                                 <div class="pliki-input-title">
                                     <label for="plik-2" class="pliki-label"> WYBIERZ PLIK </label>
-                                    <input type="file" name="photo" id="plik-2" class="pliki-input"/>
-                                </div>                                
+                                    <input type="file" name="file2" id="plik-2" class="pliki-input" value="" onchange="myFunction(1)"/>
+                                </div>   
+                                <span class="file-name"></span>                          
                             </div>
 
                             <div class="pliki-input-holder">
                                 <div class="pliki-input-title">
                                     <label for="plik-3" class="pliki-label"> WYBIERZ PLIK </label>
-                                    <input type="file" name="photo" id="plik-3" class="pliki-input"/>
-                                </div>                                
+                                    <input type="file" name="file3" id="plik-3" class="pliki-input" value="" onchange="myFunction(2)"/>
+                                </div>    
+                                <span class="file-name"></span>                        
                             </div>
 
                             <div class="pliki-input-holder">
                                 <div class="pliki-input-title">
                                     <label for="plik-4" class="pliki-label"> WYBIERZ PLIK </label>
-                                    <input type="file" name="photo" id="plik-4" class="pliki-input"/>
-                                </div>                                
+                                    <input type="file" name="file4" id="plik-4" class="pliki-input" value="" onchange="myFunction(3)"/> 
+                                </div> 
+                                <span class="file-name"></span>                           
                             </div>
 
                             <div class="pliki-input-holder">
                                 <div class="pliki-input-title">
                                     <label for="plik-5" class="pliki-label"> WYBIERZ PLIK </label>
-                                    <input type="file" name="photo" id="plik-5" class="pliki-input"/>
+                                    <input type="file" name="file5" id="plik-5" class="pliki-input" value="" onchange="myFunction(4)"/>
                                 </div> 
-                                
-                                
-                                    <span id="test-span"></span>
-                               
+                                <span class="file-name"></span>
                             </div>
 
                         </div>
@@ -88,5 +88,28 @@
                     </form>
             </div>
         </div>
+        <script>
+            function myFunction(numer) {
+                switch(numer){
+                    case 0:
+                        var x = document.getElementById("plik-1").value;
+                        break;
+                    case 1:
+                        var x = document.getElementById("plik-2").value;
+                        break; 
+                    case 2:
+                        var x = document.getElementById("plik-3").value;
+                        break; 
+                    case 3:
+                        var x = document.getElementById("plik-4").value;
+                        break; 
+                    case 4:
+                        var x = document.getElementById("plik-5").value;
+                        break;     
+                }
+                
+                document.getElementsByClassName('file-name')[numer].innerHTML = x;
+            }
+        </script>
     </body>
 </html>

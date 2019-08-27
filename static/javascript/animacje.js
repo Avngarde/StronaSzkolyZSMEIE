@@ -27,6 +27,9 @@ document.getElementById('contrast').addEventListener("click", function(){
       $('.pasek_articles').css('background-color', 'yellow');
       $('.STRONY_TEMATYCZNE').css('background-color', 'yellow');
       $('.articles').css('background-color', 'black');
+      $('.text_in_articles').css('color', 'white');
+      $('.text_in_articles2').css('color', 'white');
+      $('.rozwiniecie').css('color', 'white');
       $('.menubuttons').css('background-color', 'black');
       $('.menuoption').css('background-color', 'black');
       $('.option-animation-div').css('background-color', 'yellow');
@@ -45,6 +48,9 @@ document.getElementById('contrast').addEventListener("click", function(){
       $('.pasek_articles').css('background-color', '#73a9ff');
       $('.STRONY_TEMATYCZNE').css('background-color', 'rgb(131, 180, 245)');
       $('.articles').css('background-color', 'white');
+      $('.text_in_articles').css('color', 'white');
+      $('.text_in_articles2').css('color', 'white');
+      $('.rozwiniecie').css('color', 'white');
       $('.menubuttons').css('background-color', '#21303f');
       $('.menuoption').css('background-color', '#21303f');
       $('.option-animation-div').css('background-color', '#0A5794');

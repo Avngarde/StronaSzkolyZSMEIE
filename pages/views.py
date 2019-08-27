@@ -61,6 +61,7 @@ def zdjecia(request):
     return render(request, 'zdjecia.html', {"content":to_render})
 
 
+
 def archiwum(request, date=2019):
     articles = Article.objects.filter(add_date__year=str(date))
     previous_year = False
@@ -82,6 +83,8 @@ def archiwum(request, date=2019):
     'next_year':next_year,
     'header_text': header_text,
     'previous_year':previous_year,})
+
+
 
 def archiwumsearch(request):
     if request.method == "POST":

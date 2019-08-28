@@ -13,17 +13,40 @@
 			{% if user.is_authenticated %}
 			<span id="adminarticletools">
 					<a href="{% url 'renderarticleeditform' article_id=article.id %}">Edytuj</a>
+					<a href="{% url 'deletearticle' article_id=article.id %}">Usuń</a>
 			</span>
 			{% endif %}
 			</div>
 		</div>
-		<div><img src="{{article.icon.url}}" class="photo_articles"></div>
+		<div><img src="{{ article.icon.url }}" class="photo_articles"></div>
 		<div class="text_in_articles"><span>{{article.title}}</span></div>
 		<div class="text_in_articles2">{{article.description}}</div>
-		<div class="button"><a href="#indeks">Więcej...</a></div>
+		<div class="button"><a href="#indeks"><span class="text-article-contrast-button">Więcej...</span></a></div>
 
-		<div class="rozwiniecie">{{article.content}}</div>
+		<div class="rozwiniecie">{{article.content}}
+			<br>
+			<br>
+			{% if article.file1 != "" %}
+				<div class="filetodwnload"><a href="{{article.file1.url}}" download>Plik 1</a></div>
+			{% endif %}
+
+			{% if article.file2 != "" %}
+				<div class="filetodwnload"><a href="{{article.file2.url}}" download>Plik 2</a></div>
+			{% endif %}
+
+			{% if article.file3 != "" %}
+				<div class="filetodwnload"><a href="{{article.file3.url}}" download>Plik 3</a></div>
+			{% endif %}
+
+			{% if article.file4 != "" %}
+				<div class="filetodwnload"><a href="{{article.file4.url}}" download>Plik 4</a></div>
+			{% endif %}
+
+			{% if article.file5 != "" %}
+				<div class="filetodwnload"><a href="{{article.file5.url}}" download>Plik 5</a></div>
+			{% endif %}
+		</div>
 	</article>
+	
 {% endfor %}
-
 {% endblock %}

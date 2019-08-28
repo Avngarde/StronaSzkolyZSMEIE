@@ -282,6 +282,12 @@
 	margin-top: 23vw;
 	margin-left: 4%;
 }
+
+
+#adminarticletools{
+	margin-left: 20%;
+}
+
 .socialicon{filter: grayscale(0%);}
 #RODO img{filter: grayscale(0%);}
 .option-arrow{display: none;}

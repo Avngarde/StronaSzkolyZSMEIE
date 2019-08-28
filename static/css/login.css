@@ -6,7 +6,7 @@ body{
 }
 #contentbox{
     width: 40%;
-    height: 110vh;
+    height: 90vh;
     margin-top: 2%;
     margin-left: 30%;
     border: 1px solid #b3b3b3;
@@ -49,11 +49,7 @@ body{
     width: 90%;
     height: 90%;
 }
-#input-special{
-    box-shadow: none;
-    margin-top: 2%;
-    margin-right:45%;
-}
+
 
 #dalej{
     color:white;
@@ -93,55 +89,4 @@ body{
 #legend{
     display: block; 
      color: #999999;
-}
-.textareainput{
-    margin-top:5%;
-}
-#pliki{
-    width:80%;
-    height:50%;
-    border: 1px solid grey;
-    margin-left:10%;
-    margin-top:5%;
-}
-#pliki-title-container{
-    width:40%;
-    height:20%;
-    border: 1px solid grey;
-    border-top-style: none;
-    margin-left:30%;
-    margin-top:0%;
-}
-#pliki-title-text{
-   padding-top:4%;
-}
-.pliki-input-holder{
-    width:98%;
-    height:25%;
-    margin-left:1%;
-    background-color: #a0b6f8;
-    border-radius:2px;
-    margin-top:2%;
-}
-.pliki-label{
-    line-height: 3;
-    color:white;
-    cursor:pointer;
-}
-.pliki-input-title {
-    cursor: pointer;
-    margin-right:70%;
-    height:100%;
-    width: 30%;
-    background-color:#668cff;  
- }
- 
- .pliki-input {
-    opacity: 0;
-    position: absolute;
-    z-index: -1;
- }
-
-.file-name{
-    float: left;
 }

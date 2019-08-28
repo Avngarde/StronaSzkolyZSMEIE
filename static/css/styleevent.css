@@ -131,3 +131,10 @@ ul li{padding: 0;}
 	transition: all 0.2s ease 0s;
 }
 
+#adminarticletools{
+	margin-left: 70%;
+}
+
+#adminarticletools a{
+	margin-left: 1%;
+}

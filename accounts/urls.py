@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import views
+from accounts import views
 
 
 urlpatterns = [
@@ -23,5 +23,7 @@ urlpatterns = [
     path('logowaniefunction', views.loginfunc, name="loginfunc"),
     path('dodawanieuzytkownika', views.rendersignup, name="dodajusera"),
     path('signupfunction', views.signupfunc, name="signupfunc"),
+    path('usuwanie', views.delete_form, name="usuwanie"),
+    path('usuwaniefunc/<int:user_id>', views.delete_func, name="usuwaniefunc"),
     path('logout', views.logoutfunc, name="logout"),
 ]

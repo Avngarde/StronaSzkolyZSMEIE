@@ -62,7 +62,7 @@ def zdjecia(request):
 
 
 
-def archiwum(request, date=2019):
+def archiwum(request, date):
     articles = Article.objects.filter(add_date__year=str(date))
     previous_year = False
     next_year = False
@@ -74,7 +74,7 @@ def archiwum(request, date=2019):
     if any(list(Article.objects.filter(add_date__year=str(date+1)))): #Checks does articles in next year exists
             next_year = True
 
-    articles_dates_months = [str(article.add_date.month) for article in articles] 
+    articles_dates_months = [str(article.add_date.month) for article in articles] #Get months of articles in the current year
     
     return render(request, 'archiwum.html', 
     {'articles':articles, 

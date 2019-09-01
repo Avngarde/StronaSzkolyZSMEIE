@@ -32,7 +32,7 @@ function helperExpand(index1){
             break;
 
         case 6:
-            for(i=29; i<36; i+=1){
+            for(i=29; i<35; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;                      

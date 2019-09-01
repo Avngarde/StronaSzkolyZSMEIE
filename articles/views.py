@@ -1,5 +1,6 @@
 from django.shortcuts import render,redirect, get_object_or_404
 from django.contrib.auth.decorators  import login_required
+from django.contrib import messages
 from django.utils.datastructures import MultiValueDictKeyError
 from .models import Article
 import os
@@ -42,16 +43,24 @@ def add_files_to_article(request,article):
 @login_required
 def addarticle(request):
     if request.method=="POST":
-        if request.POST['title'] and request.POST['description'] and request.POST['content'] and request.FILES['icon']:
+        if request.POST['title'] and request.POST['description'] and request.POST['content']:
             article = Article()
             article.title = request.POST['title']
             article.description = request.POST['description']
             article.content = request.POST['content']
-            article.icon = request.FILES['icon']
+            try:
+                article.icon = request.FILES['icon']
+            except MultiValueDictKeyError:
+                messages.error(request, "Nie podano tytułu, opisu, zawartości lub ikony")
+                return redirect('renderform')
+        else:
+            messages.error(request, "Nie podano tytułu, opisu, zawartości lub ikony")
+            return redirect('renderform')
 
-            article = add_files_to_article(request, article)
-
-            article.save()
+        article = add_files_to_article(request, article)
+        article.save()
+        return redirect('home')
+    else:
         return redirect('home')
 
 @login_required
@@ -62,13 +71,20 @@ def renderarticleeditform(request,article_id):
 
 @login_required
 def editarticlefunc(request,article_id):
-    article = get_object_or_404(Article, pk=article_id)
-    article.title = request.POST['title']
-    article.description = request.POST['description']
-    article.content = request.POST['content']
-    article.icon = request.FILES['icon']
-    article.save()
-    return redirect('home')
+    try:
+        article = get_object_or_404(Article, pk=article_id)
+        article.title = request.POST['title']
+        article.description = request.POST['description']
+        article.content = request.POST['content']
+
+        os.remove(MEDIA_ROOT+"/"+str(article.icon))
+
+        article.icon = request.FILES['icon']
+        article.save()
+        return redirect('home')
+    except MultiValueDictKeyError:
+        messages.error(request, "Nie podano tytułu, opisu, zawartości lub ikony")
+        return redirect('renderarticleeditform', article_id=article.id)
 
 
 def delete_article_files(article):
@@ -93,8 +109,8 @@ def delete_article_files(article):
 @login_required
 def deletearticle(request,article_id):
     article = get_object_or_404(Article, pk=article_id)
-    delete_article_files(article)
     article.delete()
+    delete_article_files(article)
 
     return redirect('home')
     

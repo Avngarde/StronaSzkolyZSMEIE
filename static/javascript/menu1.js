@@ -2,37 +2,37 @@ var index;
 function helperExpand(index1){
     switch(index1){
         case 1:
-            for(i=0; i<7; i+=1){
+            for(i=0; i<8; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             }
             break;
 
         case 2:
-            for(i=6; i<15; i+=1){
+            for(i=7; i<16; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;  
             
         case 3:
-            for(i=14; i<21; i+=1){
+            for(i=15; i<22; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;
 
         case 4:
-            for(i=19; i<25; i+=1){
+            for(i=20; i<26; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;
 
         case 5:
-            for(i=23; i<30; i+=1){
+            for(i=24; i<31; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;
 
         case 6:
-            for(i=28; i<34; i+=1){
+            for(i=29; i<36; i+=1){
                 $('.menuoption').eq(i).css('display', 'block');
             } 
             break;                      

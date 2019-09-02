@@ -25,7 +25,8 @@
 	<header id="headerinfo">
 			Zalogowano jako:{{ request.user.username }}
 			<div id="loginpanel">
-				<a href="{% url 'dodajusera'%}" style="text-decoration:none; color:white;">&nbsp;Dodaj admina&nbsp;</a>
+					<a href="{% url 'usuwanie' %}" style="text-decoration:none; color:white;">&nbsp;Usuń administratora&nbsp;</a>
+				<a href="{% url 'dodajusera'%}" style="text-decoration:none; color:white;">&nbsp;Dodaj administratora&nbsp;</a>
 				<a href="{% url 'renderform' %}" style="text-decoration:none; color:white;">&nbsp;Dodaj artykuł&nbsp;</a>
 				<a href="{% url 'logout' %}" style="text-decoration:none; color:white;">&nbsp;Wyloguj&nbsp;</a>
 			</div>
@@ -109,7 +110,8 @@
 					<a href="https://zsmeie.github.io/su/">
 						<li class="menuoption">SAMORZĄD</li>
 					</a>
-					<a href="podstrony/archiwum.html">
+					{% now 'Y' as currentdate %}
+					<a href="{% url 'archiwum' date=currentdate %}">
 						<li class="menuoption">ARCHIWUM</li>
 					</a>
 				</ul>
@@ -252,6 +254,7 @@
 					<a href="https://www.youtube.com/user/TheZSMEiE" target="_blank"><li class="menuoption">YOUTUBE</li></a>
 					<a href="http://www.zsmeie.torun.pl/glowna/index.php" target="_blank"><li class="menuoption">STRONA ARCHIWALNA</li></a>
 					<a href="http://cisco.zsmeie.torun.pl/" target="_blank"><li class="menuoption">AKADEMIA CISCO</li></a>
+					<a href="{% url 'logowanie' %}"><li class="menuoption">ZALOGUJ SIĘ</li></a>
 				</ul>
 			</li>
 		</ul>

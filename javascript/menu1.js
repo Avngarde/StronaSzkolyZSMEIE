@@ -40,39 +40,40 @@ function helperExpand(index1){
 }
 
 function helperFold(index2){
+    var i;
     switch(index2){
         case 1:
-            for(i=0; i<7; i+=1){
+            for(i=0; i<8; i+=1){
                 $('.menuoption').eq(i).css('display', 'none');
             }
             break;
     
         case 2:
-            for(i=6; i<15; i+=1){
+            for(i=8; i<16; i+=1){
                 $('.menuoption').eq(i).css('display', 'none');
             } 
             break;  
             
         case 3:
-            for(i=14; i<21; i+=1){
+            for(i=16; i<22; i+=1){
                 $('.menuoption').eq(i).css('display', 'none');
             } 
             break;
     
         case 4:
-            for(i=19; i<25; i+=1){
+            for(i=22; i<26; i+=1){
                 $('.menuoption').eq(i).css('display', 'none');
             } 
             break;
     
         case 5:
-            for(i=23; i<30; i+=1){
+            for(i=26; i<31; i+=1){
                 $('.menuoption').eq(i).css('display', 'none');
             } 
             break;
     
         case 6:
-            for(i=28; i<34; i+=1){
+            for(i=31; i<36; i+=1){
                 $('.menuoption').eq(i).css('display', 'none');
             } 
             break;                      
@@ -154,8 +155,6 @@ function fold(index){
 
 
 function foldMobile(index){
-    $('.option-animation-div').eq(index).animate({width: "0%"});
-    $('.option-arrow').eq(index-1).css({'transform' : 'rotate(-0deg)'});
     $('.optionholder').eq(index-1).css('display', 'none'); 
     helperFold(index);
     lista[index-1] = false;

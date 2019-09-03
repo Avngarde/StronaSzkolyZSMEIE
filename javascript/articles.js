@@ -143,26 +143,6 @@ function foldArticle(indeks2)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $('.button span').eq(0).click(function(){
     if(lista[0] == false)
     {
@@ -182,5 +162,93 @@ $('.button span').eq(1).click(function(){
     else if(lista[1] == true)
     {
         foldArticle(1);
+    }
+});
+
+$('.button span').eq(2).click(function(){
+    if(lista[2] == false)
+    {
+        expandArticle(2);
+    }
+    else if(lista[2] == true)
+    {
+        foldArticle(2);
+    }
+});
+
+$('.button span').eq(3).click(function(){
+    if(lista[3] == false)
+    {
+        expandArticle(3);
+    }
+    else if(lista[3] == true)
+    {
+        foldArticle(3);
+    }
+});
+
+$('.button span').eq(4).click(function(){
+    if(lista[4] == false)
+    {
+        expandArticle(4);
+    }
+    else if(lista[4] == true)
+    {
+        foldArticle(4);
+    }
+});
+
+$('.button span').eq(5).click(function(){
+    if(lista[5] == false)
+    {
+        expandArticle(5);
+    }
+    else if(lista[5] == true)
+    {
+        foldArticle(5);
+    }
+});
+
+$('.button span').eq(6).click(function(){
+    if(lista[6] == false)
+    {
+        expandArticle(6);
+    }
+    else if(lista[6] == true)
+    {
+        foldArticle(6);
+    }
+});
+
+$('.button span').eq(7).click(function(){
+    if(lista[7] == false)
+    {
+        expandArticle(7);
+    }
+    else if(lista[7] == true)
+    {
+        foldArticle(7);
+    }
+});
+
+$('.button span').eq(8).click(function(){
+    if(lista[8] == false)
+    {
+        expandArticle(8);
+    }
+    else if(lista[8] == true)
+    {
+        foldArticle(8);
+    }
+});
+
+$('.button span').eq(9).click(function(){
+    if(lista[9] == false)
+    {
+        expandArticle(9);
+    }
+    else if(lista[9] == true)
+    {
+        foldArticle(9);
     }
 });

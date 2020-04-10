@@ -10,7 +10,7 @@
 		<link rel="stylesheet" 	href="{% static 'css/styleevent.css' %}">
 		<link rel="stylesheet" 	href="{% static 'css/fix.css' %}">
 		<link rel="stylesheet"  href="{% static 'css/artykuly.css' %}">
-		<link rel="stylesheet" 	href="{% static 'css/responsive.css' %}" media="all and (max-width: 1124px)">
+		<link rel="stylesheet" 	href="{% static 'css/responsive.css' %}" media="all and (max-width: 1300px)">
 		<link rel="stylesheet"  href="{% static 'css/responsivesmart.css' %}" media="all and (max-width: 700px)">
 		<link rel="stylesheet" 	href="https://fonts.googleapis.com/css?family=Audiowide|Ropa+Sans&amp;subset=latin-ext" >
 		<link rel="shortcut icon"	href="{% static 'ikony/zsmeie.png' %}">
@@ -44,7 +44,6 @@
 	<section id="menu">
 		<a href="http://www.zsmeie.torun.pl/glowna/rodo.pdf">
 			<article id="RODO">
-				<img src="{% static 'ikony/euflag.png' %}" alt="flaga unii europejskiej" width="30px" height="20px" style="margin-top:-3px; position:absolute; float:left;" class="socialicon">
 				<div id="RODOtext">RODO</p>
 			</article>
 		</a>
@@ -174,6 +173,11 @@
 					<a href="{% url 'kontakt' %}">
 						 <li class="menuoption">KONTAKT</li>
 					</a>
+
+					<a href="{% url 'radarodzicow' %}">
+						<li class="menuoption">RADA RODZICÓW</li>
+					</a>
+
 					<a href="{% url 'terminy' %}">
 						  <li class="menuoption">TERMINY</li>
 					</a>
@@ -311,50 +315,32 @@
 											<span class="contrast-text">WSPÓŁPRACA</span></center>
 							</div>
 						</a>
-		 <a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
+			<a href="https://www.strefa.gda.pl/" style="text-decoration:none; color:black;" target="_blank">
 							<div class="imglogolayout">
 									<center><img src="{% static 'sponsors/psse.jpg' %}" alt="Logo Pomorskiej Specjalnej Strefy Ekonomicznej" style="width:100%"><br>
 											<span class="contrast-text">WSPÓŁPRACA</span></center>
 							</div>
 						</a>
-	  <a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
+			<a href="https://www.bosch.pl/" style="text-decoration:none; color:black;" target="_blank">
 							<div class="imglogolayout" >
 									<center><img src="{% static 'sponsors/bosch.png' %}" alt="Logo firmy Bosch" style="width:97%; padding-top: 7%;"><br>
 											<span class="contrast-text">WSPÓŁPRACA</span></center>
 							</div>
 						</a>
+			<a href="https://tzmo-global.com/pl_PL/location/bella-sp-z-oo" style="text-decoration:none; color:black;" target="_blank">
+							<div class="imglogolayout" >
+									<center><img src="{% static 'sponsors/garage.png' %}" alt="Logo firmy GarageIT" style="width:97%; padding-top: 7%;"><br>
+											<span class="contrast-text">WSPÓŁPRACA</span></center>
+							</div>
+						</a>
+			<a href="https://www.garageit.pl//" style="text-decoration:none; color:black;" target="_blank">
+							<div class="imglogolayout" >
+									<center><img src="{% static 'sponsors/bella.png' %}" alt="Logo firmy Bella" style="width:60%; padding-top: 7%;"><br>
+											<span class="contrast-text">WSPÓŁPRACA</span></center>
+							</div>
+						</a>
 			</article>
-			<article class="themepages">
-	
-			<div class="STRONY_TEMATYCZNE">
-				<p><h4>STRONY TEMATYCZNE</h4></p>
-			</div>
-	
-			<div id="contrast-div">
-				<p class="title_themepages"><strong><h4>Strony przedmiotowe</h4></strong></p>
-				<ul class="text_themepages">
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/mvs/index.php"><span class="contrast-li">Elektrotechnika</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/site/index.html"><span class="contrast-li">Pracownia elektroniki</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/biola/index.php"><span class="contrast-li">Biologia w ZSMEiE</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/religia/index.html"><span class="contrast-li">Strona katechetyczna</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/matma/index.php"><span class="contrast-li">Matematyka</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/english/index.php"><span class="contrast-li">Język angielski</span></a></li>
-				</ul>
-	
-			<p class="title_themepages"><strong><h4>Strony tematyczne</h4></strong></p>
-				<ul class="text_themepages">
-					<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/regens/index.php"><span class="contrast-li">Współpraca ze szkołą techniczną Staatliche Fachoberschule und Berufsoberschule z Regensburga</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/syke/index.html"><span class="contrast-li">Współpraca ze szkołą techniczną BBS z Syke</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/wspzg/bosch/index.html"><span class="contrast-li">Praktyki w zakładach BOSCH w Eisenach</span></a></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/biblio/index.php"><span class="contrast-li">Biblioteka ZSMEiE</span></a></li>
-					<li><a href="http://www.sport.zsmeie.torun.pl/index0.php"><span class="contrast-li">Sport w ZSMEiE</span></a> </li></li>
-					<li><a href="http://www.zsmeie.torun.pl/glowna/temat/internat/index.php"><span class="contrast-li">Internat ZSMEiE</span></a></li>
-					<li><a href="podstrony/egzaminy.html"><span class="contrast-li">Egzaminy, matura ...</span></a></li>
-				</ul>
-			</div>
-	
-			</article>
-	
+<!--		
 	</section>
 	</div><!--holder menu right-->
 </div><!-- Koniec div'a container -->
